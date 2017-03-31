@@ -337,6 +337,9 @@ div#scene svg:nth-child(19) {
 
 /************ Fin propriétés icones parallax ************/
 
+
+
+
 div#scene {
     overflow: hidden;
     position: absolute;
@@ -413,10 +416,10 @@ div.menu-right nav ul li:nth-child(n+2) a {
     position: relative;
     right: -44px;
 
-    -webkit-transition: all ease 0.38s;
-    -moz-transition: all ease 0.38s;
-    -o-transition: all ease 0.38s;
-    transition: all ease 0.38s;
+    -webkit-transition: all ease 0.43s;
+    -moz-transition: all ease 0.43s;
+    -o-transition: all ease 0.43s;
+    transition: all ease 0.43s;
 }
 
 /************** Hover menu ***************/
@@ -557,7 +560,6 @@ section#us {
     padding-left: 15%;
     padding-right: 15%;
     text-align: center;
-    overflow: hidden;
 }
 
 section#us h1, section#works h1, section#missions h1, section#contact h1 {
@@ -1319,21 +1321,52 @@ div.bloc-work2.come-side {
 
 @media screen and (max-width: 1366px) {
 
+    div.menu-right nav ul {
+        line-height: 52px;
+    }
+    div.presentation-left h2 {
+        font-size: 23px;
+    }
+    section#us h1, section#works h1, section#missions h1, section#contact h1 {
+        font-size: 75px;
+        padding-top: 100px;
+    }
+    section#us h1:before, section#works h1:before, section#missions h1:before, section#contact h1:before {
+        font-size: 160px;
+        top: 55px;
+    }
     section#us {
         padding-left: 10%;
         padding-right: 10%;
-        margin-bottom: 200px;
+        margin-bottom: 150px;
+        height: auto;
     }
 
     section#us h1 {
-        margin-bottom: 100px;
+        margin-bottom: 80px;
     }
-
+    section#us div.info-us {
+        font-size: 23px;
+    }
     section#works {
         padding-right: 5%;
         padding-left: 5%;
     }
-
+    div.bloc-work1, div.bloc-work2, div.bloc-work3 {
+        height: 500px;
+    }
+    div.info p {
+        font-size: 19px;
+        line-height: 39px;
+    }
+    div.info h2 {
+        font-size: 40px;
+        margin-bottom: 25px;
+    }
+    div.info p.tag {
+        font-size: 15px;
+        margin-top: 15px;
+    }
     div.img:nth-child(2) img {
         height: 30%;
     }
@@ -1353,24 +1386,33 @@ div.bloc-work2.come-side {
     }
 
     div#info-missions {
-        top: 34%;
+        top: 38%;
         width: 57%;
     }
 
+    div.anim img {
+        height: 90px;
+    }
     article.article-info {
         padding-right: 20%;
     }
 
     article.article-info > h2 {
-        margin-top: 155px;
-        margin-bottom: 18px;
-        font-size: 47px;
+        margin-top: 125px;
+        margin-bottom: 15px;
+        font-size: 40px;
     }
 
     article.article-info p.description-article-missions {
+        font-size: 21px;
+    }
+    li.categorie-missions {
         font-size: 23px;
     }
-
+    li.categorie-missions:before {
+        font-size: 21px;
+        padding-right: 17px;
+    }
     section#contact h1 {
         padding-top: 110px;
     }
@@ -1381,6 +1423,7 @@ div.bloc-work2.come-side {
 
     section#contact div.info-footer {
         top: 48%;
+        width: 37%;
     }
 }
 
