@@ -402,10 +402,10 @@ svg.ico-menu {
     -o-transform-origin: right center;
     transform-origin: right center;
 
-    -webkit-transition: all ease 0.7s;
-    -moz-transition: all ease 0.7s;
-    -o-transition: all ease 0.7s;
-    transition: all ease 0.7s;
+    -webkit-transition: all ease 0.6s;
+    -moz-transition: all ease 0.6s;
+    -o-transition: all ease 0.6s;
+    transition: all ease 0.6s;
 }
 
 div.menu-right nav ul li:hover svg.ico-menu {
@@ -712,25 +712,16 @@ div.bloc-work3 {background-color: #252b27;}
 div.bloc-work1:hover {
     z-index: 1;
     background-color: #2298ff;
-    -webkit-box-shadow: 0 0 100px -15px rgba(0, 0, 0, 0.7);
-    -moz-box-shadow: 0 0 100px -15px rgba(0, 0, 0, 0.7);
-    box-shadow: 0 0 100px -15px rgba(0, 0, 0, 0.7);
 }
 
 div.bloc-work2:hover {
     z-index: 1;
     background-color: #ffb932;
-    -webkit-box-shadow: 0 0 100px -15px rgba(0, 0, 0, 0.7);
-    -moz-box-shadow: 0 0 100px -15px rgba(0, 0, 0, 0.7);
-    box-shadow: 0 0 100px -15px rgba(0, 0, 0, 0.7);
 }
 
 div.bloc-work3:hover {
     z-index: 1;
     background-color: #3b413d;
-    -webkit-box-shadow: 0 0 100px -15px rgba(0, 0, 0, 0.7);
-    -moz-box-shadow: 0 0 100px -15px rgba(0, 0, 0, 0.7);
-    box-shadow: 0 0 100px -15px rgba(0, 0, 0, 0.7);
 }
 
 div.bloc-work4 {
@@ -1316,10 +1307,7 @@ div.bloc-work2.come-side {
     div.bloc-work1, div.bloc-work2, div.bloc-work3 {
         height: 500px;
     }
-    div.info p {
-        font-size: 19px;
-        line-height: 39px;
-    }
+    div.info p {font-size: 19px;}
     div.info h2 {
         font-size: 40px;
         margin-bottom: 25px;
