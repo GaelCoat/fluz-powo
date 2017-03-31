@@ -11,6 +11,8 @@ html{
 }
 
 body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
     font-family: 'Roboto', sans-serif;
     overflow-x: hidden;
     max-width: 1980px;
@@ -306,7 +308,7 @@ div#scene {
     height: 100%;
     z-index: -1;
 
-    background: linear-gradient(-140deg, rgb(245, 115, 4), #7b197d, rgb(255, 0, 0));
+    background: linear-gradient(-140deg, rgb(4, 112, 245), #ff7979, rgb(255, 0, 0));
     background-size: 400% 20000%;
 
     -webkit-animation: AnimationName 24s ease infinite;
@@ -556,22 +558,16 @@ section#works h1:before {
     color: rgba(0, 0, 0, 0.08);
 }
 
-section#missions h1:before {
-    content: "03";
-}
+section#missions h1:before {content: "03";}
 
-section#contact h1:before {
-    content: "04";
-}
+section#contact h1:before {content: "04";}
 
 section#us h1 {
     color: #2d2d2d;
     margin-bottom: 10%;
 }
 
-section#works h1 {
-    color: #2d2d2d;
-}
+section#works h1 {color: #2d2d2d;}
 
 .center-meet {
     height: 70%;
@@ -583,8 +579,8 @@ section#us div.info-us {
     width: 420px;
     display: inline-block;
     height: auto;
-    padding-left: 2%;
-    padding-right: 2%;
+    padding-left: 25px;
+    padding-right: 25px;
     font-size: 25px;
     font-family: "Old standard TT", serif;
     color: rgb(160, 160, 160);
@@ -593,9 +589,7 @@ section#us div.info-us {
     text-align: left;
 }
 
-section#us div.info-us2 {
-    padding-top: 10px;
-}
+section#us div.info-us2 {padding-top: 10px;}
 
 section#us blockquote.citation {
     line-height: 50px;
@@ -623,6 +617,11 @@ span.quote:nth-child(2) {
 
 /********************* Fin section discover us *********************/
 
+
+
+
+
+
 /********************* Section Works *********************/
 section#works {
     position: relative;
@@ -631,9 +630,7 @@ section#works {
     font-size: 0;
 }
 
-section#works h1 {
-    margin-bottom: 120px;
-}
+section#works h1 {margin-bottom: 120px;}
 
 section#works h1:before {
     color: rgba(193, 193, 193, 0.58);
@@ -648,9 +645,7 @@ div.img {
     text-align: center;
 }
 
-div.img img {
-    height: 100%;
-}
+div.img img {height: 100%;}
 
 div.img:nth-child(2) img {
     height: 40%;
@@ -718,17 +713,11 @@ div.bloc-work1:hover, div.bloc-work2:hover, div.bloc-work3:hover {
     border-bottom-left-radius: 100px;
 }
 
-div.bloc-work1 {
-    background-color: #3498db;
-}
+div.bloc-work1 {background-color: #3498db;}
 
-div.bloc-work2 {
-    background-color: #f9c83d;
-}
+div.bloc-work2 {background-color: #f9c83d;}
 
-div.bloc-work3 {
-    background-color: #252b27;
-}
+div.bloc-work3 {background-color: #252b27;}
 
 div.bloc-work4 {
     height: 450px;
@@ -877,13 +866,9 @@ div.bloc-work4 p {
     z-index: 2;
 }
 
-.lego .strokes {
-    stroke: #fff;
-}
+.lego .strokes {stroke: #fff;}
 
-.lego .fills {
-    fill: #fff;
-}
+.lego .fills {fill: #fff;}
 
 /* ----------------------------------------- */
 /* Regular
@@ -1032,9 +1017,7 @@ article.article-info p.description-article-missions {
     position: absolute;
 }
 
-div.missions-small {
-    display: none;
-}
+div.missions-small {display: none;}
 
 /************ Fin article missions ************/
 
@@ -1049,9 +1032,7 @@ section.menu {
     line-height: 60px;
 }
 
-ol.liste-categorie-missions {
-    counter-reset: item;
-}
+ol.liste-categorie-missions {counter-reset: item;}
 
 li.categorie-missions:before {
     counter-increment: item 1;
@@ -1074,13 +1055,9 @@ li.categorie-missions {
     width: 1100px;
 }
 
-li.categorie-missions:hover, li.categorie-missions.active, li.categorie-missions.active:before {
-    color: #fff;
-}
+li.categorie-missions:hover, li.categorie-missions.active, li.categorie-missions.active:before {color: #fff;}
 
-li.categorie-missions:nth-child(-n+10)::before {
-    content: "0" counter(item);
-}
+li.categorie-missions:nth-child(-n+10)::before {content: "0" counter(item);}
 
 /************ Fin menu missions ************/
 
@@ -1214,9 +1191,7 @@ span.mail:before {
 /********************* Fin section Contact *********************/
 
 /********************* Animation page *********************/
-.module {
-    opacity: 0;
-}
+.module {opacity: 0;}
 
 .come-in {
     transform: translateY(50px);
@@ -1286,7 +1261,7 @@ div.bloc-work2.come-side {
 @media screen and (max-width: 1366px) {
 
     div.menu-right nav ul {
-        line-height: 52px;
+        line-height: 30px;
     }
     div.presentation-left h2 {
         font-size: 23px;
@@ -1310,8 +1285,14 @@ div.bloc-work2.come-side {
         margin-bottom: 80px;
     }
     section#us div.info-us {
-        font-size: 23px;
+        font-size: 21px;
     }
+
+    section#us blockquote.citation {
+        line-height: 46px;
+        font-size: 32px;
+    }
+
     section#works {
         padding-right: 5%;
         padding-left: 5%;
@@ -1609,10 +1590,13 @@ div.bloc-work2.come-side {
     }
 
     div.presentation-left {
-        padding-top: 350px;
+        padding-top: 300px;
 
     }
-
+    div.presentation-left h2 {
+        font-size: 19px;
+        margin-top: 30px;
+    }
     div.menu-right nav ul {
         text-align: center;
     }
@@ -1623,20 +1607,41 @@ div.bloc-work2.come-side {
         right: 0;
         position: absolute;
     }
-
-    div.logo {
-        position: relative;
-        left: 20px;
+    svg.ico-menu {
+        display: none;
     }
-
+    div.menu-right nav ul li:nth-child(n+2) a {
+        position: inherit;
+    }
+    div.menu-right nav ul {
+        line-height: 40px;
+    }
     div.presentation-left h1 {
         font-size: 7vw;
+        margin-bottom: 30px;
     }
 
     div.bloc-work1 div.img img {
         left: -50%;
     }
-
+    section#us blockquote.citation {
+        line-height: 45px;
+        font-size: 23px;
+    }
+    span.quote {
+        font-size: 70px;
+    }
+    section#us h1:before, section#works h1:before, section#missions h1:before {
+        top: 60px;
+    }
+    span.quote:first-child {
+        top: -18px;
+        left: -23px;
+    }
+    span.quote:nth-child(2) {
+        bottom: -57px;
+        right: -7px;
+    }
     li.categorie-missions {
         visibility: hidden;
     }
@@ -1645,12 +1650,20 @@ div.bloc-work2.come-side {
         visibility: visible;
     }
 
+    div.missions-small div.anim h2 {
+        font-size: 19px;
+    }
     article.article-info p.description-article-missions {
         display: none;
     }
-
+    div.anim {
+        margin-top: 50px;
+    }
+    div.missions-small div.anim img {
+        width: 50px;
+    }
     div.bloc-work4 h3 {
-        font-size: 30px;
+        font-size: 24px;
     }
 
     div.bloc-work4 p {
@@ -1658,20 +1671,27 @@ div.bloc-work2.come-side {
     }
 
     section#us h1, section#works h1, section#missions h1, section#contact h1 {
-        font-size: 55px;
+        font-size: 40px;
     }
-
-    section#us h1:before, section#works h1:before, section#missions h1:before {
-        font-size: 130px;
-        top: 140px;
+    section#us h1:before, section#works h1:before, section#missions h1:before, section#contact h1:before {
+        font-size: 110px;
+        top: 60px;
     }
-
+    section#us div.info-us {
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
     section#contact h1:before {
         top: 65px;
     }
 
     section#missions h1:before {
         top: 37px;
+    }
+    section#contact div.info-footer {
+        width: 80%;
+        font-size: 18px;
     }
 }
 
