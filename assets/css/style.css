@@ -680,7 +680,7 @@ div.info h2 {
 div.info p {
     font-size: 22px;
     color: rgba(255, 255, 255, 0.92);
-    line-height: 44px;
+    line-height: 30px;
     font-family: 'Old Standard TT', serif;
 }
 
@@ -693,41 +693,44 @@ div.info p.tag {
 }
 
 div.bloc-work1, div.bloc-work2, div.bloc-work3 {
-    height: 610px;
+    height: 550px;
     position: relative;
     overflow: hidden;
 
-    -webkit-transition: all ease-out 0.25s;
-    -moz-transition: all ease-out 0.25s;
-    -o-transition: all ease-out 0.25s;
-    transition: all ease-out 0.25s;
+    -webkit-transition: all ease-in-out 0.3s;
+    -moz-transition: all ease-in-out 0.3s;
+    -o-transition: all ease-in-out 0.3s;
+    transition: all ease-in-out 0.3s;
 }
 
-div.bloc-work1 {background-color: #53acdb;}
+div.bloc-work1 {background-color: #43bff9;}
 
-div.bloc-work2 {background-color: #f9d34f;}
+div.bloc-work2 {background-color: #f9e241;}
 
 div.bloc-work3 {background-color: #252b27;}
 
 div.bloc-work1:hover {
-    background-color: #088fff;
-    -webkit-box-shadow: 0 0 79px -25px rgba(0, 0, 0, 0.7);
-    -moz-box-shadow: 0 0 79px -25px rgba(0, 0, 0, 0.7);
-    box-shadow: 0 0 79px -25px rgba(0, 0, 0, 0.7);
+    z-index: 1;
+    background-color: #2298ff;
+    -webkit-box-shadow: 0 0 100px -15px rgba(0, 0, 0, 0.7);
+    -moz-box-shadow: 0 0 100px -15px rgba(0, 0, 0, 0.7);
+    box-shadow: 0 0 100px -15px rgba(0, 0, 0, 0.7);
 }
 
 div.bloc-work2:hover {
-    background-color: #ffd825;
-    -webkit-box-shadow: 0 0 79px -25px rgba(0, 0, 0, 0.7);
-    -moz-box-shadow: 0 0 79px -25px rgba(0, 0, 0, 0.7);
-    box-shadow: 0 0 79px -25px rgba(0, 0, 0, 0.7);
+    z-index: 1;
+    background-color: #ffb932;
+    -webkit-box-shadow: 0 0 100px -15px rgba(0, 0, 0, 0.7);
+    -moz-box-shadow: 0 0 100px -15px rgba(0, 0, 0, 0.7);
+    box-shadow: 0 0 100px -15px rgba(0, 0, 0, 0.7);
 }
 
 div.bloc-work3:hover {
+    z-index: 1;
     background-color: #3b413d;
-    -webkit-box-shadow: 0 0 79px -25px rgba(0, 0, 0, 0.7);
-    -moz-box-shadow: 0 0 79px -25px rgba(0, 0, 0, 0.7);
-    box-shadow: 0 0 79px -25px rgba(0, 0, 0, 0.7);
+    -webkit-box-shadow: 0 0 100px -15px rgba(0, 0, 0, 0.7);
+    -moz-box-shadow: 0 0 100px -15px rgba(0, 0, 0, 0.7);
+    box-shadow: 0 0 100px -15px rgba(0, 0, 0, 0.7);
 }
 
 div.bloc-work4 {
@@ -744,8 +747,8 @@ div.bloc-work4 div.phrase-work {
 }
 
 div.bloc-work4 h3 {
-    font-size: 32px;
-    font-family: 'Old Standard TT', serif;
+    font-size: 35px;
+    font-family: 'Arapey', serif;
     font-weight: 700;
     text-align: left;
     color: #000;
@@ -754,7 +757,7 @@ div.bloc-work4 h3 {
 div.bloc-work4 p {
     font-size: 21px;
     color: rgba(93, 93, 93, 0.49);
-    line-height: 26px;
+    line-height: 24px;
     padding-top: 14px;
     text-align: left;
     font-family: "robotolight", sans-serif;
@@ -985,7 +988,7 @@ div#info-missions {
     position: absolute;
     width: 50%;
     top: 40%;
-    right: 0;
+    right: -30px;
     display: inline-block;
 }
 
@@ -1009,7 +1012,7 @@ article.article-info.missions-active {
 }
 
 article.article-info > h2 {
-    margin-top: 185px;
+    margin-top: 160px;
     margin-bottom: 16px;
     font-size: 50px;
     font-weight: 700;
@@ -1017,30 +1020,32 @@ article.article-info > h2 {
 }
 
 article.article-info p.description-article-missions {
-    font-size: 25px;
+    font-size: 23px;
     font-family: "Old standard TT", serif;
-    line-height: 45px;
+    line-height: 35px;
     color: rgba(255, 255, 255, 0.85);
 }
 
-.anim {
+div.anim {
     display: inline-block;
     position: absolute;
 }
-
+div.anim img {
+    width: 110px;
+}
 div.missions-small {display: none;}
 
 /************ Fin article missions ************/
 
 /************ Menu missions ************/
 section.menu {
-    padding-left: 15%;
+    padding-left: 20%;
     display: inline-block;
     width: 50%;
     position: absolute;
-    top: 40%;
+    top: 42%;
     visibility: visible;
-    line-height: 60px;
+    line-height: 50px;
 }
 
 ol.liste-categorie-missions {counter-reset: item;}
@@ -1149,13 +1154,13 @@ canvas {
 section#contact div.info-footer {
     font-size: 20px;
     text-align: center;
-    width: 34%;
+    width: 28%;
     font-family: sans-serif;
-    line-height: 40px;
+    line-height: 30px;
     letter-spacing: 1px;
     color: rgba(255, 255, 255, 0.6);
     position: absolute;
-    top: 43%;
+    top: 42%;
     left: 50%;
     transform: translate(-50%, -49%);
 }
