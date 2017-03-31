@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <!--__________________ Partie meta __________________-->
+    <meta charset="UTF-8">
+    <meta name="description" content="Entrerprise ui/ux design">
+    <meta name="keywords" content="ui/ux, design">
+    <meta name="author" content="Flüz&powo"/>
+    <meta name="copyright" content="© Flüz&powo agence web 2017"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <!--__________________ Partie favicons __________________-->
+    <link rel="shortcut icon" href="assets/img/favicon/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="assets/img/favicon/favicon.ico" type="image/x-icon">
+
+    <!--__________________ Partie links __________________-->
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/works.css">
+    <link href="https://fonts.googleapis.com/css?family=Arapey" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Old+Standard+TT:400,400i,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700i,900i" rel="stylesheet">
+
+    <!--__________________ Titre page __________________-->
+    <title>Füze&amp;powo agence web sur bordeaux</title>
+
+
+    <!--__________________ Loader page __________________-->
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src="http://code.jquery.com/jquery-1.9.0b1.js"></script>
+    <script src="assets/js/pageloader.js"></script>
+    <script>
+        $(document).ready(function () {
+            $.pageLoader();
+        });
+    </script>
+</head>
+
+<body>
+<div id="chargement"><span id="chargement-infos"></span></div> <!-------- Loader -------->
+
+<div id="container">
+    <div class="screen-work" id="scene">
+        <h3 class="layer" data-depth="0.60">WORKS</h3>
+        <img src="assets/img/works/golf.png" alt="" class="layer golf" data-depth="0.20">
+        <div id="top">
+            <div class="wrap">
+                <header class="main-header">
+                    <div class="retour">
+                        <a href="index.html">
+                            <img src="assets/img/arrow.svg" class="arrow" alt="">
+                            <h5>Accueil</h5>
+                        </a>
+                    </div>
+
+                </header>
+                <!--------------- Fin header --------------->
+            </div>
+            <!--------------- Header --------------->
+        </div>
+    </div>
+
+
+    <!----------------- Section travaux ----------------->
+    <section class="travaux column">
+        <div class="img-work a snip1584 img1">
+            <img src="assets/img/thauvin.png" alt="">
+            <div>
+                <h3>Florian Thauvin</h3>
+                <h5>#website #logo</h5>
+            </div>
+            <a href="works/florian-thauvin.html"></a>
+        </div>
+
+        <div class="img-work a snip1584 img2">
+            <img src="assets/img/works/logo-dgsport.svg" alt="">
+            <div>
+                <h3>DG Sport Agency</h3>
+                <h5>#website #identitevisuelle #UI/UXdesign</h5>
+            </div>
+            <a href="works/dg-sport.html"></a>
+        </div>
+
+    </section>
+    <!----------------- Fin section travaux ----------------->
+</div>
+
+
+<!----------------- Script ----------------->
+<script src="http://npmcdn.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+<script>
+    $(".hover").mouseleave(
+        function () {
+            $(this).removeClass("hover");
+        }
+    );
+</script>
+<script src="assets/js/parallax.js"></script>
+<script>
+    var scene = document.getElementById('scene');
+    var parallax = new Parallax(scene);
+</script>
+<!----------------- Fin script ----------------->
+</body>
+</html>
