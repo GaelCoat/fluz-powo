@@ -20,6 +20,11 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+html{
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -webkit-overflow-scrolling: touch;
+}
 /********** Loader **********/
 #chargement {
     width: 250px;

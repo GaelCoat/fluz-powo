@@ -4,6 +4,12 @@
     background-color: #ffb17c;
 }
 
+html{
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -webkit-overflow-scrolling: touch;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     overflow-x: hidden;
@@ -26,8 +32,11 @@ h1, h2, h3, h4, h5, h6, p, span, a {
     -webkit-user-select: text;
     -ms-user-select: text;
 }
-
 /********************* Fin règles générales *********************/
+
+
+
+
 
 /********************* Loader *********************/
 #chargement {
@@ -58,13 +67,9 @@ h1, h2, h3, h4, h5, h6, p, span, a {
     animation: load .7s infinite alternate ease-in-out;
 }
 
-#chargement::before {
-    top: 0;
-}
+#chargement::before {top: 0;}
 
-#chargement::after {
-    bottom: 0;
-}
+#chargement::after {bottom: 0;}
 
 @-webkit-keyframes load {
     0% {
@@ -100,13 +105,20 @@ h1, h2, h3, h4, h5, h6, p, span, a {
     }
 }
 
-#container {
-    visibility: hidden;
-}
-
+#container {visibility: hidden;}
 /********************* Fin loader *********************/
 
+
+
+
+
+
+
+
 /********************* Page d'accueil full screen *********************/
+
+
+
 
 /************ Propriétés icones parallax ************/
 div#scene svg {
@@ -245,101 +257,46 @@ div#scene svg.circle circle.anim-cl-1 {
     }
 }
 
-div#scene svg:nth-child(1) {
-    top: 20%;
-    left: 70%;
-}
+div#scene svg:nth-child(1) {top: 20%; left: 70%;}
 
-div#scene svg:nth-child(2) {
-    top: 10%;
-    left: 45%;
-}
+div#scene svg:nth-child(2) {top: 10%; left: 45%;}
 
-div#scene svg:nth-child(3) {
-    top: 50%;
-    left: 15%;
-}
+div#scene svg:nth-child(3) {top: 50%; left: 15%;}
 
-div#scene svg:nth-child(4) {
-    top: 30%;
-    left: 95%;
-}
+div#scene svg:nth-child(4) {top: 30%; left: 95%;}
 
-div#scene svg:nth-child(5) {
-    top: 90%;
-    left: 55%;
-}
+div#scene svg:nth-child(5) {top: 90%; left: 55%;}
 
-div#scene svg:nth-child(6) {
-    top: 80%;
-    left: 35%;
-}
+div#scene svg:nth-child(6) {top: 80%; left: 35%;}
 
-div#scene svg:nth-child(7) {
-    top: 100%;
-    left: 2%;
-}
+div#scene svg:nth-child(7) {top: 100%; left: 2%;}
 
-div#scene svg:nth-child(8) {
-    top: 9%;
-    left: 85%;
-}
+div#scene svg:nth-child(8) {top: 9%; left: 85%;}
 
-div#scene svg:nth-child(9) {
-    top: 80%;
-    left: 64%;
-}
+div#scene svg:nth-child(9) {top: 80%; left: 64%;}
 
-div#scene svg:nth-child(10) {
-    top: 50%;
-    left: 38%;
-}
+div#scene svg:nth-child(10) {top: 50%; left: 38%;}
 
-div#scene svg:nth-child(11) {
-    top: 90%;
-    left: 15%;
-}
+div#scene svg:nth-child(11) {top: 90%; left: 15%;}
 
-div#scene svg:nth-child(13) {
-    top: 56%;
-    left: 2%;
-}
+div#scene svg:nth-child(13) {top: 56%; left: 2%;}
 
-div#scene svg:nth-child(14) {
-    top: 28%;
-    left: 99%;
-}
+div#scene svg:nth-child(14) {top: 28%; left: 99%;}
 
-div#scene svg:nth-child(15) {
-    top: 35%;
-    left: 11%;
-}
+div#scene svg:nth-child(15) {top: 35%; left: 11%;}
 
-div#scene svg:nth-child(16) {
-    top: 23%;
-    left: 2%;
-}
+div#scene svg:nth-child(16) {top: 23%; left: 2%;}
 
-div#scene svg:nth-child(17) {
-    top: 28%;
-    left: 34%;
-}
+div#scene svg:nth-child(17) {top: 28%; left: 34%;}
 
-div#scene svg:nth-child(18) {
-    top: 2%;
-    left: 0;
-}
+div#scene svg:nth-child(18) {top: 2%; left: 0;}
 
-div#scene svg:nth-child(19) {
-    top: 75%;
-    left: 25%;
-}
-
+div#scene svg:nth-child(19) {top: 75%; left: 25%;}
 /************ Fin propriétés icones parallax ************/
 
 
 
-
+/************ Scene full screen ************/
 div#scene {
     overflow: hidden;
     position: absolute;
@@ -381,19 +338,17 @@ div.presentation-left {
     text-align: left;
 }
 
-div.menu-right {
-    width: 30%;
-}
+
 
 /*************** Navigation right ***************/
+div.menu-right {width: 30%;}
+
 div.menu-right {
     padding-left: 16%;
     font-size: 20px;
 }
 
-div.menu-right li:first-child {
-    display: inline-block;
-}
+div.menu-right li:first-child {display: inline-block;}
 
 div.menu-right div.logo img {
     width: 100px;
@@ -421,6 +376,9 @@ div.menu-right nav ul li:nth-child(n+2) a {
     -o-transition: all ease 0.43s;
     transition: all ease 0.43s;
 }
+
+
+
 
 /************** Hover menu ***************/
 svg.ico-menu {
@@ -460,16 +418,16 @@ div.menu-right nav ul li:hover svg.ico-menu {
     transform: scale(1);
 }
 
-div.menu-right nav ul li:hover:nth-child(n+2) a {
-    right: 0;
-}
-
+div.menu-right nav ul li:hover:nth-child(n+2) a {right: 0;}
 /*************** Fin navigation right ***************/
 
+
+
+
+
+
 /*************** Présentation left ***************/
-div.presentation-left {
-    padding-left: 6%;
-}
+div.presentation-left {padding-left: 6%;}
 
 div.presentation-left h1 {
     font-size: 4vw;
@@ -547,10 +505,16 @@ div.presentation-left h2 {
     -o-transition-delay: 0.9s;
     transition-delay: 0.9s;
 }
-
 /*************** Fin présentation left ***************/
 
+
+
 /********************* Fin page d'accueil full screen *********************/
+
+
+
+
+
 
 /********************* Section discover us *********************/
 section#us {
