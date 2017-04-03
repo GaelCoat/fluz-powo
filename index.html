@@ -265,6 +265,22 @@
 
         <div class="info-works">
 
+            <div class="bloc-work1">
+                <a href="works/florian-thauvin.html">
+                    <div class="img-bloc left">
+                        <img src="assets/img/thauvin.png" alt="">
+                    </div>
+                </a>
+                <a href="works/florian-thauvin.html">
+                    <div class="info right elements">
+                        <h3>Florian Thauvin</h3>
+                        <p>Nous avons conçu le site du joueur de football,<br/>Florian Thauvin afin de fédérer sa
+                            communauté.</p>
+                        <p class="tag">#website #ui/uxdesign</p>
+                    </div>
+                </a>
+
+            </div>
 
 
             <!--_____ Bloc work 4 _____-->
@@ -457,6 +473,9 @@
     var scene = document.getElementById('scene');
     var parallax = new Parallax(scene);
 </script>
+<script src="assets/js/parallax-scroll.js"></script>
+<script>$('.elements').parallax(0.1);</script>
+
 <script src="assets/js/particle.js"></script>
 <script src="assets/js/jquery.appear.js"></script>
 <script src="assets/js/scroll-transition.js"></script>
@@ -498,7 +517,7 @@
         var parts = value.match(/([0-9\.]+)(vh)/);
         var q = Number(parts[1]);
         var side = window[['innerHeight', 'innerWidth'][['vh', 'vw'].indexOf(parts[2])]];
-        return side * (q/100);
+        return side * (q / 100);
     }
 
     var currentHeight = viewportToPixels('100vh');
