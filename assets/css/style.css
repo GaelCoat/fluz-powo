@@ -1052,7 +1052,7 @@ li.categorie-missions:nth-child(-n+10)::before {content: "0" counter(item);}
 
 /********************* Fin section Missions *********************/
 .vh {
-    width: 100vh;}
+    height: 100vh;}
 /********************* Section Contact *********************/
 section#contact {
     overflow: hidden;
