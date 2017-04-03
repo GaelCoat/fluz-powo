@@ -324,7 +324,6 @@ div#scene {
 }
 
 div.full-screen {
-    height: 100vh;
     padding-left: 4%;
     padding-right: 10%;
     font-size: 0;
@@ -522,7 +521,6 @@ div.presentation-left h2 {
 section#us {
     position: relative;
     font-size: 0;
-    height: 100vh;
     padding-left: 15%;
     padding-right: 15%;
     text-align: center;
@@ -944,7 +942,6 @@ div.bloc-work4 p {
 section.missions {
     overflow: hidden;
     position: relative;
-    height: 100vh;
     font-size: 0;
 
     background: #1f1f1f;
@@ -1054,11 +1051,11 @@ li.categorie-missions:nth-child(-n+10)::before {content: "0" counter(item);}
 /************ Fin menu missions ************/
 
 /********************* Fin section Missions *********************/
-
+.vh {
+    width: 100vh;}
 /********************* Section Contact *********************/
 section#contact {
     overflow: hidden;
-    height: 100vh;
     position: relative;
     padding-left: 7%;
     padding-right: 7%;
