@@ -316,8 +316,6 @@ section.description {
     width: 1200px;
     margin: auto;
     text-align: center;
-    padding-bottom: 100px;
-    padding-top: 100px;
 }
 
 section.description img {
@@ -353,13 +351,15 @@ div.presentation-travaux img.macbook {
 div.presentation-travaux img.ipad {
     width: 26%;
     position: relative;
-    left: 100px;
+    left: 120px;
+    z-index: 1;
 }
 
 div.presentation-travaux img.iphone {
     width: 10%;
     position: relative;
-    left: 100px;
+    left: 200px;
+    z-index: 2;
 }
 
 section.stats-projet {
@@ -409,9 +409,9 @@ section.button {
 }
 
 .btn1 {
-    background-color: transparent;
     margin-right: 20px;
-    color: #fad019;
+    background-color: rgb(255, 191, 0);
+    color: #fff;
 
     -webkit-transition: all 0.35s;
     -moz-transition: all 0.35s;
@@ -420,9 +420,9 @@ section.button {
 }
 
 .btn2 {
-    background-color: transparent;
     margin-left: 20px;
-    color: #fad019;
+    background-color: #fa9e17;
+    color: #fff;
 
     -webkit-transition: all 0.35s;
     -moz-transition: all 0.35s;
@@ -457,16 +457,12 @@ button svg {
 }
 
 .btn1:hover {
-    background-color: rgb(255, 191, 0);
-    color: #fff;
     -webkit-box-shadow: 0 12px 50px -5px rgba(0, 0, 0, 0.32);
     -moz-box-shadow: 0 12px 50px -5px rgba(0, 0, 0, 0.32);
     box-shadow: 0 12px 50px -5px rgba(0, 0, 0, 0.32);
 }
 
 .btn2:hover {
-    background-color: #fa9e17;
-    color: #fff;
     -webkit-box-shadow: 0 12px 50px -5px rgba(0, 0, 0, 0.32);
     -moz-box-shadow: 0 12px 50px -5px rgba(0, 0, 0, 0.32);
     box-shadow: 0 12px 50px -5px rgba(0, 0, 0, 0.32);
@@ -493,11 +489,7 @@ button svg {
     transform: translateX(15px);
 }
 
-.st0 {
-    fill: #fad019;
-}
-
-.st1 {
+.st1, .st0 {
     fill: #fff;
 }
 

@@ -35,17 +35,11 @@
     <script>
         $(document).ready(function () {
             $.pageLoader();
-            function vhTOpx(value) {
-                var w = window,
-                    d = document,
-                    e = d.documentElement,
-                    g = d.getElementsByClassName('.vh')[0],
-                    y = w.innerHeight|| e.clientHeight|| g.clientHeight;
 
-                var result = (y*value)/100;
-                return(result);
-            }
-            var px = vhTOpx(100);
+
+            var hauteur = window.outerHeight;
+            console.log(hauteur);
+
         });
     </script>
 </head>
