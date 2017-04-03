@@ -42,9 +42,9 @@ h1, h2, h3, h4, h5, h6, p, span, a {
 
 /********************* Loader *********************/
 #chargement {
-    width: 250px;
-    height: 50px;
-    line-height: 50px;
+    width: 100%;
+    height: 100%;
+    line-height: 50;
     text-align: center;
     position: fixed;
     top: 50%;
@@ -56,22 +56,24 @@ h1, h2, h3, h4, h5, h6, p, span, a {
     font-weight: 900;
     color: #ce4233;
     letter-spacing: 0.2em;
+    z-index: 1000;
+    background-color: #fff;
 }
 
-#chargement::before, #chargement::after {
-    content: "";
-    display: block;
-    width: 15px;
-    height: 15px;
-    background: #ce4233;
-    position: absolute;
-    -webkit-animation: load .7s infinite alternate ease-in-out;
-    animation: load .7s infinite alternate ease-in-out;
-}
+/*#chargement::before, #chargement::after {*/
+    /*content: "";*/
+    /*display: block;*/
+    /*width: 15px;*/
+    /*height: 15px;*/
+    /*background: #ce4233;*/
+    /*position: absolute;*/
+    /*-webkit-animation: load .7s infinite alternate ease-in-out;*/
+    /*animation: load .7s infinite alternate ease-in-out;*/
+/*}*/
 
-#chargement::before {top: 0;}
+/*#chargement::before {top: 0;}*/
 
-#chargement::after {bottom: 0;}
+/*#chargement::after {bottom: 0;}*/
 
 @-webkit-keyframes load {
     0% {
@@ -660,7 +662,7 @@ div.info {
     position: relative;
     top: 50px;
     right: 280px;
-    width: 36%;
+    width: 590px;
     border: 4px solid #000;
     padding: 30px 60px 30px 60px;
 
@@ -675,6 +677,7 @@ div.info h3 {
     font-weight: 700;
     margin-bottom: 30px;
     text-align: left;
+    color: rgba(0, 0, 0, 0.92);
 }
 
 div.info p {
@@ -691,10 +694,14 @@ div.info p.tag {
     margin-top: 40px;
     color: rgba(0, 0, 0, 0.63);
 }
+div.bloc-work1 {
+    position: relative;
+}
 div.bloc-work1 div.img-bloc {
     display: inline-block;
-    width: 35%;
+    width: 560px;
     margin-left: 220px;
+    position: absolute;
 }
 div.bloc-work1 div.img-bloc img {
     width: 100%;
@@ -715,16 +722,16 @@ div.bloc-work4 div.phrase-work {
 }
 
 div.bloc-work4 h3 {
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 700;
     text-align: left;
     color: #000;
 }
 
 div.bloc-work4 p {
-    font-size: 21px;
+    font-size: 20px;
     color: rgba(93, 93, 93, 0.49);
-    line-height: 24px;
+    line-height: 25px;
     padding-top: 14px;
     text-align: left;
     font-family: "robotolight", sans-serif;
@@ -744,7 +751,7 @@ div.bloc-work4 p {
     -webkit-transition: opacity .22s, transform .22s;
     border-radius: 2px;
     width: 350px;
-    line-height: 75px;
+    line-height: 70px;
     color: #fafafa;
     display: inline-block;
     position: relative;
@@ -1120,7 +1127,7 @@ canvas {
 }
 
 section#contact div.info-footer {
-    font-size: 20px;
+    font-size: 19px;
     text-align: center;
     width: 28%;
     font-family: sans-serif;
@@ -1277,8 +1284,14 @@ div.bloc-work2.come-side {
         padding-right: 5%;
         padding-left: 5%;
     }
+    div.bloc-work1 div.img-bloc {
+        margin-left: 50px;
+    }
+    div.info {
+        right: 70px;
+    }
     div.info p {font-size: 19px;}
-    div.info h2 {
+    div.info h3 {
         font-size: 40px;
         margin-bottom: 25px;
     }
@@ -1304,10 +1317,6 @@ div.bloc-work2.come-side {
 
     div#info-missions {
         top: 38%;
-    }
-
-    div.anim img {
-        height: 90px;
     }
 
     article.article-info > h2 {
