@@ -35,19 +35,6 @@
     <script>
         $(document).ready(function () {
             $.pageLoader();
-
-            var hauteur = window.outerHeight;
-
-            function viewportToPixels(value) {
-                var parts = value.match(/([0-9\.]+)(vh|vw)/);
-                var q = Number(parts[1]);
-                var side = window[['innerHeight', 'innerWidth'][['vh', 'vw'].indexOf(parts[2])]];
-                return side * (q/100);
-            }
-
-            var currentHeight = viewportToPixels('100vh');
-            var vh = document.getElementsByClassName(".vh");
-            vh.style.height = currentHeight;
         });
     </script>
 </head>
@@ -503,6 +490,23 @@
         duration: 1000,
         mobile: false
     });
+</script>
+
+<script>
+    function viewportToPixels(value) {
+        var parts = value.match(/([0-9\.]+)(vh)/);
+        var q = Number(parts[1]);
+        var side = window[['innerHeight', 'innerWidth'][['vh', 'vw'].indexOf(parts[2])]];
+        return side * (q/100);
+    }
+
+    var currentHeight = viewportToPixels('100vh');
+    console.log(currentHeight);
+
+    var vh = document.getElementsByClassName("vh");
+    for (var i = 0; i < vh.length; i++) {
+        vh[i].style.height = currentHeight + "px";
+    }
 </script>
 
 <!--__________________ Fin script __________________-->
