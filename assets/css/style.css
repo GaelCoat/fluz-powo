@@ -690,23 +690,6 @@ div.info p.tag {
     margin-top: 40px;
 }
 
-div.bloc-work1, div.bloc-work2, div.bloc-work3 {
-    height: 550px;
-    position: relative;
-    overflow: hidden;
-
-    -webkit-transition: all ease-in-out 0.3s;
-    -moz-transition: all ease-in-out 0.3s;
-    -o-transition: all ease-in-out 0.3s;
-    transition: all ease-in-out 0.3s;
-}
-
-div.bloc-work1 {background-color: #43bff9;}
-
-div.bloc-work2 {background-color: #f9e241;}
-
-div.bloc-work3 {background-color: #252b27;}
-
 
 div.bloc-work4 {
     height: 450px;
@@ -1229,10 +1212,6 @@ div.bloc-work2.come-side {
 /********************* Responsive page d'accueil *********************/
 @media screen and (max-width: 1440px) {
 
-    div.bloc-work1 div.img img {
-        position: relative;
-        left: -100px;
-    }
 
     div#info-missions {
         top: 37%;
@@ -1285,9 +1264,6 @@ div.bloc-work2.come-side {
     section#works {
         padding-right: 5%;
         padding-left: 5%;
-    }
-    div.bloc-work1, div.bloc-work2, div.bloc-work3 {
-        height: 500px;
     }
     div.info p {font-size: 19px;}
     div.info h2 {
@@ -1382,14 +1358,6 @@ div.bloc-work2.come-side {
         padding-right: 0;
     }
 
-    div.bloc-work1 div.img img {
-        left: -200px;
-    }
-
-    div.bloc-work1 div.info, div.bloc-work3 div.info {
-        padding-left: 2%;
-    }
-
     section.menu {
         padding-left: 0;
     }
@@ -1413,18 +1381,11 @@ div.bloc-work2.come-side {
         width: 400px;
     }
 
-    div.bloc-work1 div.info, div.bloc-work2 div.info, div.bloc-work3 div.info {
-        display: none;
-    }
-
     div.img {
         text-align: center;
         width: 100%;
     }
 
-    div.bloc-work1 div.img img {
-        left: 0;
-    }
 
     div.bloc-work4 div.phrase-work {
         display: inline-block;
@@ -1599,10 +1560,6 @@ div.bloc-work2.come-side {
     div.presentation-left h1 {
         font-size: 7vw;
         margin-bottom: 30px;
-    }
-
-    div.bloc-work1 div.img img {
-        left: -50%;
     }
     section#us blockquote.citation {
         line-height: 45px;
