@@ -39,7 +39,7 @@
                 var w = window,
                     d = document,
                     e = d.documentElement,
-                    g = d.getElementsByTagName('body')[0],
+                    g = d.getElementsByClassName('.vh')[0],
                     y = w.innerHeight|| e.clientHeight|| g.clientHeight;
 
                 var result = (y*value)/100;
@@ -58,7 +58,7 @@
 <!--__________________ Contenu de la page __________________-->
 <div id="container">
     <!--__________________ Home page __________________-->
-    <div class="full-screen" id="top">
+    <div class="full-screen vh" id="top">
         <div class="center"></div>
 
         <div id="scene">
@@ -248,7 +248,7 @@
 
 
     <!--__________________ Section discover us __________________-->
-    <section id="us">
+    <section id="us" class="vh">
         <h1 class="appear-bot">flüz&amp;powo</h1>
         <div class="center-meet"></div>
         <div class="info-us">
@@ -375,7 +375,7 @@
 
 
     <!--__________________ Section Missions __________________-->
-    <section id="missions" class="missions">
+    <section id="missions" class="missions vh">
         <div class="bgc-dark">
 
             <h1 class="appear-bot">Our Mission</h1>
@@ -496,7 +496,7 @@
 
     <!--__________________ Section Contact __________________-->
     <section id="gradient">
-        <section id="contact">
+        <section id="contact" class="vh">
             <canvas id="canvas"></canvas>
 
             <h1 class="module-one-time">Work with us</h1>
