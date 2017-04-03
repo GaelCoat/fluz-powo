@@ -709,20 +709,6 @@ div.bloc-work2 {background-color: #f9e241;}
 
 div.bloc-work3 {background-color: #252b27;}
 
-div.bloc-work1:hover {
-    z-index: 1;
-    background-color: #2298ff;
-}
-
-div.bloc-work2:hover {
-    z-index: 1;
-    background-color: #ffb932;
-}
-
-div.bloc-work3:hover {
-    z-index: 1;
-    background-color: #3b413d;
-}
 
 div.bloc-work4 {
     height: 450px;
@@ -739,7 +725,6 @@ div.bloc-work4 div.phrase-work {
 
 div.bloc-work4 h3 {
     font-size: 35px;
-    font-family: 'Arapey', serif;
     font-weight: 700;
     text-align: left;
     color: #000;
@@ -1329,21 +1314,15 @@ div.bloc-work2.come-side {
     }
 
     section.menu {
-        padding-left: 5%;
         top: 38%;
-        width: 35%;
     }
 
     div#info-missions {
         top: 38%;
-        width: 57%;
     }
 
     div.anim img {
         height: 90px;
-    }
-    article.article-info {
-        padding-right: 20%;
     }
 
     article.article-info > h2 {
