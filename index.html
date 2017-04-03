@@ -35,17 +35,13 @@
     <script>
         $(document).ready(function () {
             $.pageLoader();
-            function vhTOpx(value) {
-                var w = window,
-                    d = document,
-                    e = d.documentElement,
-                    g = d.getElementsByClassName('.vh')[0],
-                    y = w.innerHeight|| e.clientHeight|| g.clientHeight;
-
-                var result = (y*value)/100;
-                return(result);
+            function viewportToPixels(value) {
+                var parts = value.match(/([0-9\.]+)(vh|vw)/);
+                var q = Number(parts[1]);
+                var side = window[['innerHeight', 'innerWidth'][['vh', 'vw'].indexOf(parts[2])]];
+                return side * (q/100);
             }
-            var px = vhTOpx(100);
+            viewportToPixels('100vh');
         });
     </script>
 </head>
