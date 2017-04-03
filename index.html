@@ -502,9 +502,8 @@
     }
 
     var currentHeight = viewportToPixels('100vh');
-    console.log(currentHeight);
 
-    var vh = document.getElementsByClassName("vh").style.height;
+    var vh = document.getElementsByClassName("vh");
     for (var i = 0; i < vh.length; i++) {
         vh[i].style.height = currentHeight + "px";
     }
