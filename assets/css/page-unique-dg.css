@@ -544,6 +544,14 @@ button svg {
 
 
 /******************** Responsive ********************/
+@media screen and (max-width: 1366px) {
+    div.info img {
+        width: 90%;
+    }
+    div.intro p {
+        font-size: 18px;
+    }
+}
 @media screen and (max-width: 1200px) {
     header.main-header div.logo-fp {
         right: 2%;
