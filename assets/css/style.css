@@ -3,6 +3,15 @@
     color: #fff;
     background-color: #ffb17c;
 }
+* {
+    box-sizing: border-box;
+    text-rendering: optimizeLegibility;
+
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
 
 html{
     -ms-text-size-adjust: 100%;
@@ -20,16 +29,6 @@ body {
     max-width: 1980px;
     height: 100%;
     width: 100%;
-}
-
-* {
-    box-sizing: border-box;
-    text-rendering: optimizeLegibility;
-
-    user-select: none;
-    -moz-user-select: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
 }
 
 h1, h2, h3, h4, h5, h6, p, span, a {
@@ -133,6 +132,10 @@ h1, h2, h3, h4, h5, h6, p, span, a {
 }
 .right:after {
     clear: both;
+}
+a {
+    text-decoration: none;
+    color: inherit;
 }
 /********************* Fin loader *********************/
 
@@ -652,6 +655,7 @@ span.quote:nth-child(2) {
 section#works {
     width: 1200px;
     margin: auto;
+    position: relative;
 }
 
 section#works h1 {margin-bottom: 120px;}
@@ -743,7 +747,7 @@ div.bloc-work, div.bloc-work2 {
     height: 460px;
 }
 div.bloc-work:first-child, div.bloc-work2 {
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 div.bloc-work div.img-bloc, div.bloc-work2 div.img-bloc {
     width: 560px;
@@ -757,12 +761,13 @@ div.bloc-work div.img-bloc img {background-color: #67c0ff;}
 div.bloc-work2 div.img-bloc img {background-color: #ffd026;}
 
 div.bloc-work4 {
-    clear: both;
-    height: 450px;
-    position: relative;
+    height: 350px;
+    margin-top: 30px;
+    margin-bottom: 120px;
     overflow: hidden;
     text-align: center;
     background: #fff;
+
     -webkit-box-shadow: 0 5px 53px -7px rgba(12, 12, 12, 0.22);
     -moz-box-shadow: 0 5px 53px -7px rgba(12, 12, 12, 0.22);
     box-shadow: 0 5px 53px -7px rgba(12, 12, 12, 0.22);
@@ -1347,8 +1352,14 @@ div.bloc-work2.come-side {
     }
     div.info p {font-size: 19px;}
     div.info h3 {
-        font-size: 40px;
-        margin-bottom: 25px;
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    div.bloc-work4 h3 {
+        font-size: 25px;
+    }
+    div.bloc-work4 p {
+        font-size: 19px;
     }
     div.info p.tag {
         font-size: 15px;
@@ -1371,7 +1382,7 @@ div.bloc-work2.come-side {
     }
 
     div#info-missions {
-        top: 38%;
+        top: 40%;
     }
 
     article.article-info > h2 {
@@ -1381,7 +1392,8 @@ div.bloc-work2.come-side {
     }
 
     article.article-info p.description-article-missions {
-        font-size: 21px;
+        font-size: 20px;
+        line-height: 25px;
     }
     li.categorie-missions {
         font-size: 23px;
@@ -1432,6 +1444,7 @@ div.bloc-work2.come-side {
     section#works {
         padding-left: 0;
         padding-right: 0;
+        width: 100%;
     }
 
     section.menu {
@@ -1445,6 +1458,9 @@ div.bloc-work2.come-side {
     section#contact div.coordonnee span {
         padding-left: 5%;
         padding-right: 5%;
+    }
+    div.bloc-work4 {
+        width: 100%;
     }
 }
 
@@ -1497,6 +1513,9 @@ div.bloc-work2.come-side {
         display: none;
     }
 
+    div.bloc-work div.img-bloc, div.bloc-work2 div.img-bloc {
+        width: 490px;
+    }
     div#info-missions {
         display: none;
     }
@@ -1574,7 +1593,13 @@ div.bloc-work2.come-side {
     section#us div.info-us {
         width: 410px;
     }
+    div.bloc-work div.img-bloc, div.bloc-work2 div.img-bloc {
+        width: 50%;
+    }
 
+    div.info {
+        width: 50%;
+    }
     div.coordonnee span.numero {
         display: block;
         margin-bottom: 25px;
@@ -1599,6 +1624,24 @@ div.bloc-work2.come-side {
     }
 }
 
+@media screen and (max-width: 720px) {
+    div.info {
+        position: inherit;
+        width: 100%;
+    }
+    .left, .right {
+        float: none;
+    }
+    div.bloc-work, div.bloc-work2 {
+        width: 100%;
+    }
+    div.bloc-work div.img-bloc, div.bloc-work2 div.img-bloc {
+        width: 100%;
+    }
+    div.bloc-work, div.bloc-work2 {
+        height: auto;
+    }
+}
 @media screen and (max-width: 480px) {
     div.presentation-left, div.menu-right {
         width: 100%;
