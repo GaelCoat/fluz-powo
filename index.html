@@ -577,12 +577,15 @@
 
     var hIOS = currentHeight + 60;
 
-    if(window.outerHeight <= 480) {
-        var vh = document.getElementsByClassName("vh");
-        for (var i = 0; i < vh.length; i++) {
-            vh[i].style.height = hIOS + "px";
+    window.onresize = function () {
+        if(window.outerHeight <= 480) {
+            var vh = document.getElementsByClassName("vh");
+            for (var i = 0; i < vh.length; i++) {
+                vh[i].style.height = hIOS + "px";
+            }
         }
     }
+
 
 </script>
 
