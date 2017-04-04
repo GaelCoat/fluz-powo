@@ -687,13 +687,43 @@ div.info {
     right: -80px;
 }
 div.info h3 {
+    position: relative;
+    left: 0;
     font-size: 40px;
     font-weight: 700;
     margin-bottom: 30px;
     text-align: left;
     color: rgba(0, 0, 0, 0.92);
-}
 
+    -webkit-transition: all ease 0.4s;
+    -moz-transition: all ease 0.4s;
+    -ms-transition: all ease 0.4s;
+    -o-transition: all ease 0.4s;
+    transition: all ease 0.4s;
+}
+div.info h3:before {
+    content: '';
+    position: absolute;
+    width: 0;
+    left: 0;
+    top: 19px;
+
+    height: 3px;
+    background: rgba(1, 136, 255, 0.92);
+
+    -webkit-transition: all ease 0.4s;
+    -moz-transition: all ease 0.4s;
+    -ms-transition: all ease 0.4s;
+    -o-transition: all ease 0.4s;
+    transition: all ease 0.4s;
+}
+div.bloc-work div.info:hover h3:before {
+    width: 30px;
+}
+div.bloc-work div.info:hover h3 {
+    color: rgba(1, 136, 255, 0.92);
+    padding-left: 40px;
+}
 div.info p {
     font-size: 20px;
     line-height: 30px;
@@ -722,7 +752,7 @@ div.bloc-work div.img-bloc img, div.bloc-work2 div.img-bloc img {
     width: 100%;
 }
 
-div.bloc-work:first-child div.img-bloc img {background-color: #67c0ff;}
+div.bloc-work div.img-bloc img {background-color: #67c0ff;}
 
 div.bloc-work2 div.img-bloc img {background-color: #ffd026;}
 
