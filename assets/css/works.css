@@ -107,7 +107,7 @@ div.screen-work {
     margin-bottom: 90px;
     overflow: hidden;
     text-align: center;
-    background-color: #c0392b;
+    background-color: #272222;
 }
 
 div.screen-work img.golf {
@@ -181,8 +181,6 @@ div.retour a h5 {
 
 /********** Travaux **********/
 section.travaux {
-    padding-left: 5%;
-    padding-right: 5%;
     font-size: 0;
     margin-bottom: 100px;
 }
@@ -259,7 +257,6 @@ div.img-work:first-child img {
     transition: all 0.5s ease;
     -webkit-transition-delay: 0.20s;
     transition-delay: 0.20s;
-    border: 3px solid transparent;
 }
 
 .snip1584 div {
@@ -319,7 +316,6 @@ div.img-work:first-child img {
     top: 30px;
     -webkit-transition-delay: 0s;
     transition-delay: 0s;
-    border: 3px solid #5a5a5a;
 }
 
 .snip1584:hover h3,
