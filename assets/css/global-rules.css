@@ -1,0 +1,51 @@
+*::-moz-selection {
+    color: #fff;
+    background-color: #a5e2ff;
+}
+
+*::selection {
+    color: #fff;
+    background-color: #a5e2ff;
+}
+
+* {
+    box-sizing: border-box;
+
+    -webkit-font-smoothing:  antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-smoothing:          antialiased;
+    text-rendering:          optimizeLegibility;
+
+    -webkit-backface-visibility: hidden;
+    backface-visibility:         hidden;
+
+    -webkit-user-drag:   none;
+    -webkit-user-select: none;
+    -moz-user-select:    none;
+    -ms-user-select:     none;
+    user-select:         none;
+}
+
+p, h1, h2, h3, h4, h5, h6 a, span, em {
+    -webkit-user-select: text;
+    -moz-user-select:    text;
+    -ms-user-select:     text;
+    user-select:         text;
+}
+
+html {
+    -ms-text-size-adjust:       100%;
+    -webkit-text-size-adjust:   100%;
+    -webkit-overflow-scrolling: touch;
+}
+
+body {
+    margin:  0;
+    padding: 0;
+    font: 400 16px 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
