@@ -1,15 +1,14 @@
 .en-tete {
-    height: 45vh;
-    margin-top:    40px;
-    margin-bottom: 40px;
+    height: 300px;
     position: fixed;
     top: 0;
+    z-index: -1;
 }
 
 .container {
     max-width: 1200px;
     margin:    auto;
-    margin-top: 270px;
+    margin-top: 300px;
     background-color: #fff;
 }
 
@@ -220,7 +219,7 @@
 
     .project div.sous-titre-work {
         bottom: 24px;
-        left: 27px;
+        left: 26px;
     }
 
     .project div.titre-work h1 {
@@ -243,7 +242,6 @@
     }
 
     .en-tete {
-        margin-top: 0;
         max-width: 100%;
         padding-top: 30px;
         padding-left: 30px;
@@ -265,8 +263,8 @@
     }
 
     .project div.titre-work {
-        top: 30px;
-        left: 34px;
+        top: 24px;
+        left: 26px;
     }
 
     .project div.titre-work h1 {
