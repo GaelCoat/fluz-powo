@@ -4,29 +4,32 @@
 }
 
 .en-tete {
-    height: 180px;
+    height: 460px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .center {
-    max-width: 1200px;
+    max-width: 1180px;
     height: 100%;
     margin: auto;
     position: relative;
+    background-color: #0c0c0c;
 }
 .retour {
     position: absolute;
-    top:      50%;
-    left:     0;
-    transform: translateY(-50%);
-    padding-left: 10px;
+    top:      25px;
+    left:     25px;
 }
 
 .retour h5 {
     display: inline-block;
-    margin: 0;
-    font-size: 17px;
+    color: #fff;
+    font-size: 16px;
     font-weight: 400;
     vertical-align: middle;
+    letter-spacing: 1px;
+    padding-left: 5px;
 }
 
 .arrow {
@@ -42,8 +45,8 @@
 }
 
 .work-title h1{
-    margin: 0;
-    font-size: 24px;
+    color: #fff;
+    font-size: 38px;
 }
 
 
@@ -81,6 +84,7 @@
 .wrap-child {
     height:   100%;
     position: relative;
+    overflow: hidden;
 
     -webkit-transition: all ease 0.3s;
     -moz-transition:    all ease 0.3s;
@@ -97,14 +101,12 @@
     position: absolute;
     top:      30px;
     left:     30px;
-    right:    30px;
-    line-height: 21px;
 }
 
 .project div.sous-titre-work {
     position: absolute;
-    bottom: 15px;
-    left: 34px;
+    bottom:   30px;
+    left:     30px;
 }
 
 .project img {
@@ -114,7 +116,6 @@
 }
 
 .project div.titre-work h1 {
-    margin: 0;
     color:       #fff;
     font-size:   24px;
     font-weight: 900;
@@ -131,20 +132,137 @@
 
 #bgc-1 {
     background-color: #3497db;
+    background: url("../img/works/cover-project/thauvin-work-page.jpg") no-repeat center;
+    background-size: cover;
 }
 
 #bgc-2 {
     background-color: #212121;
+    background: url("../img/works/cover-project/marie-work-page.jpg") no-repeat center;
+    background-size: cover;
 }
 
 #bgc-3 {
     background-color: #f1c40f;
+    background: url("../img/works/cover-project/dgSport-work-page.jpg") no-repeat center;
+    background-size: cover;
 }
 
 #bgc-4 {
     background-color: #ff93f8;
+    background: url("../img/works/cover-project/coiffeuse-work-page.jpg") no-repeat center;
+    background-size: cover;
 }
 
 #bgc-5 {
     background-color: #174d1b;
+    background: url("../img/works/cover-project/avocat-work-page.jpg") no-repeat center;
+    background-size: cover;
+}
+
+
+
+@media screen and (max-width: 1280px) {
+    .center {
+        max-width: 980px;
+    }
+
+    .container {
+        max-width: 1000px;
+    }
+
+    .project {
+        height: 410px;
+    }
+
+    .project img {
+        top: -40px;
+    }
+
+    .retour {
+        top: 40px;
+        left: 50px;
+    }
+
+    .project div.titre-work h1 {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .center {
+        max-width: 740px;
+    }
+
+    .container {
+        max-width: 760px;
+    }
+
+    .project {
+        height: 298px;
+    }
+
+    .project img {
+        top: -30px;
+    }
+
+    .retour {
+        top: 40px;
+        left: 50px;
+    }
+
+    .project div.titre-work {
+        top: 20px;
+        left: 24px;
+    }
+
+    .project div.sous-titre-work {
+        bottom: 24px;
+        left: 27px;
+    }
+
+    .project div.titre-work h1 {
+        font-size: 17px;
+        letter-spacing: 0;
+    }
+
+    .project h2 {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .en-tete {
+        margin-top: 0;
+    }
+
+    .project {
+        height: 600px;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .project h2 {
+        font-size: 18px;
+    }
+
+    .project img {
+        top: -120px;
+    }
+
+    .project div.titre-work {
+        top: 30px;
+        left: 34px;
+    }
+
+    .project div.titre-work h1 {
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
 }
