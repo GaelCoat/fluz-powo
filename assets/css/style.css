@@ -342,9 +342,9 @@ section.us div.info-us {
     font-family: "Old standard TT", serif;
     color: rgb(160, 160, 160);
     vertical-align: top;
-    line-height: 40px;
+    line-height: 36px;
     text-align: left;
-    margin-top: 300px;
+    margin-top: 240px;
 }
 
 section.us div.info-us2 {
@@ -492,8 +492,8 @@ h1.work-title:before {
 
 p.description-work {
     font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
-    width: 600px;
-    font-size: 23px;
+    width: 700px;
+    font-size: 24px;
     letter-spacing: 1px;
     color: #323232;
     margin: auto;
