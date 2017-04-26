@@ -1111,8 +1111,9 @@ span.mail:before {
 @media screen and (max-width: 530px) {
     p.description-work {
         width: 90%;
-        font-size: 20px;
-        letter-spacing: 0px;
+        font-size: 17px;
+        letter-spacing: 0;
+        line-height: 25px;
     }
 }
 @media screen and (max-width: 480px) {
