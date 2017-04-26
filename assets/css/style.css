@@ -1093,6 +1093,14 @@ span.mail:before {
     section.us h1:before, h1.work-title:before, section#missions h1:before, section#contact h1:before {
         font-size: 110px;
     }
+
+    section.us h1, h1.work-title, section#missions h1, section#contact h1 {
+        top: 100px;
+    }
+
+    section.us div.info-us, .presentation-work {
+        margin-top: 180px;
+    }
 }
 
 @media screen and (max-width: 720px) {
