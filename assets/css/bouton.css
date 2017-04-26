@@ -63,4 +63,8 @@
     .btn:after {
         line-height: 56px;
     }
+
+    .btn:before {
+        display: none;
+    }
 }
