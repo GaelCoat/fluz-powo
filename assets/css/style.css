@@ -7,28 +7,28 @@ div#scene svg.square rect {
     stroke: #ff383c;
 
     -webkit-animation: spin 4s linear infinite;
-    animation: spin 4s linear infinite;
+    animation:         spin 4s linear infinite;
 }
 
 div#scene svg.square rect.anim-inv {
     stroke: #ffea26;
 
     -webkit-animation: spin-inv 6s linear infinite;
-    animation: spin-inv 6s linear infinite;
+    animation:         spin-inv 6s linear infinite;
 }
 
 div#scene svg.circle circle {
     stroke: #a12fff;
 
     -webkit-animation: spin 8s linear infinite;
-    animation: spin 8s linear infinite;
+    animation:         spin 8s linear infinite;
 }
 
 div#scene svg.circle circle.anim-cl {
     stroke: #35ff51;
 
     -webkit-animation: bounce-scale 1.5s ease-in-out infinite;
-    animation: bounce-scale 1.5s ease-in-out infinite;
+    animation:         bounce-scale 1.5s ease-in-out infinite;
 }
 
 div#scene svg.circle circle.anim-cl-1 {
@@ -37,7 +37,7 @@ div#scene svg.circle circle.anim-cl-1 {
     stroke: #70faff;
 
     -webkit-animation: bounce-scale 3.5s ease-in-out infinite;
-    animation: bounce-scale 3.5s ease-in-out infinite;
+    animation:         bounce-scale 3.5s ease-in-out infinite;
 }
 
 @-webkit-keyframes spin {
@@ -49,7 +49,7 @@ div#scene svg.circle circle.anim-cl-1 {
 @keyframes spin {
     100% {
         -webkit-transform: rotate(360deg);
-        transform: rotate(360deg);
+        transform:         rotate(360deg);
     }
 }
 
@@ -62,88 +62,74 @@ div#scene svg.circle circle.anim-cl-1 {
 @keyframes spin-inv {
     100% {
         -webkit-transform: rotate(-360deg);
-        transform: rotate(-360deg);
+        transform:         rotate(-360deg);
     }
 }
 
 @-webkit-keyframes bounce-scale {
     0%, 20%, 50%, 80%, 100% {
         -webkit-transform: scale(0);
-        transform: scale(0);
+        transform:         scale(0);
     }
     40% {
         -webkit-transform: scale(0.5);
-        transform: scale(0.5);
+        transform:         scale(0.5);
     }
     60% {
         -webkit-transform: scale(-0.5);
-        transform: scale(-0.5);
+        transform:         scale(-0.5);
     }
 }
 
 @keyframes bounce-scale {
     0%, 20%, 50%, 80%, 100% {
         -webkit-transform: scale(0);
-        transform: scale(0);
+        transform:         scale(0);
     }
     40% {
         -webkit-transform: scale(0.5);
-        transform: scale(0.5);
+        transform:         scale(0.5);
     }
     60% {
         -webkit-transform: scale(-0.5);
-        transform: scale(-0.5);
+        transform:         scale(-0.5);
     }
 }
 
 div#scene svg:nth-child(1) {top: 20%; left: 70%;}
-
 div#scene svg:nth-child(2) {top: 10%; left: 45%;}
-
 div#scene svg:nth-child(3) {top: 50%; left: 15%;}
-
 div#scene svg:nth-child(4) {top: 30%; left: 95%;}
-
 div#scene svg:nth-child(5) {top: 90%; left: 55%;}
-
 div#scene svg:nth-child(6) {top: 80%; left: 35%;}
-
 div#scene svg:nth-child(7) {top: 100%; left: 2%;}
-
 div#scene svg:nth-child(8) {top: 9%; left: 85%;}
-
 div#scene svg:nth-child(9) {top: 80%; left: 64%;}
-
 div#scene svg:nth-child(10) {top: 50%; left: 38%;}
-
 div#scene svg:nth-child(11) {top: 90%; left: 15%;}
-
 div#scene svg:nth-child(13) {top: 56%; left: 2%;}
-
 div#scene svg:nth-child(14) {top: 28%; left: 99%;}
-
 div#scene svg:nth-child(15) {top: 35%; left: 11%;}
-
 div#scene svg:nth-child(16) {top: 23%; left: 2%;}
-
 div#scene svg:nth-child(17) {top: 28%; left: 34%;}
-
 div#scene svg:nth-child(18) {top: 2%; left: 0;}
-
 div#scene svg:nth-child(19) {top: 75%; left: 25%;}
-/************ Fin propriétés icones parallax ************/
 
 
 
-/************ Scene full screen ************/
+
+/*---------------------------------------------------
+*
+*
+*                     $Page d'accueil
+*
+*
+---------------------------------------------------*/
 div#scene {
     overflow: hidden;
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
+    width:  100%;
     height: 100%;
-    z-index: -1;
 
     background: -webkit-linear-gradient(230deg, rgb(4, 112, 245), #ff7979, rgb(255, 0, 0));
 
@@ -151,45 +137,39 @@ div#scene {
     background-size: 400% 20000%;
 
     -webkit-animation: AnimationName 24s ease infinite;
-    animation: AnimationName 24s ease infinite;
+    animation:         AnimationName 24s ease infinite;
 }
 
-.center {
+div.accueil {
+    position: relative;
+}
+
+div.content-accueil {
     height: 100%;
-    vertical-align: middle;
-    display: inline-block;
-}
-
-div.full-screen {
-    padding-left: 4%;
-    padding-right: 10%;
-    font-size: 0;
+    margin: auto;
+    position: relative;
 }
 
 div.presentation-left, div.menu-right {
-    vertical-align: middle;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
     display: inline-block;
 }
 
-div.presentation-left {
-    width: 70%;
-    text-align: left;
-}
-
-
 
 /*************** Navigation right ***************/
-div.menu-right {width: 30%;}
-
 div.menu-right {
-    padding-left: 16%;
     font-size: 20px;
+    right: 0;
 }
 
-div.menu-right li:first-child {display: inline-block;}
+div.menu-right li:first-child {
+    display: inline-block;
+}
 
 div.menu-right div.logo img {
-    width: 100px;
+    width:  100px;
     height: 100px;
 }
 
@@ -200,79 +180,74 @@ div.menu-right nav ul {
 
 div.menu-right nav ul li a {
     color: #fff;
-    text-decoration: none;
     letter-spacing: 0.05em;
     position: relative;
 }
 
 div.menu-right nav ul li:nth-child(n+2) a {
     position: relative;
-    right: -44px;
+    right:    -44px;
 
     -webkit-transition: all ease 0.43s;
-    transition: all ease 0.43s;
+    transition:         all ease 0.43s;
 }
-
 
 
 
 /************** Hover menu ***************/
 svg.ico-menu {
     height: 40px;
-    width: 40px;
+    width:  40px;
     fill-opacity: 0;
-    top: 9px;
+
     position: relative;
+    top: 9px;
 
     -webkit-transform: scale(0);
-    transform: scale(0);
+    transform:         scale(0);
 
     -webkit-transform-origin: right center;
-    transform-origin: right center;
+    transform-origin:         right center;
 
     -webkit-transition: all ease 0.6s;
-    transition: all ease 0.6s;
+    transition:         all ease 0.6s;
 }
 
 div.menu-right nav ul li:hover svg.ico-menu {
     height: 40px;
-    width: 40px;
+    width:  40px;
     fill-opacity: 1;
 
     -webkit-transform: scale(1);
-    transform: scale(1);
+    transform:         scale(1);
 }
 
-div.menu-right nav ul li:hover:nth-child(n+2) a {right: 0;}
-/*************** Fin navigation right ***************/
+div.menu-right nav ul li:hover:nth-child(n+2) a {
+    right: 0;
+}
+/************** Fin hover menu ***************/
 
 
-
-
-
-
-/*************** Présentation left ***************/
-div.presentation-left {padding-left: 6%;}
 
 div.presentation-left h1 {
-    font-size: 4vw;
+    font-size: 75px;
     color: #fff;
     font-weight: 700;
     letter-spacing: 1px;
     margin-bottom: 45px;
 
     -webkit-transform: translateY(25px);
-    transform: translateY(25px);
+    transform:         translateY(25px);
 
     -webkit-transition: all 1s;
-    transition: all 1s;
+    transition:         all 1s;
 
     -webkit-transition-delay: 0.4s;
-    transition-delay: 0.4s;
+    transition-delay:         0.4s;
 }
 
-div.presentation-left hr.separateur-h1 {
-    width: 20%;
+div.presentation-left hr.sep {
+    width: 250px;
     height: 5px;
     border: none;
     margin: inherit;
@@ -280,47 +255,49 @@ div.presentation-left hr.separateur-h1 {
     background-color: #fff;
 
     -webkit-transform: translateY(25px);
-    transform: translateY(25px);
+    transform:         translateY(25px);
 
     -webkit-transition: all ease 1s;
-    transition: all ease 1s;
+    transition:         all ease 1s;
 
     -webkit-transition-delay: 0.6s;
-    transition-delay: 0.6s;
+    transition-delay:         0.6s;
 }
 
 div.presentation-left h2 {
     font-size: 25px;
-    color: rgba(255, 255, 255, 0.69);
+    color: rgba(255, 255, 255, 0.75);
     margin-top: 40px;
 
     -webkit-transform: translateY(25px);
-    transform: translateY(25px);
+    transform:         translateY(25px);
 
     -webkit-transition: all 1s;
-    transition: all 1s;
+    transition:         all 1s;
 
     -webkit-transition-delay: 0.9s;
-    transition-delay: 0.9s;
+    transition-delay:         0.9s;
 }
-/*************** Fin présentation left ***************/
-
-
-
-/********************* Fin page d'accueil full screen *********************/
 
 
 
 
 
-
-/********************* Section discover us *********************/
+/*---------------------------------------------------
+*
+*
+*                     $Us
+*
+*
+---------------------------------------------------*/
 section.us p {
     margin: 0;
 }
+
 section.us blockquote {
     margin: 0;
 }
+
 section.us {
     position: relative;
     text-align: center;
@@ -328,10 +305,10 @@ section.us {
 
 section.us h1, h1.work-title, section#missions h1, section#contact h1 {
     text-align: center;
-    font-size: 44px;
+    font-size: 50px;
     color: #fff;
     position: relative;
-    top: 170px;
+    top: 150px;
 }
 
 section.us h1:before, h1.work-title:before, section#missions h1:before, section#contact h1:before {
@@ -410,7 +387,6 @@ span.quote:last-child {
 *
 ---------------------------------------------------*/
 .container-work {
-    max-width: 1200px;
     margin:    auto;
     text-align: center;
 }
@@ -426,7 +402,7 @@ h1.work-title:before {
 
 .presentation-work {
     font-size: 0;
-    margin-top: 300px;
+    margin-top: 240px;
     margin-bottom: 100px;
 }
 
@@ -516,7 +492,7 @@ h1.work-title:before {
 
 p.description-work {
     font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
-    width: 510px;
+    width: 600px;
     font-size: 23px;
     letter-spacing: 1px;
     color: #323232;
@@ -525,6 +501,21 @@ p.description-work {
 }
 
 
+@media screen and (min-width: 1600px) {
+    .container-work {
+        max-width: 1450px;
+    }
+
+    .project {
+        height: 600px;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .container-work {
+        max-width: 1200px;
+    }
+}
 
 @media screen and (max-width: 1280px) {
     .container-work {
@@ -649,8 +640,6 @@ section#contact h1:before {content: "04";}
 section#contact {
     overflow: hidden;
     position: relative;
-    padding-left: 7%;
-    padding-right: 7%;
 
     background: -webkit-linear-gradient(215deg, #fb3316, #4346fb);
 
@@ -696,7 +685,7 @@ canvas {
 section#contact div.info-footer {
     font-size: 19px;
     text-align: center;
-    width: 28%;
+    width: 26%;
     font-family: sans-serif;
     line-height: 30px;
     letter-spacing: 1px;
@@ -719,8 +708,8 @@ section#contact div.coordonnee {
 }
 
 section#contact div.coordonnee span {
-    padding-left: 3%;
-    padding-right: 3%;
+    padding-left:  4%;
+    padding-right: 4%;
     color: #fff;
     text-decoration: none;
 }
@@ -747,9 +736,16 @@ span.mail:before {
     left: -16px;
 }
 
-/********************* Fin section Contact *********************/
 
-/********************* Animation page *********************/
+
+
+/*---------------------------------------------------
+*
+*
+*                     $Animation page
+*
+*
+---------------------------------------------------*/
 .module {opacity: 0;}
 
 .come-in {
@@ -758,8 +754,8 @@ span.mail:before {
     opacity: 0;
     -webkit-animation: come-in 1s ease forwards;
     animation: come-in 1s ease forwards;
-    -webkit-animation-delay: 0.4s;
-    animation-delay: 0.4s;
+    -webkit-animation-delay: 0.35s;
+    animation-delay: 0.35s;
 }
 
 .come-in:nth-child(odd) {
@@ -789,99 +785,40 @@ span.mail:before {
 
 
 
-/********************* Responsive page d'accueil *********************/
-@media screen and (max-width: 1440px) {
 
-
-    div#info-missions {
-        top: 37%;
-    }
-
-    article.article-info {
-        padding-right: 25%;
-    }
-
-    section.menu {
-        padding-left: 12%;
+/*---------------------------------------------------
+*
+*
+*                  $Responsive/1600
+*
+*
+---------------------------------------------------*/
+@media screen and (min-width: 1600px) {
+    .content-accueil {
+        max-width: 1450px;
     }
 }
-
-@media screen and (max-width: 1366px) {
-
-    div.menu-right nav ul {
-        line-height: 30px;
+@media screen and (max-width: 1600px) {
+    .content-accueil {
+        max-width: 1200px;
     }
+}
+/*---------------------------------------------------
+*
+*                       1366
+*
+---------------------------------------------------*/
+@media screen and (max-width: 1366px) {
+    div.menu-right nav ul {
+        line-height: 40px;
+    }
+
     div.presentation-left h2 {
         font-size: 23px;
     }
 
-    section#us {
-        padding-left: 10%;
-        padding-right: 10%;
-        margin-bottom: 150px;
-        height: auto;
-    }
-
-    section#us div.info-us {
-        font-size: 21px;
-    }
-
-    section#us blockquote.citation {
-        line-height: 46px;
-        font-size: 32px;
-    }
-
-    div.bloc-work1 div.img-bloc {
-        margin-left: 50px;
-    }
-    div.info {
-        right: 60px;
-        width: 500px;
-        padding: 30px 20px 30px 60px;
-    }
-    div.info p {font-size: 19px;}
-    div.info h3 {
-        font-size: 30px;
-        margin-bottom: 10px;
-    }
-    div.bloc-work4 h3 {
-        font-size: 25px;
-    }
-    div.bloc-work4 p {
-        font-size: 19px;
-    }
-    div.info p.tag {
-        font-size: 15px;
-        margin-top: 15px;
-    }
-    div.img:nth-child(2) img {
-        height: 30%;
-    }
-
-    section.menu {
-        top: 38%;
-    }
-
-    div#info-missions {
-        top: 40%;
-    }
-
-    article.article-info > h2 {
-        margin-top: 125px;
-        margin-bottom: 15px;
-        font-size: 40px;
-    }
-
-    article.article-info p.description-article-missions {
-        font-size: 20px;
-        line-height: 25px;
-    }
-    li.categorie-missions {
+    section.us div.info-us {
         font-size: 23px;
-    }
-    li.categorie-missions:before {
-        font-size: 21px;
-        padding-right: 17px;
     }
 
     section#contact div.info-footer {
@@ -889,8 +826,16 @@ span.mail:before {
         width: 37%;
     }
 }
-
+/*---------------------------------------------------
+*
+*                       1280
+*
+---------------------------------------------------*/
 @media screen and (max-width: 1280px) {
+    .content-accueil {
+        max-width: 1000px;
+    }
+
     div.menu-right {
         padding-left: 14%;
     }
@@ -899,131 +844,79 @@ span.mail:before {
         width: 37%;
     }
 }
-
+/*---------------------------------------------------
+*
+*                       1200
+*
+---------------------------------------------------*/
 @media screen and (max-width: 1200px) {
     div.presentation-left h1 {
-        font-size: 5vw;
-    }
-
-    div.presentation-left h2 {
-        font-size: 26px;
-        line-height: 30px;
-    }
-
-    section#us {
-        padding-left: 7%;
-        padding-right: 7%;
-    }
-
-    section.menu {
-        padding-left: 0;
+        font-size: 65px;
     }
 
     section#contact div.info-footer {
         width: 45%;
     }
-
-    section#contact div.coordonnee span {
-        padding-left: 5%;
-        padding-right: 5%;
-    }
-    div.bloc-work4 {
-        width: 100%;
-    }
 }
-
+/*---------------------------------------------------
+*
+*                       1120
+*
+---------------------------------------------------*/
 @media screen and (max-width: 1120px) {
-    div.menu-right {
-        padding-left: 0;
-    }
-
-    section#us div.info-us {
+     section#us div.info-us {
         width: 400px;
     }
 
-    div.img {
-        text-align: center;
-        width: 100%;
+    p.description-work {
+        font-size: 21px;
     }
 
-
-    div.bloc-work4 div.phrase-work {
-        display: inline-block;
-        width: 480px;
+    section.us blockquote.citation {
+        font-size: 32px;
+        line-height: 44px;
     }
 
-    div.bloc-work4 h3 {
-        text-align: center;
+    span.quote {
+        font-size: 80px;
     }
 
-    div.bloc-work4 p {
-        text-align: center;
+    span.quote:first-child {
+        top:  -8px;
+        left: 43px;
     }
 
-    div.bloc-work4 a {
-        display: block;
-        position: relative;
-        top: -100px;
+    span.quote:last-child {
+        bottom: -60px;
     }
 
-    section.missions {
-        margin-top: 100px;
-    }
-
-    section#contact div.info-footer {
-        width: 57%;
+    section.us div.info-us {
+        padding-left: 15px;
+        padding-right: 15px;
+        line-height: 33px;
+        font-size: 22px;
     }
 }
-
+/*---------------------------------------------------
+*
+*                       1024
+*
+---------------------------------------------------*/
 @media screen and (max-width: 1024px) {
-
-    section.menu {
-        display: none;
+    .content-accueil {
+        max-width: 760px;
     }
 
-    div.bloc-work div.img-bloc, div.bloc-work2 div.img-bloc {
-        width: 490px;
-    }
-    div#info-missions {
-        display: none;
-    }
-
-    div.missions-small {
-        display: inline-block;
-    }
-
-    .bgc-dark {
-        padding-left: 15%;
-        padding-right: 15%;
-        text-align: center;
-    }
-
-    div.anim {
-        position: static;
-        display: block;
-        margin-top: 40px;
-        text-align: left;
-    }
-
-    div.missions-small {
-        padding-top: 50px;
-    }
-
-    div.missions-small div.anim img {
-        width: 70px;
-        height: auto;
-        margin-right: 35px;
-        vertical-align: middle;
-    }
-
-    div.missions-small div.anim h2 {
-        font-size: 30px;
-        color: #fff;
-        display: inline-block;
-        vertical-align: middle;
+    div.presentation-left h1 {
+        font-size: 50px;
+        margin-bottom: 25px;
     }
 }
-
+/*---------------------------------------------------
+*
+*                       960
+*
+---------------------------------------------------*/
 @media screen and (max-width: 960px) {
 
     div.presentation-left h2 {
@@ -1061,9 +954,6 @@ span.mail:before {
 
     section#us div.info-us {
         width: 410px;
-    }
-    div.bloc-work div.img-bloc, div.bloc-work2 div.img-bloc {
-        width: 50%;
     }
 
     div.info {
@@ -1114,9 +1004,7 @@ span.mail:before {
     div.bloc-work, div.bloc-work2 {
         width: 100%;
     }
-    div.bloc-work div.img-bloc, div.bloc-work2 div.img-bloc {
-        width: 100%;
-    }
+
     div.bloc-work, div.bloc-work2 {
         height: auto;
     }
