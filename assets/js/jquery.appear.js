@@ -52,29 +52,6 @@ win.scroll(function (event) {
             el.removeClass("come-in");
         }
     });
-
-});
-
-
-var allMod = $(".module-side");
-
-allMod.each(function (i, al) {
-    var al = $(al);
-    if (al.visible(true)) {
-        al.addClass("already-visible");
-    }
-});
-
-win.scroll(function (event) {
-
-    allMod.each(function (i, al) {
-        var al = $(al);
-        if (al.visible(true)) {
-            al.removeClass("module");
-            al.addClass("come-side");
-        }
-    });
-
 });
 
 
@@ -96,5 +73,4 @@ win.scroll(function (event) {
             ol.addClass("come-in");
         }
     });
-
 });

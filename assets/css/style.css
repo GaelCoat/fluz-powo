@@ -1,157 +1,3 @@
-/********************* Règles générales *********************/
-*::selection {
-    color: #fff;
-    background-color: #ffb17c;
-}
-* {
-    box-sizing: border-box;
-    text-rendering: optimizeLegibility;
-
-    user-select: none;
-    -moz-user-select: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
-}
-
-html{
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
-    -webkit-overflow-scrolling: touch;
-    height: 100%;
-    width: 100%;
-}
-
-body {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    font-family: 'Roboto', sans-serif;
-    overflow-x: hidden;
-    max-width: 1980px;
-    height: 100%;
-    width: 100%;
-}
-
-h1, h2, h3, h4, h5, h6, p, span, a {
-    user-select: text;
-    -moz-user-select: text;
-    -webkit-user-select: text;
-    -ms-user-select: text;
-}
-/********************* Fin règles générales *********************/
-
-
-
-
-
-/********************* Loader *********************/
-#chargement {
-    width: 100%;
-    height: 100%;
-    line-height: 50;
-    text-align: center;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    font-family: helvetica, arial, sans-serif;
-    text-transform: uppercase;
-    font-weight: 900;
-    color: #ce4233;
-    letter-spacing: 0.2em;
-    z-index: 1000;
-    background-color: #fff;
-}
-
-/*#chargement::before, #chargement::after {*/
-    /*content: "";*/
-    /*display: block;*/
-    /*width: 15px;*/
-    /*height: 15px;*/
-    /*background: #ce4233;*/
-    /*position: absolute;*/
-    /*-webkit-animation: load .7s infinite alternate ease-in-out;*/
-    /*animation: load .7s infinite alternate ease-in-out;*/
-/*}*/
-
-/*#chargement::before {top: 0;}*/
-
-/*#chargement::after {bottom: 0;}*/
-
-@-webkit-keyframes load {
-    0% {
-        left: 0;
-        height: 30px;
-        width: 15px;
-    }
-    50% {
-        height: 8px;
-        width: 40px;
-    }
-    100% {
-        left: 235px;
-        height: 30px;
-        width: 15px;
-    }
-}
-
-@keyframes load {
-    0% {
-        left: 0;
-        height: 30px;
-        width: 15px;
-    }
-    50% {
-        height: 8px;
-        width: 40px;
-    }
-    100% {
-        left: 235px;
-        height: 30px;
-        width: 15px;
-    }
-}
-
-#container {visibility: hidden;}
-
-
-#particle-canvas {
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-}
-
-.left {
-    float: left;
-}
-.right {
-    float: right;
-}
-.left:after {
-    clear: both;
-}
-.right:after {
-    clear: both;
-}
-a {
-    text-decoration: none;
-    color: inherit;
-}
-/********************* Fin loader *********************/
-
-
-
-
-
-
-
-
-/********************* Page d'accueil full screen *********************/
-
-
-
-
-/************ Propriétés icones parallax ************/
 div#scene svg {
     position: absolute;
     overflow: visible !important;
@@ -161,7 +7,6 @@ div#scene svg.square rect {
     stroke: #ff383c;
 
     -webkit-animation: spin 4s linear infinite;
-    -moz-animation: spin 4s linear infinite;
     animation: spin 4s linear infinite;
 }
 
@@ -169,7 +14,6 @@ div#scene svg.square rect.anim-inv {
     stroke: #ffea26;
 
     -webkit-animation: spin-inv 6s linear infinite;
-    -moz-animation: spin-inv 6s linear infinite;
     animation: spin-inv 6s linear infinite;
 }
 
@@ -177,7 +21,6 @@ div#scene svg.circle circle {
     stroke: #a12fff;
 
     -webkit-animation: spin 8s linear infinite;
-    -moz-animation: spin 8s linear infinite;
     animation: spin 8s linear infinite;
 }
 
@@ -185,7 +28,6 @@ div#scene svg.circle circle.anim-cl {
     stroke: #35ff51;
 
     -webkit-animation: bounce-scale 1.5s ease-in-out infinite;
-    -moz-animation: bounce-scale 1.5s ease-in-out infinite;
     animation: bounce-scale 1.5s ease-in-out infinite;
 }
 
@@ -195,14 +37,7 @@ div#scene svg.circle circle.anim-cl-1 {
     stroke: #70faff;
 
     -webkit-animation: bounce-scale 3.5s ease-in-out infinite;
-    -moz-animation: bounce-scale 3.5s ease-in-out infinite;
     animation: bounce-scale 3.5s ease-in-out infinite;
-}
-
-@-moz-keyframes spin {
-    100% {
-        -moz-transform: rotate(360deg);
-    }
 }
 
 @-webkit-keyframes spin {
@@ -218,12 +53,6 @@ div#scene svg.circle circle.anim-cl-1 {
     }
 }
 
-@-moz-keyframes spin-inv {
-    100% {
-        -moz-transform: rotate(-360deg);
-    }
-}
-
 @-webkit-keyframes spin-inv {
     100% {
         -webkit-transform: rotate(-360deg);
@@ -234,21 +63,6 @@ div#scene svg.circle circle.anim-cl-1 {
     100% {
         -webkit-transform: rotate(-360deg);
         transform: rotate(-360deg);
-    }
-}
-
-@-moz-keyframes bounce-scale {
-    0%, 20%, 50%, 80%, 100% {
-        -moz-transform: scale(0);
-        transform: scale(0);
-    }
-    40% {
-        -moz-transform: scale(0.5);
-        transform: scale(0.5);
-    }
-    60% {
-        -moz-transform: scale(-0.5);
-        transform: scale(-0.5);
     }
 }
 
@@ -269,20 +83,14 @@ div#scene svg.circle circle.anim-cl-1 {
 
 @keyframes bounce-scale {
     0%, 20%, 50%, 80%, 100% {
-        -moz-transform: scale(0);
-        -ms-transform: scale(0);
         -webkit-transform: scale(0);
         transform: scale(0);
     }
     40% {
-        -moz-transform: scale(0.5);
-        -ms-transform: scale(0.5);
         -webkit-transform: scale(0.5);
         transform: scale(0.5);
     }
     60% {
-        -moz-transform: scale(-0.5);
-        -ms-transform: scale(-0.5);
         -webkit-transform: scale(-0.5);
         transform: scale(-0.5);
     }
@@ -337,12 +145,12 @@ div#scene {
     height: 100%;
     z-index: -1;
 
+    background: -webkit-linear-gradient(230deg, rgb(4, 112, 245), #ff7979, rgb(255, 0, 0));
+
     background: linear-gradient(-140deg, rgb(4, 112, 245), #ff7979, rgb(255, 0, 0));
     background-size: 400% 20000%;
 
     -webkit-animation: AnimationName 24s ease infinite;
-    -moz-animation: AnimationName 24s ease infinite;
-    -o-animation: AnimationName 24s ease infinite;
     animation: AnimationName 24s ease infinite;
 }
 
@@ -402,8 +210,6 @@ div.menu-right nav ul li:nth-child(n+2) a {
     right: -44px;
 
     -webkit-transition: all ease 0.43s;
-    -moz-transition: all ease 0.43s;
-    -o-transition: all ease 0.43s;
     transition: all ease 0.43s;
 }
 
@@ -419,20 +225,12 @@ svg.ico-menu {
     position: relative;
 
     -webkit-transform: scale(0);
-    -moz-transform: scale(0);
-    -ms-transform: scale(0);
-    -o-transform: scale(0);
     transform: scale(0);
 
     -webkit-transform-origin: right center;
-    -moz-transform-origin: right center;
-    -ms-transform-origin: right center;
-    -o-transform-origin: right center;
     transform-origin: right center;
 
     -webkit-transition: all ease 0.6s;
-    -moz-transition: all ease 0.6s;
-    -o-transition: all ease 0.6s;
     transition: all ease 0.6s;
 }
 
@@ -442,9 +240,6 @@ div.menu-right nav ul li:hover svg.ico-menu {
     fill-opacity: 1;
 
     -webkit-transform: scale(1);
-    -moz-transform: scale(1);
-    -ms-transform: scale(1);
-    -o-transform: scale(1);
     transform: scale(1);
 }
 
@@ -465,22 +260,14 @@ div.presentation-left h1 {
     font-weight: 700;
     letter-spacing: 1px;
     margin-bottom: 45px;
-    opacity: 0;
 
     -webkit-transform: translateY(25px);
-    -moz-transform: translateY(25px);
-    -ms-transform: translateY(25px);
-    -o-transform: translateY(25px);
     transform: translateY(25px);
 
     -webkit-transition: all 1s;
-    -moz-transition: all 1s;
-    -o-transition: all 1s;
     transition: all 1s;
 
     -webkit-transition-delay: 0.4s;
-    -moz-transition-delay: 0.4s;
-    -o-transition-delay: 0.4s;
     transition-delay: 0.4s;
 }
 
@@ -489,27 +276,17 @@ div.presentation-left hr.separateur-h1 {
     height: 5px;
     border: none;
     margin: inherit;
-    opacity: 0;
     display: inline-block;
+    background-color: #fff;
 
     -webkit-transform: translateY(25px);
-    -moz-transform: translateY(25px);
-    -ms-transform: translateY(25px);
-    -o-transform: translateY(25px);
     transform: translateY(25px);
 
     -webkit-transition: all ease 1s;
-    -moz-transition: all ease 1s;
-    -o-transition: all ease 1s;
     transition: all ease 1s;
 
     -webkit-transition-delay: 0.6s;
-    -moz-transition-delay: 0.6s;
-    -o-transition-delay: 0.6s;
     transition-delay: 0.6s;
-
-    -webkit-animation: Gradient 8s infinite alternate;
-    animation: Gradient 8s infinite alternate;
 }
 
 div.presentation-left h2 {
@@ -517,22 +294,13 @@ div.presentation-left h2 {
     color: rgba(255, 255, 255, 0.69);
     margin-top: 40px;
 
-    opacity: 0;
-
     -webkit-transform: translateY(25px);
-    -moz-transform: translateY(25px);
-    -ms-transform: translateY(25px);
-    -o-transform: translateY(25px);
     transform: translateY(25px);
 
     -webkit-transition: all 1s;
-    -moz-transition: all 1s;
-    -o-transition: all 1s;
     transition: all 1s;
 
     -webkit-transition-delay: 0.9s;
-    -moz-transition-delay: 0.9s;
-    -o-transition-delay: 0.9s;
     transition-delay: 0.9s;
 }
 /*************** Fin présentation left ***************/
@@ -547,67 +315,50 @@ div.presentation-left h2 {
 
 
 /********************* Section discover us *********************/
-section#us {
+section.us p {
+    margin: 0;
+}
+section.us blockquote {
+    margin: 0;
+}
+section.us {
     position: relative;
-    font-size: 0;
-    padding-left: 15%;
-    padding-right: 15%;
-    padding-bottom: 100px;
     text-align: center;
-    background-color: #fff;
 }
 
-section#us h1, section#works h1, section#missions h1, section#contact h1 {
+section.us h1, h1.work-title, section#missions h1, section#contact h1 {
+    text-align: center;
     font-size: 44px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    text-align: center;
-    padding-top: 180px;
     color: #fff;
+    position: relative;
+    top: 170px;
 }
 
-section#us h1:before, section#works h1:before, section#missions h1:before, section#contact h1:before {
+section.us h1:before, h1.work-title:before, section#missions h1:before, section#contact h1:before {
     position: absolute;
     left: 0;
     right: 0;
     font-family: 'Arapey', serif;
     font-size: 160px;
-    top: 120px;
+    top: -32px;
+    line-height: 110px;
     color: rgba(255, 255, 255, 0.46);
 }
 
-section#us h1:before {
+section.us h1:before {
     content: '01';
     color: rgba(0, 0, 0, 0.08);
     z-index: 0;
 }
 
-section#works h1:before {
-    content: "02";
-    color: rgba(0, 0, 0, 0.08);
-}
 
-section#missions h1:before {content: "03";}
-
-section#contact h1:before {content: "04";}
-
-section#us h1 {
+section.us h1 {
     color: #2d2d2d;
-    margin-bottom: 10%;
 }
 
-section#works h1 {color: #2d2d2d;}
-
-.center-meet {
-    height: 70%;
-    vertical-align: top;
-    display: inline-block;
-}
-
-section#us div.info-us {
+section.us div.info-us {
     width: 420px;
     display: inline-block;
-    height: auto;
     padding-left: 25px;
     padding-right: 25px;
     font-size: 25px;
@@ -616,18 +367,16 @@ section#us div.info-us {
     vertical-align: top;
     line-height: 40px;
     text-align: left;
+    margin-top: 300px;
 }
 
-section#us div.info-us2 {
+section.us div.info-us2 {
     padding-top: 10px;
 }
 
-section#us blockquote.citation {
-    line-height: 50px;
+section.us blockquote.citation {
     text-align: right;
-    font-style: italic;
-    font-size: 36px;
-    font-family: 'Playfair Display', serif;
+    font: 700 36px/50px 'Playfair Display', serif;
     color: rgba(0, 0, 0, 0.74);
 }
 
@@ -641,10 +390,11 @@ span.quote:first-child {
     left: 24px;
 }
 
-span.quote:nth-child(2) {
+span.quote:last-child {
     bottom: -69px;
     right: 8px;
 }
+
 
 
 
@@ -662,23 +412,22 @@ span.quote:nth-child(2) {
 .container-work {
     max-width: 1200px;
     margin:    auto;
+    text-align: center;
 }
 
-.work-title {
-    position:  absolute;
-    top:       50%;
-    left:      50%;
-    transform: translate(-50%, -50%);
+h1.work-title {
+    color: #2d2d2d;
 }
 
-.work-title h1{
-    color: #fff;
-    font-size: 38px;
+h1.work-title:before {
+    content: "02";
+    color: rgba(0, 0, 0, 0.08);
 }
-
 
 .presentation-work {
     font-size: 0;
+    margin-top: 300px;
+    margin-bottom: 100px;
 }
 
 .project {
@@ -690,11 +439,8 @@ span.quote:nth-child(2) {
     height:  550px;
 
     padding: 0 10px;
-    margin-bottom: 50px;
 
     -webkit-transition: top ease 0.4s;
-    -moz-transition:    top ease 0.4s;
-    -o-transition:      top ease 0.4s;
     transition:         top ease 0.4s;
 }
 
@@ -703,8 +449,6 @@ span.quote:nth-child(2) {
 }
 
 .project:hover .wrap-child {
-    -webkit-box-shadow: 0 20px 30px 0 rgba(0,0,0,.15);
-    -moz-box-shadow:    0 20px 30px 0 rgba(0,0,0,.15);
     box-shadow:         0 20px 30px 0 rgba(0,0,0,.15);
 }
 
@@ -714,8 +458,6 @@ span.quote:nth-child(2) {
     overflow: hidden;
 
     -webkit-transition: all ease 0.3s;
-    -moz-transition:    all ease 0.3s;
-    -o-transition:      all ease 0.3s;
     transition:         all ease 0.3s;
 }
 
@@ -772,10 +514,20 @@ span.quote:nth-child(2) {
     background-size: cover;
 }
 
+p.description-work {
+    font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+    width: 510px;
+    font-size: 23px;
+    letter-spacing: 1px;
+    color: #323232;
+    margin: auto;
+    text-align: center;
+}
+
 
 
 @media screen and (max-width: 1280px) {
-     .container-work {
+    .container-work {
         max-width: 1000px;
     }
 
@@ -828,8 +580,8 @@ span.quote:nth-child(2) {
 @media screen and (max-width: 768px) {
     .container-work {
         max-width: 100%;
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     .project {
@@ -855,6 +607,10 @@ span.quote:nth-child(2) {
         font-size: 20px;
         letter-spacing: 1px;
     }
+
+    .presentation-work {
+        margin-bottom: 55px;
+    }
 }
 
 
@@ -868,6 +624,7 @@ span.quote:nth-child(2) {
 
 
 
+
 /*---------------------------------------------------
 *
 *
@@ -875,162 +632,36 @@ span.quote:nth-child(2) {
 *
 *
 ---------------------------------------------------*/
-section.missions {
-    overflow: hidden;
-    position: relative;
-    font-size: 0;
-
-    background: #1f1f1f;
-    background: url("../img/coffee.gif") no-repeat center;
-    background-size: cover;
-}
-
-.bgc-dark {
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.71);
-    padding-left: 5%;
-    padding-right: 5%;
-}
-
-div#info-missions {
-    position: absolute;
-    width: 50%;
-    top: 40%;
-    right: -75px;
-    display: inline-block;
-}
-
-article.article-info {
-    position: absolute;
-    visibility: hidden;
-    color: #fff;
-    opacity: 0;
-    padding-right: 50%;
-
-    -webkit-transition: all ease 0.5s;
-    -moz-transition: all ease 0.5s;
-    -o-transition: all ease 0.5s;
-    transition: all ease 0.5s;
-}
-
-article.article-info.missions-active {
-    visibility: visible;
-    opacity: 1;
-}
-
-article.article-info > h2 {
-    margin-top: 160px;
-    margin-bottom: 16px;
-    font-size: 40px;
-    font-weight: 700;
-    color: #fff;
-}
-
-article.article-info p.description-article-missions {
-    font-size: 18px;
-    font-family: "Old standard TT", serif;
-    line-height: 29px;
-    color: rgba(255, 255, 255, 0.85);
-}
-
-div.anim {
-    display: inline-block;
-    position: absolute;
-}
-div.anim img {
-    width: 110px;
-}
-div.missions-small {
-    display: none;
-}
+section#missions h1:before {content: "03";}
 
 
-section.menu {
-    padding-left: 27%;
-    display: inline-block;
-    width: 50%;
-    position: absolute;
-    top: 42%;
-    visibility: visible;
-    line-height: 40px;
-}
-
-ol.liste-categorie-missions {
-    counter-reset: item;
-}
-
-li.categorie-missions:before {
-    counter-increment: item 1;
-    position: relative;
-    font-size: 22px;
-    padding-right: 20px;
-    font-style: italic;
-}
-
-li.categorie-missions {
-    position: relative;
-    left: -90%;
-    list-style: none;
-    padding: 5px 0 5px 110%;
-    cursor: default;
-    text-decoration: none;
-    font-size: 18px;
-    font-family: "Old standard TT", serif;
-    color: rgba(255, 255, 255, 0.7);
-    width: 1100px;
-}
-
-li.categorie-missions:hover, li.categorie-missions.active, li.categorie-missions.active:before {color: #fff;}
-
-li.categorie-missions:nth-child(-n+10)::before {content: "0" counter(item);}
 
 
-/********************* Fin section Missions *********************/
-.vh {
-    height: 100vh;
-}
-/********************* Section Contact *********************/
+/*---------------------------------------------------
+*
+*
+*                     $Contact
+*
+*
+---------------------------------------------------*/
+section#contact h1:before {content: "04";}
+
 section#contact {
     overflow: hidden;
     position: relative;
     padding-left: 7%;
     padding-right: 7%;
 
+    background: -webkit-linear-gradient(215deg, #fb3316, #4346fb);
+
     background: linear-gradient(235deg, #fb3316, #4346fb);
     background-size: 10000% 960%;
 
     -webkit-animation: AnimationName 24s ease infinite;
-    -moz-animation: AnimationName 24s ease infinite;
-    -o-animation: AnimationName 24s ease infinite;
     animation: AnimationName 24s ease infinite;
 }
 
 @-webkit-keyframes AnimationName {
-    0% {
-        background-position: 0 82%
-    }
-    50% {
-        background-position: 100% 19%
-    }
-    100% {
-        background-position: 0 82%
-    }
-}
-
-@-moz-keyframes AnimationName {
-    0% {
-        background-position: 0 82%
-    }
-    50% {
-        background-position: 100% 19%
-    }
-    100% {
-        background-position: 0 82%
-    }
-}
-
-@-o-keyframes AnimationName {
     0% {
         background-position: 0 82%
     }
@@ -1056,10 +687,10 @@ section#contact {
 
 canvas {
     padding: 0;
-    margin: 0;
-    border: 0 solid black;
+    margin:  0;
+    border:  0 solid black;
     position: absolute;
-    bottom: 0;
+    bottom:   0;
 }
 
 section#contact div.info-footer {
@@ -1073,6 +704,7 @@ section#contact div.info-footer {
     position: absolute;
     top: 42%;
     left: 50%;
+    -webkit-transform: translate(-50%, -49%);
     transform: translate(-50%, -49%);
 }
 
@@ -1121,48 +753,41 @@ span.mail:before {
 .module {opacity: 0;}
 
 .come-in {
+    -webkit-transform: translateY(50px);
     transform: translateY(50px);
     opacity: 0;
+    -webkit-animation: come-in 1s ease forwards;
     animation: come-in 1s ease forwards;
-    -webkit-animation-delay: 0.35s;
-    -moz-animation-delay: 0.35s;
-    -o-animation-delay: 0.35s;
-    animation-delay: 0.35s;
+    -webkit-animation-delay: 0.4s;
+    animation-delay: 0.4s;
 }
 
 .come-in:nth-child(odd) {
+    -webkit-animation-duration: 0.6s;
     animation-duration: 0.6s; /* So they look staggered */
 }
 
-@keyframes come-in {
+@-webkit-keyframes come-in {
     to {
+        -webkit-transform: translateY(0);
         transform: translateY(0);
         opacity: 1;
     }
 }
 
-.come-side {
-    transform: translateX(500px);
-    opacity: 0;
-    animation: come-in 1s ease forwards;
-}
-
-.come-side:nth-child(odd) {
-    animation-duration: 0.8s; /* So they look staggered */
-}
-
-div.bloc-work2.come-side {
-    transform: translateX(-500px);
-}
-
-@keyframes come-side {
+@keyframes come-in {
     to {
-        transform: translateX(0);
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
         opacity: 1;
     }
 }
 
-/********************* Fin animation page *********************/
+.vh {
+    height: 100vh;
+}
+
+
 
 /********************* Responsive page d'accueil *********************/
 @media screen and (max-width: 1440px) {
@@ -1189,14 +814,7 @@ div.bloc-work2.come-side {
     div.presentation-left h2 {
         font-size: 23px;
     }
-    section#us h1, section#works h1, section#missions h1, section#contact h1 {
-        font-size: 75px;
-        padding-top: 100px;
-    }
-    section#us h1:before, section#works h1:before, section#missions h1:before, section#contact h1:before {
-        font-size: 160px;
-        top: 55px;
-    }
+
     section#us {
         padding-left: 10%;
         padding-right: 10%;
@@ -1204,9 +822,6 @@ div.bloc-work2.come-side {
         height: auto;
     }
 
-    section#us h1 {
-        margin-bottom: 80px;
-    }
     section#us div.info-us {
         font-size: 21px;
     }
@@ -1216,10 +831,6 @@ div.bloc-work2.come-side {
         font-size: 32px;
     }
 
-    section#works {
-        padding-right: 5%;
-        padding-left: 5%;
-    }
     div.bloc-work1 div.img-bloc {
         margin-left: 50px;
     }
@@ -1247,14 +858,6 @@ div.bloc-work2.come-side {
         height: 30%;
     }
 
-    section#missions h1 {
-        padding-top: 80px;
-    }
-
-    section#missions h1:before {
-        top: 25px;
-    }
-
     section.menu {
         top: 38%;
     }
@@ -1279,13 +882,6 @@ div.bloc-work2.come-side {
     li.categorie-missions:before {
         font-size: 21px;
         padding-right: 17px;
-    }
-    section#contact h1 {
-        padding-top: 110px;
-    }
-
-    section#contact h1:before {
-        top: 55px;
     }
 
     section#contact div.info-footer {
@@ -1317,12 +913,6 @@ div.bloc-work2.come-side {
     section#us {
         padding-left: 7%;
         padding-right: 7%;
-    }
-
-    section#works {
-        padding-left: 0;
-        padding-right: 0;
-        width: 100%;
     }
 
     section.menu {
@@ -1454,6 +1044,7 @@ div.bloc-work2.come-side {
 
     section#us {
         height: 100%;
+        margin-bottom: 0;
     }
 
     section#contact div.info-footer {
@@ -1496,10 +1087,6 @@ div.bloc-work2.come-side {
     section#us blockquote.citation, section#us div.info-us {
         text-align: center;
     }
-
-    section#us h1, section#works h1, section#missions h1, section#contact h1 {
-        font-size: 66px;
-    }
 }
 
 @media screen and (max-width: 720px) {
@@ -1518,6 +1105,14 @@ div.bloc-work2.come-side {
     }
     div.bloc-work, div.bloc-work2 {
         height: auto;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    p.description-work {
+        width: 90%;
+        font-size: 20px;
+        letter-spacing: 0px;
     }
 }
 @media screen and (max-width: 480px) {
@@ -1545,40 +1140,43 @@ div.bloc-work2.come-side {
         right: 0;
         position: absolute;
     }
+
     svg.ico-menu {
         display: none;
     }
+
     div.menu-right nav ul li:nth-child(n+2) a {
         position: inherit;
     }
+
     div.menu-right nav ul {
         line-height: 40px;
     }
+
     div.presentation-left h1 {
         font-size: 7vw;
         margin-bottom: 30px;
     }
+
     section#us blockquote.citation {
         line-height: 45px;
         font-size: 23px;
     }
-    section#us {
-        margin-bottom: 50px;
-    }
+
     span.quote {
         font-size: 70px;
     }
-    section#us h1:before, section#works h1:before, section#missions h1:before {
-        top: 60px;
-    }
+
     span.quote:first-child {
         top: -18px;
         left: -23px;
     }
+
     span.quote:nth-child(2) {
         bottom: -57px;
         right: -7px;
     }
+
     li.categorie-missions {
         visibility: hidden;
     }
@@ -1606,31 +1204,14 @@ div.bloc-work2.come-side {
     div.bloc-work4 p {
         font-size: 18px;
     }
-
-    section#us h1, section#works h1, section#missions h1, section#contact h1 {
-        font-size: 40px;
-    }
-    section#us h1:before, section#works h1:before, section#missions h1:before, section#contact h1:before {
-        font-size: 110px;
-        top: 60px;
-    }
     section#us div.info-us {
         width: 100%;
         padding-left: 10px;
         padding-right: 10px;
     }
-    section#contact h1:before {
-        top: 65px;
-    }
 
-    section#missions h1:before {
-        top: 37px;
-    }
     section#contact div.info-footer {
         width: 80%;
         font-size: 18px;
     }
 }
-
-
-/********************* Fin responsive page d'accueil *********************/
