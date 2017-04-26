@@ -1089,6 +1089,12 @@ span.mail:before {
     }
 }
 
+@media screen and (max-width: 768px) {
+    section.us h1:before, h1.work-title:before, section#missions h1:before, section#contact h1:before {
+        font-size: 110px;
+    }
+}
+
 @media screen and (max-width: 720px) {
     div.info {
         position: inherit;
