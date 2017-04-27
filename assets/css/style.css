@@ -266,6 +266,7 @@ div.presentation-left hr.sep {
 }
 
 div.presentation-left h2 {
+    font-family: "Roboto", sans-serif;
     font-size: 25px;
     color: rgba(255, 255, 255, 0.75);
     margin-top: 40px;
@@ -421,9 +422,9 @@ h1.work-title:before {
 
     display: inline-block;
     width:   33.33333333333333%;
-    height:  550px;
+    height:  530px;
 
-    padding: 0 10px;
+    padding: 0 15px;
 
     -webkit-transition: top ease 0.4s;
     transition:         top ease 0.4s;
@@ -855,7 +856,7 @@ span.mail:before {
 }
 @media screen and (max-width: 1600px) {
     .content-accueil {
-        max-width: 1200px;
+        max-width: 1080px;
     }
 }
 /*---------------------------------------------------
@@ -877,7 +878,7 @@ span.mail:before {
     }
 
     section#contact div.info-footer {
-        top: 48%;
+        top: 50%;
         width: 37%;
     }
 }
