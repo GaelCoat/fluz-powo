@@ -143,7 +143,6 @@ div#scene {
 div.accueil {
     position: relative;
     height: 100vh;
-    overflow-x: hidden;
 }
 
 div.content-accueil {
@@ -311,7 +310,7 @@ section.us {
     margin-bottom: 120px;
 }
 
-section.us h1, h1.work-title, section#missions h1, section#contact h1 {
+section.us h1, h1.work-title, .title-missions, section#contact h1 {
     text-align: center;
     font-size: 46px;
     color: #fff;
@@ -319,7 +318,7 @@ section.us h1, h1.work-title, section#missions h1, section#contact h1 {
     top: 150px;
 }
 
-section.us h1:before, h1.work-title:before, section#missions h1:before, section#contact h1:before {
+section.us h1:before, h1.work-title:before, .title-missions:before, section#contact h1:before {
     position: absolute;
     left: 0;
     right: 0;
@@ -393,7 +392,7 @@ span.quote:last-child {
 *
 ---------------------------------------------------*/
 section#works {
-    background-color: #dedede;
+    background-color: rgba(222, 222, 222, 0.39);
 }
 
 .container-work {
@@ -435,7 +434,7 @@ h1.work-title:before {
 }
 
 .project:hover .wrap-child {
-    box-shadow:         0 20px 30px 0 rgba(0,0,0,.15);
+    box-shadow: 0 20px 30px 0 rgba(0,0,0,.15);
 }
 
 .wrap-child {
@@ -452,13 +451,13 @@ h1.work-title:before {
     height:  100%;
 }
 
-.project div.titre-work {
+div.titre-work {
     position: absolute;
     top:      30px;
     left:     30px;
 }
 
-.project div.sous-titre-work {
+div.sous-titre-work {
     position: absolute;
     bottom:   30px;
     left:     30px;
@@ -470,7 +469,7 @@ h1.work-title:before {
     display: block;
 }
 
-.project div.titre-work h1 {
+div.titre-work h1 {
     color:       #fff;
     font-size:   24px;
     font-weight: 900;
@@ -485,17 +484,17 @@ h1.work-title:before {
     letter-spacing: 1px;
 }
 
-#bgc-1 {
+.bgc-1 {
     background: url("../img/works/cover-project/thauvin-work-page.jpg") no-repeat center;
     background-size: cover;
 }
 
-#bgc-2 {
+.bgc-2 {
     background: url("../img/works/cover-project/marie-work-page.jpg") no-repeat center;
     background-size: cover;
 }
 
-#bgc-3 {
+.bgc-3 {
     background: url("../img/works/cover-project/dgSport-work-page.jpg") no-repeat center;
     background-size: cover;
 }
@@ -541,7 +540,7 @@ p.description-work {
         top: -40px;
     }
 
-    .project div.titre-work h1 {
+    div.titre-work h1 {
         font-size: 22px;
     }
 }
@@ -559,17 +558,17 @@ p.description-work {
         top: -30px;
     }
 
-    .project div.titre-work {
+    div.titre-work {
         top: 20px;
         left: 24px;
     }
 
-    .project div.sous-titre-work {
+    div.sous-titre-work {
         bottom: 24px;
         left: 27px;
     }
 
-    .project div.titre-work h1 {
+    div.titre-work h1 {
         font-size: 17px;
         letter-spacing: 0;
     }
@@ -600,12 +599,12 @@ p.description-work {
         top: -120px;
     }
 
-    .project div.titre-work {
+    div.titre-work {
         top: 30px;
         left: 34px;
     }
 
-    .project div.titre-work h1 {
+    div.titre-work h1 {
         font-size: 20px;
         letter-spacing: 1px;
     }
@@ -634,11 +633,54 @@ p.description-work {
 *
 *
 ---------------------------------------------------*/
-section#missions h1:before {
-    content: "03";
+.title-missions:before {
+    content: '03';
+    color: rgba(0, 0, 0, 0.1);
 }
 
+.title-missions {
+    color: #2d2d2d;
+}
 
+.missions-1 {
+    background: #2d2d2d url("../img/missions/strategie-produit.png") no-repeat center;
+}
+
+.missions-2 {
+    background: #2d2d2d url("../img/missions/identite-visuelle.png") no-repeat center;
+}
+
+.missions-3 {
+    background: #2d2d2d url("../img/missions/ui-ux-design.png") no-repeat center;
+}
+
+.missions-4 {
+    background: #2d2d2d url("../img/missions/dev-web.png") no-repeat center;
+}
+
+.missions-5 {
+    background: #2d2d2d url("../img/missions/dev-mobile.png") no-repeat center;
+}
+
+.missions-6 {
+    background: #2d2d2d url("../img/missions/audit-digital.png") no-repeat center;
+}
+
+section#missions .project:nth-child(-n + 3) {
+    margin-bottom: 50px;
+}
+
+section#missions .project:hover {
+    top: -10px;
+}
+
+section#missions .project:hover .wrap-child {
+    box-shadow: 0 24px 40px 0 rgba(0, 0, 0, .2);
+}
+
+section#missions .presentation-work {
+    margin-bottom: 200px;
+}
 
 
 /*---------------------------------------------------
@@ -955,11 +997,11 @@ span.mail:before {
 *
 ---------------------------------------------------*/
 @media screen and (max-width: 768px) {
-    section.us h1:before, h1.work-title:before, section#missions h1:before, section#contact h1:before {
+    section.us h1:before, h1.work-title:before, .title-missions:before, section#contact h1:before {
         font-size: 110px;
     }
 
-    section.us h1, h1.work-title, section#missions h1, section#contact h1 {
+    section.us h1, h1.work-title, .title-missions, section#contact h1 {
         top: 100px;
     }
 
@@ -997,6 +1039,9 @@ span.mail:before {
         margin-top: 180px;
     }
 
+    .container-missions {
+        display: none;
+    }
     section#contact div.info-footer {
         width: 60%;
     }
@@ -1078,7 +1123,7 @@ span.mail:before {
 
     section#contact div.info-footer {
         width: 80%;
-        font-size: 18px;
+        font-size: 17px;
     }
 }
 /*---------------------------------------------------
@@ -1096,7 +1141,15 @@ span.mail:before {
     }
 
     span.quote:last-child {
-        bottom: -25px;
+        bottom: -30px;
         right: 15px;
+    }
+
+    section#contact div.coordonnee span {
+        padding: 0;
+        display: block;
+    }
+    section#contact div.coordonnee span.numero {
+        margin-bottom: 20px;
     }
 }

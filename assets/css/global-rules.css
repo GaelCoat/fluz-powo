@@ -38,13 +38,16 @@ html {
     -ms-text-size-adjust:       100%;
     -webkit-text-size-adjust:   100%;
     -webkit-overflow-scrolling: touch;
+    position: relative;
+    height: 100%;
 }
 
 body {
     margin:  0;
     padding: 0;
     font: 400 16px 'Roboto', sans-serif;
-    overflow-x: hidden;
+    position: relative;
+    height: 100%;
 }
 
 a {

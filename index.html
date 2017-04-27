@@ -43,7 +43,9 @@
     <link rel="stylesheet" href="assets/css/normalize.css"/>
     <link rel="stylesheet" href="assets/css/global-rules.css"/>
     <link rel="stylesheet" href="assets/css/bouton.css"/>
+    <link rel="stylesheet" href="assets/css/slide-mobile.css"/>
     <link rel="stylesheet" href="assets/css/style.css"/>
+    <link rel="stylesheet" href="assets/css/menu-responsive.css"/>
 
     <title>flüz&amp;powo agence web sur bordeaux</title>
 
@@ -115,103 +117,110 @@
         </div>
 
 
-        <div class="menu-right">
-            <nav>
-                <ul>
-                    <li>
-                        <a href="index.html">
-                            <div class="logo">
-                                <img src="assets/img/logo-f&p.svg" alt="Logo fluz&powo">
-                            </div>
-                        </a>
-                    </li>
+        <header>
+            <div class="header-icon">
+                <span></span>
+            </div>
+            <div class="menu">
+                <div class="menu-right">
+                    <nav id="menu">
+                        <ul>
+                            <li>
+                                <a href="index.html#accueil">
+                                    <div class="logo">
+                                        <img src="assets/img/logo-f&p.svg" alt="Logo fluz&powo">
+                                    </div>
+                                </a>
+                            </li>
 
-                    <li>
-                        <a href="#us" class="smoothScroll hover-menu">About us
-                            <svg class="ico-menu">
-                                <defs>
-                                    <linearGradient id="logo-gradient-vert" x1="50%" y1="0%" x2="50%" y2="100%">
+                            <li>
+                                <a href="#us" class="smoothScroll hover-menu">About us
+                                    <svg class="ico-menu">
+                                        <defs>
+                                            <linearGradient id="logo-gradient-vert" x1="50%" y1="0%" x2="50%" y2="100%">
 
-                                        <stop offset="0%" stop-color="#E040FB">
-                                            <animate attributeName="stop-color" values="#E040FB; #AA00FF; #E040FB" dur="2.5s" repeatCount="indefinite"></animate>
-                                        </stop>
-                                        <stop offset="100%" stop-color="#AA00FF">
-                                            <animate attributeName="stop-color" values="#AA00FF; #E040FB; #AA00FF" dur="2.5s" repeatCount="indefinite"></animate>
-                                        </stop>
-                                    </linearGradient>
-                                </defs>
-                                <g>
-                                    <circle class="st0" cx="25" cy="25" r="10" fill="url('#logo-gradient-vert')"></circle>
-                                </g>
-                            </svg>
-                        </a>
-                    </li>
+                                                <stop offset="0%" stop-color="#E040FB">
+                                                    <animate attributeName="stop-color" values="#E040FB; #AA00FF; #E040FB" dur="2.5s" repeatCount="indefinite"></animate>
+                                                </stop>
+                                                <stop offset="100%" stop-color="#AA00FF">
+                                                    <animate attributeName="stop-color" values="#AA00FF; #E040FB; #AA00FF" dur="2.5s" repeatCount="indefinite"></animate>
+                                                </stop>
+                                            </linearGradient>
+                                        </defs>
+                                        <g>
+                                            <circle class="st0" cx="25" cy="25" r="10" fill="url('#logo-gradient-vert')"></circle>
+                                        </g>
+                                    </svg>
+                                </a>
+                            </li>
 
-                    <li>
-                        <a href="works.html" class="hover-menu">Works
-                            <svg class="ico-menu">
-                                <defs>
-                                    <linearGradient id="logo-gradient-bleu" x1="50%" y1="0%" x2="50%" y2="100%">
+                            <li>
+                                <a href="works.html" class="hover-menu">Works
+                                    <svg class="ico-menu">
+                                        <defs>
+                                            <linearGradient id="logo-gradient-bleu" x1="50%" y1="0%" x2="50%" y2="100%">
 
-                                        <stop offset="0%" stop-color="#7A5FFF">
-                                            <animate attributeName="stop-color" values="#7A5FFF; #01FF89; #7A5FFF" dur="2.5s" repeatCount="indefinite"></animate>
-                                        </stop>
-                                        <stop offset="100%" stop-color="#01FF89">
-                                            <animate attributeName="stop-color" values="#01FF89; #7A5FFF; #01FF89" dur="2.5s" repeatCount="indefinite"></animate>
-                                        </stop>
-                                    </linearGradient>
-                                </defs>
-                                <g>
-                                    <circle class="st0" cx="25" cy="25" r="10" fill="url('#logo-gradient-bleu')"></circle>
-                                </g>
-                            </svg>
-                        </a>
-                    </li>
+                                                <stop offset="0%" stop-color="#7A5FFF">
+                                                    <animate attributeName="stop-color" values="#7A5FFF; #01FF89; #7A5FFF" dur="2.5s" repeatCount="indefinite"></animate>
+                                                </stop>
+                                                <stop offset="100%" stop-color="#01FF89">
+                                                    <animate attributeName="stop-color" values="#01FF89; #7A5FFF; #01FF89" dur="2.5s" repeatCount="indefinite"></animate>
+                                                </stop>
+                                            </linearGradient>
+                                        </defs>
+                                        <g>
+                                            <circle class="st0" cx="25" cy="25" r="10" fill="url('#logo-gradient-bleu')"></circle>
+                                        </g>
+                                    </svg>
+                                </a>
+                            </li>
 
-                    <li>
-                        <a href="#missions" class="smoothScroll hover-menu">Missions
-                            <svg class="ico-menu">
-                                <defs>
-                                    <linearGradient id="logo-gradient-jaune" x1="50%" y1="0%" x2="50%" y2="100%">
+                            <li>
+                                <a href="#missions" class="smoothScroll hover-menu">Missions
+                                    <svg class="ico-menu">
+                                        <defs>
+                                            <linearGradient id="logo-gradient-jaune" x1="50%" y1="0%" x2="50%" y2="100%">
 
-                                        <stop offset="0%" stop-color="#FFF8E1">
-                                            <animate attributeName="stop-color" values="#FFF8E1; #FFC400; #FFF8E1" dur="2.5s" repeatCount="indefinite"></animate>
-                                        </stop>
-                                        <stop offset="100%" stop-color="#FFC400">
-                                            <animate attributeName="stop-color" values="#FFC400; #FFF8E1; #FFC400" dur="2.5s" repeatCount="indefinite"></animate>
-                                        </stop>
-                                    </linearGradient>
-                                </defs>
-                                <g>
-                                    <circle class="st0" cx="25" cy="25" r="10" fill="url('#logo-gradient-jaune')"></circle>
-                                </g>
-                            </svg>
-                        </a>
-                    </li>
+                                                <stop offset="0%" stop-color="#FFF8E1">
+                                                    <animate attributeName="stop-color" values="#FFF8E1; #FFC400; #FFF8E1" dur="2.5s" repeatCount="indefinite"></animate>
+                                                </stop>
+                                                <stop offset="100%" stop-color="#FFC400">
+                                                    <animate attributeName="stop-color" values="#FFC400; #FFF8E1; #FFC400" dur="2.5s" repeatCount="indefinite"></animate>
+                                                </stop>
+                                            </linearGradient>
+                                        </defs>
+                                        <g>
+                                            <circle class="st0" cx="25" cy="25" r="10" fill="url('#logo-gradient-jaune')"></circle>
+                                        </g>
+                                    </svg>
+                                </a>
+                            </li>
 
-                    <li>
-                        <a href="#contact" class="smoothScroll hover-menu">Contact
-                            <svg class="ico-menu">
-                                <defs>
-                                    <linearGradient id="logo-gradient-rouge" x1="50%" y1="0%" x2="50%" y2="100%">
+                            <li>
+                                <a href="#contact" class="smoothScroll hover-menu">Contact
+                                    <svg class="ico-menu">
+                                        <defs>
+                                            <linearGradient id="logo-gradient-rouge" x1="50%" y1="0%" x2="50%" y2="100%">
 
-                                        <stop offset="0%" stop-color="#FFA000">
-                                            <animate attributeName="stop-color" values="#FFA000; #EF5350; #FFA000" dur="2.5s" repeatCount="indefinite"></animate>
-                                        </stop>
-                                        <stop offset="100%" stop-color="#EF5350">
-                                            <animate attributeName="stop-color" values="#EF5350; #FFA000; #EF5350" dur="2.5s" repeatCount="indefinite"></animate>
-                                        </stop>
-                                    </linearGradient>
-                                </defs>
-                                <g>
-                                    <circle class="st0" cx="25" cy="25" r="10" fill="url('#logo-gradient-rouge')"></circle>
-                                </g>
-                            </svg>
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
+                                                <stop offset="0%" stop-color="#FFA000">
+                                                    <animate attributeName="stop-color" values="#FFA000; #EF5350; #FFA000" dur="2.5s" repeatCount="indefinite"></animate>
+                                                </stop>
+                                                <stop offset="100%" stop-color="#EF5350">
+                                                    <animate attributeName="stop-color" values="#EF5350; #FFA000; #EF5350" dur="2.5s" repeatCount="indefinite"></animate>
+                                                </stop>
+                                            </linearGradient>
+                                        </defs>
+                                        <g>
+                                            <circle class="st0" cx="25" cy="25" r="10" fill="url('#logo-gradient-rouge')"></circle>
+                                        </g>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
     </div>
 </div>
 
@@ -254,12 +263,12 @@
 *
 --------------------------------------------------->
 <section id="works">
-    <div class="container-work">
-        <h1 class="appear-bot work-title">Works</h1>
+    <h1 class="appear-bot work-title">Works</h1>
 
+    <div class="container-work">
         <div class="presentation-work">
             <div class="project">
-                <div class="wrap-child" id="bgc-1">
+                <div class="wrap-child bgc-1">
                     <a href="florian-thauvin.html">
                         <div class="titre-work">
                             <h1>Florian Thauvin</h1>
@@ -273,7 +282,7 @@
             </div>
 
             <div class="project">
-                <div class="wrap-child" id="bgc-2">
+                <div class="wrap-child bgc-2">
                     <a href="">
                         <div class="titre-work">
                             <h1>Marie Verthuy</h1>
@@ -287,7 +296,7 @@
             </div>
 
             <div class="project">
-                <div class="wrap-child" id="bgc-3">
+                <div class="wrap-child bgc-3">
                     <a href="dg-sport.html">
                         <div class="titre-work">
                             <h1>DG Sport Agency</h1>
@@ -302,8 +311,8 @@
         </div>
 
         <p class="description-work module-one-time">Nous travaillons autant avec des start-up, que des grandes entreprises,
-            des commerces locaux ou des personnalités publiques. La compréhension parfaite de chacun de nos
-            partenaires est notre grande force.</p>
+        des commerces locaux ou des personnalités publiques. La compréhension parfaite de chacun de nos
+        partenaires est notre grande force.</p>
 
         <a href="works.html">
             <button class="btn module-one-time">TOUS LES PROJETS</button>
@@ -321,10 +330,111 @@
 *
 --------------------------------------------------->
 <section id="missions">
-    <h1>Missions</h1>
+    <h1 class="title-missions">Missions</h1>
 
+    <div class="container-work container-missions">
+        <div class="presentation-work">
+            <div class="project">
+                <div class="wrap-child missions-1">
+                    <a href="florian-thauvin.html">
+                        <div class="titre-work">
+                            <h1>Stratégie produit</h1>
+                        </div>
 
+                        <div class="sous-titre-work">
+                            <h2>#disruption</h2>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="project">
+                <div class="wrap-child missions-2">
+                    <a href="">
+                        <div class="titre-work">
+                            <h1>Identité visuelle</h1>
+                        </div>
+
+                        <div class="sous-titre-work">
+                            <h2>Architecte d'intérieur</h2>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="project">
+                <div class="wrap-child missions-3">
+                    <a href="dg-sport.html">
+                        <div class="titre-work">
+                            <h1>UI-UX design</h1>
+                        </div>
+
+                        <div class="sous-titre-work">
+                            <h2>#efficacité</h2>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="project">
+                <div class="wrap-child missions-4">
+                    <a href="dg-sport.html">
+                        <div class="titre-work">
+                            <h1>Développement web</h1>
+                        </div>
+
+                        <div class="sous-titre-work">
+                            <h2>#agilité</h2>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="project">
+                <div class="wrap-child missions-5">
+                    <a href="dg-sport.html">
+                        <div class="titre-work">
+                            <h1>Développement mobile</h1>
+                        </div>
+
+                        <div class="sous-titre-work">
+                            <h2>#innovation</h2>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="project">
+                <div class="wrap-child missions-6">
+                    <a href="dg-sport.html">
+                        <div class="titre-work">
+                            <h1>Audit digital</h1>
+                        </div>
+
+                        <div class="sous-titre-work">
+                            <h2>oeildelynx</h2>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Swiper -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide missions-1"></div>
+            <div class="swiper-slide missions-2"></div>
+            <div class="swiper-slide missions-3"></div>
+            <div class="swiper-slide missions-4"></div>
+            <div class="swiper-slide missions-5"></div>
+            <div class="swiper-slide missions-6"></div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
 </section>
+
 
 
 <!---------------------------------------------------
@@ -365,6 +475,9 @@
 <script src="assets/js/scroll-transition.js"></script>
 <script src="assets/js/transition-ancres-missions.js"></script>
 <script src="assets/js/particle.js"></script>
+<script src="assets/js/slide-mobile.js"></script>
+<script src="assets/js/menuResponsive.js"></script>
+
 
 <script src="assets/js/scrollreveal.min.js"></script>
 <script>
