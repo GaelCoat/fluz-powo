@@ -58,6 +58,22 @@
     }
 }
 
+@media screen and (max-width: 1024px) {
+    .btn {
+        font-size: 17px;
+        padding: 20px 30px;
+    }
+
+    .btn:before {
+        top: -60px;
+        line-height: 60px;
+    }
+
+    .btn:after {
+        line-height: 60px;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .btn {
         font-size: 15px;

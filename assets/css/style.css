@@ -230,7 +230,7 @@ div.menu-right nav ul li:hover:nth-child(n+2) a {
 
 
 div.presentation-left h1 {
-    font-size: 75px;
+    font-size: 70px;
     color: #fff;
     font-weight: 700;
     letter-spacing: 1px;
@@ -290,6 +290,11 @@ div.presentation-left h2 {
 *
 *
 ---------------------------------------------------*/
+section.us .bloc-us {
+    overflow: hidden;
+    position: relative;
+}
+
 section.us p {
     margin: 0;
 }
@@ -305,7 +310,7 @@ section.us {
 
 section.us h1, h1.work-title, section#missions h1, section#contact h1 {
     text-align: center;
-    font-size: 50px;
+    font-size: 46px;
     color: #fff;
     position: relative;
     top: 150px;
@@ -363,7 +368,7 @@ span.quote {
 }
 
 span.quote:first-child {
-    top: -19px;
+    top: -21px;
     left: 24px;
 }
 
@@ -517,13 +522,14 @@ p.description-work {
     }
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1300px) {
     .container-work {
         max-width: 1000px;
     }
 
     .project {
         height: 410px;
+        padding: 0 15px;
     }
 
     .project img {
@@ -535,7 +541,7 @@ p.description-work {
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
     .container-work {
         max-width: 760px;
     }
@@ -836,10 +842,6 @@ span.mail:before {
         max-width: 1000px;
     }
 
-    div.menu-right {
-        padding-left: 14%;
-    }
-
     section#contact div.info-footer {
         width: 37%;
     }
@@ -864,12 +866,10 @@ span.mail:before {
 *
 ---------------------------------------------------*/
 @media screen and (max-width: 1120px) {
-     section#us div.info-us {
+    section.us div.info-us {
         width: 400px;
-    }
-
-    p.description-work {
-        font-size: 21px;
+        padding-left:  15px;
+        padding-right: 15px;
     }
 
     section.us blockquote.citation {
@@ -890,11 +890,8 @@ span.mail:before {
         bottom: -60px;
     }
 
-    section.us div.info-us {
-        padding-left: 15px;
-        padding-right: 15px;
-        line-height: 33px;
-        font-size: 22px;
+    p.description-work {
+        font-size: 21px;
     }
 }
 /*---------------------------------------------------
@@ -910,6 +907,24 @@ span.mail:before {
     div.presentation-left h1 {
         font-size: 50px;
         margin-bottom: 25px;
+        letter-spacing: 0;
+    }
+    div.presentation-left h2 {
+        font-size: 19px;
+        margin-top: 30px;
+    }
+
+    div.menu-right {
+        font-size: 18px;
+    }
+
+    div.menu-right nav ul {
+        line-height: 25px;
+    }
+
+    p.description-work {
+        font-size: 19px;
+        width: 600px;
     }
 }
 /*---------------------------------------------------
@@ -920,65 +935,18 @@ span.mail:before {
 @media screen and (max-width: 960px) {
 
     div.presentation-left h2 {
-        font-size: 22px;
-    }
-
-    div.bloc-work4 div.phrase-work {
-        width: 90%;
-    }
-
-    div.missions-small div.anim img {
-        width: 60px;
-    }
-
-    div.missions-small div.anim h2 {
-        font-size: 22px;
-    }
-
-    section#us {
-        height: 100%;
-        margin-bottom: 0;
-    }
-
-    section#contact div.info-footer {
-        width: 70%;
+        font-size: 18px;
     }
 
     section#contact div.coordonnee {
         bottom: 5%;
     }
-
-    section#us div.info-us2 {
-        margin-top: 80px;
-    }
-
-    section#us div.info-us {
-        width: 410px;
-    }
-
-    div.info {
-        width: 50%;
-    }
-    div.coordonnee span.numero {
-        display: block;
-        margin-bottom: 25px;
-    }
-
-    span.quote:first-child {
-        top: -23px;
-        left: -20px;
-    }
-
-    span.quote:nth-child(2) {
-        bottom: -40px;
-        right: 30px;
-    }
-
-    section#us blockquote.citation, section#us div.info-us {
-        text-align: center;
-    }
 }
-
+/*---------------------------------------------------
+*
+*                       768
+*
+---------------------------------------------------*/
 @media screen and (max-width: 768px) {
     section.us h1:before, h1.work-title:before, section#missions h1:before, section#contact h1:before {
         font-size: 110px;
@@ -988,11 +956,49 @@ span.mail:before {
         top: 100px;
     }
 
-    section.us div.info-us, .presentation-work {
+    section.us div.info-us {
+        margin-top: 180px;
+        width: 500px;
+        line-height: 31px;
+        font-size: 21px;
+        text-align: center;
+    }
+
+    section.us blockquote.citation {
+        text-align: center;
+    }
+
+    div.info-us:last-child {
+        margin-top: 80px;
+    }
+
+    section.us div.info-us2 {
+        margin-top: 80px;
+    }
+
+    span.quote:first-child {
+        top: -15px;
+        left: -35px;
+    }
+
+    span.quote:last-child {
+        bottom: -40px;
+        right: 60px;
+    }
+
+    .presentation-work {
         margin-top: 180px;
     }
-}
 
+    section#contact div.info-footer {
+        width: 60%;
+    }
+}
+/*---------------------------------------------------
+*
+*                       720
+*
+---------------------------------------------------*/
 @media screen and (max-width: 720px) {
     div.info {
         position: inherit;
@@ -1009,7 +1015,25 @@ span.mail:before {
         height: auto;
     }
 }
+/*---------------------------------------------------
+*
+*                       640
+*
+---------------------------------------------------*/
+@media screen and (max-width: 640px){
+    p.description-work {
+        width: 85%;
+    }
 
+    section#contact div.coordonnee {
+        font-size: 18px;
+    }
+}
+/*---------------------------------------------------
+*
+*                       530
+*
+---------------------------------------------------*/
 @media screen and (max-width: 530px) {
     p.description-work {
         width: 90%;
@@ -1017,104 +1041,44 @@ span.mail:before {
         letter-spacing: 0;
         line-height: 25px;
     }
-}
-@media screen and (max-width: 480px) {
-    div.presentation-left, div.menu-right {
-        width: 100%;
-        text-align: center;
-        margin: auto;
+
+    section.us div.info-us {
+        width: 400px;
     }
 
-    div.presentation-left {
-        padding-top: 300px;
-
-    }
-    div.presentation-left h2 {
-        font-size: 19px;
-        margin-top: 30px;
-    }
-    div.menu-right nav ul {
-        text-align: center;
-    }
-
-    div.menu-right {
-        top: 0;
-        left: 0;
-        right: 0;
-        position: absolute;
-    }
-
-    svg.ico-menu {
-        display: none;
-    }
-
-    div.menu-right nav ul li:nth-child(n+2) a {
-        position: inherit;
-    }
-
-    div.menu-right nav ul {
-        line-height: 40px;
-    }
-
-    div.presentation-left h1 {
-        font-size: 7vw;
-        margin-bottom: 30px;
-    }
-
-    section#us blockquote.citation {
-        line-height: 45px;
-        font-size: 23px;
+    section.us blockquote.citation {
+        font-size: 25px;
+        line-height: 38px;
     }
 
     span.quote {
-        font-size: 70px;
+        font-size: 65px;
     }
 
     span.quote:first-child {
-        top: -18px;
-        left: -23px;
+        top: -10px;
+        left: -15px;
     }
 
-    span.quote:nth-child(2) {
-        bottom: -57px;
-        right: -7px;
+    span.quote:last-child {
+        bottom: -30px;
+        right: 50px;
     }
 
-    li.categorie-missions {
-        visibility: hidden;
-    }
-
-    li.categorie-missions:nth-child(-n+10)::before {
-        visibility: visible;
-    }
-
-    div.missions-small div.anim h2 {
-        font-size: 19px;
-    }
-    article.article-info p.description-article-missions {
-        display: none;
-    }
-    div.anim {
-        margin-top: 40px;
-    }
-    div.missions-small div.anim img {
-        width: 50px;
-    }
-    div.bloc-work4 h3 {
-        font-size: 24px;
-    }
-
-    div.bloc-work4 p {
-        font-size: 18px;
-    }
-    section#us div.info-us {
-        width: 100%;
-        padding-left: 10px;
-        padding-right: 10px;
+    section.us div.info-us2 {
+        margin-top: 60px;
     }
 
     section#contact div.info-footer {
         width: 80%;
         font-size: 18px;
     }
+}
+/*---------------------------------------------------
+*
+*                       480
+*
+---------------------------------------------------*/
+@media screen and (max-width: 480px) {
+
 }
