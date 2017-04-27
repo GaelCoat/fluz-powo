@@ -1086,5 +1086,16 @@ span.mail:before {
 *
 ---------------------------------------------------*/
 @media screen and (max-width: 480px) {
+    section.us div.info-us {
+        width: 90%;
+    }
 
+    span.quote {
+        font-size: 45px;
+    }
+
+    span.quote:last-child {
+        bottom: -25px;
+        right: 15px;
+    }
 }

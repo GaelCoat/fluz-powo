@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3e75758-6c2c-4aee-aa60-2d8e22bd336f" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/coffee.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/dgsport.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/missions/ico-audit.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/missions/ico-dev.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/missions/ico-identite-visuelle.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/missions/ico-strat-produit.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/missions/ico-ui-ux.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/works/golf.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/style.css" afterPath="$PROJECT_DIR$/assets/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -45,8 +36,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="309" column="25" lean-forward="false" selection-start-line="309" selection-start-column="25" selection-end-line="309" selection-end-column="25" />
+            <state relative-caret-position="847">
+              <caret line="1099" column="5" lean-forward="false" selection-start-line="1099" selection-start-column="5" selection-end-line="1099" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -378,12 +369,12 @@
       <workItem from="1493040812809" duration="5749000" />
       <workItem from="1493104539252" duration="19973000" />
       <workItem from="1493192826395" duration="17868000" />
-      <workItem from="1493282051875" duration="6445000" />
+      <workItem from="1493282051875" duration="6776000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102387000" />
+    <option name="totallyTimeSpent" value="102718000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -576,8 +567,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="309" column="25" lean-forward="false" selection-start-line="309" selection-start-column="25" selection-end-line="309" selection-end-column="25" />
+        <state relative-caret-position="847">
+          <caret line="1099" column="5" lean-forward="false" selection-start-line="1099" selection-start-column="5" selection-end-line="1099" selection-end-column="5" />
           <folding />
         </state>
       </provider>
