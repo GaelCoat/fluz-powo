@@ -142,6 +142,7 @@ div#scene {
 
 div.accueil {
     position: relative;
+    height: 100vh;
 }
 
 div.content-accueil {
@@ -306,6 +307,7 @@ section.us blockquote {
 section.us {
     position: relative;
     text-align: center;
+    margin-bottom: 120px;
 }
 
 section.us h1, h1.work-title, section#missions h1, section#contact h1 {
@@ -329,10 +331,8 @@ section.us h1:before, h1.work-title:before, section#missions h1:before, section#
 
 section.us h1:before {
     content: '01';
-    color: rgba(0, 0, 0, 0.08);
-    z-index: 0;
+    color: rgba(0, 0, 0, 0.1);
 }
-
 
 section.us h1 {
     color: #2d2d2d;
@@ -391,6 +391,10 @@ span.quote:last-child {
 *
 *
 ---------------------------------------------------*/
+section#works {
+    background-color: #dedede;
+}
+
 .container-work {
     margin:    auto;
     text-align: center;
@@ -402,7 +406,7 @@ h1.work-title {
 
 h1.work-title:before {
     content: "02";
-    color: rgba(0, 0, 0, 0.08);
+    color: rgba(0, 0, 0, 0.1);
 }
 
 .presentation-work {
@@ -629,7 +633,9 @@ p.description-work {
 *
 *
 ---------------------------------------------------*/
-section#missions h1:before {content: "03";}
+section#missions h1:before {
+    content: "03";
+}
 
 
 
@@ -641,11 +647,14 @@ section#missions h1:before {content: "03";}
 *
 *
 ---------------------------------------------------*/
-section#contact h1:before {content: "04";}
+section#contact h1:before {
+    content: "04";
+}
 
 section#contact {
     overflow: hidden;
     position: relative;
+    height: 100vh;
 
     background: -webkit-linear-gradient(215deg, #fb3316, #4346fb);
 
@@ -653,7 +662,7 @@ section#contact {
     background-size: 10000% 960%;
 
     -webkit-animation: AnimationName 24s ease infinite;
-    animation: AnimationName 24s ease infinite;
+    animation:         AnimationName 24s ease infinite;
 }
 
 @-webkit-keyframes AnimationName {
@@ -752,27 +761,29 @@ span.mail:before {
 *
 *
 ---------------------------------------------------*/
-.module {opacity: 0;}
+.module {
+    opacity: 0;
+}
 
 .come-in {
     -webkit-transform: translateY(50px);
-    transform: translateY(50px);
+    transform:         translateY(50px);
     opacity: 0;
     -webkit-animation: come-in 1s ease forwards;
-    animation: come-in 1s ease forwards;
+    animation:         come-in 1s ease forwards;
     -webkit-animation-delay: 0.35s;
-    animation-delay: 0.35s;
+    animation-delay:         0.35s;
 }
 
 .come-in:nth-child(odd) {
     -webkit-animation-duration: 0.6s;
-    animation-duration: 0.6s; /* So they look staggered */
+    animation-duration:         0.6s; /* So they look staggered */
 }
 
 @-webkit-keyframes come-in {
     to {
         -webkit-transform: translateY(0);
-        transform: translateY(0);
+        transform:         translateY(0);
         opacity: 1;
     }
 }
@@ -780,15 +791,10 @@ span.mail:before {
 @keyframes come-in {
     to {
         -webkit-transform: translateY(0);
-        transform: translateY(0);
+        transform:         translateY(0);
         opacity: 1;
     }
 }
-
-.vh {
-    height: 100vh;
-}
-
 
 
 
