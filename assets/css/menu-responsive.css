@@ -1,14 +1,29 @@
+div.logo {
+    display: none;
+}
 @media screen and (max-width: 1024px){
     div.menu-right {
         right: 50%;
         transform: translate(50%, -50%);
     }
 
+    div.logo {
+        display: block;
+        position: absolute;
+        right: 30px;
+        top: 30px;
+    }
+
+    li div.logo {
+        display: none;
+    }
+
+
+
     .header-icon {
         position:  absolute;
         top:       30px;
-        left:      50%;
-        transform: translateX(-50%);
+        left:      30px;
         display:   block;
         height:    50px;
         width:     50px;
@@ -134,7 +149,8 @@
     }
 
     div.presentation-left hr.sep {
-        width: 200px;
+        width: 100px;
+        height: 3px;
         position: relative;
         left: 50%;
         -webkit-transform: translate(-50%, 25px);

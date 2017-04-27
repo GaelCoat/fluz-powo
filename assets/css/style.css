@@ -323,7 +323,6 @@ section.us h1:before, h1.work-title:before, .title-missions:before, section#cont
     position: absolute;
     left: 0;
     right: 0;
-    font-family: 'Arapey', serif;
     font-size: 160px;
     top: -32px;
     line-height: 110px;
@@ -1009,8 +1008,8 @@ span.mail:before {
     section.us div.info-us {
         margin-top: 180px;
         width: 500px;
-        line-height: 31px;
-        font-size: 21px;
+        line-height: 25px;
+        font-size: 20px;
         text-align: center;
     }
 
@@ -1089,10 +1088,10 @@ span.mail:before {
 ---------------------------------------------------*/
 @media screen and (max-width: 530px) {
     p.description-work {
-        width: 90%;
-        font-size: 17px;
+        width: 80%;
+        font-size: 18px;
         letter-spacing: 0;
-        line-height: 25px;
+        line-height: 24px;
     }
 
     section.us div.info-us {
@@ -1119,12 +1118,13 @@ span.mail:before {
     }
 
     section.us div.info-us2 {
-        margin-top: 60px;
+        margin-top: 45px;
     }
 
     section#contact div.info-footer {
         width: 80%;
         font-size: 17px;
+        top: 45%;
     }
 }
 /*---------------------------------------------------
