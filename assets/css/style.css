@@ -1142,7 +1142,7 @@ span.mail:before {
 
     span.quote:last-child {
         bottom: -30px;
-        right: 15px;
+        right: 0;
     }
 
     section#contact div.coordonnee span {

@@ -120,15 +120,15 @@
     }
 
     div.presentation-left {
-        top: 40%;
-        width: 95%;
+        top: 50%;
+        width: 90%;
         margin: auto;
         display: block;
         position: inherit;
     }
 
     div.presentation-left h1 {
-        font-size: 40px;
+        font-size: 35px;
         margin-bottom: 20px;
         text-align: center;
     }
