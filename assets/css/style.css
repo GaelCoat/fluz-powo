@@ -325,7 +325,7 @@ section.us h1:before, h1.work-title:before, .title-missions:before, section#cont
     right: 0;
     font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
     font-size: 150px;
-    top: -32px;
+    top: -30px;
     line-height: 110px;
     color: rgba(255, 255, 255, 0.46);
 }
@@ -361,6 +361,7 @@ section.us blockquote.citation {
     text-align: right;
     font: 700 36px/50px 'Playfair Display', serif;
     color: rgba(0, 0, 0, 0.74);
+    position: relative;
 }
 
 span.quote {
@@ -1044,7 +1045,7 @@ span.mail:before {
     }
     section#contact div.info-footer {
         width: 60%;
-        line-height: 25px;
+        line-height: 23px;
     }
 }
 /*---------------------------------------------------
@@ -1088,11 +1089,15 @@ span.mail:before {
 *
 ---------------------------------------------------*/
 @media screen and (max-width: 530px) {
+    .module, .module-one-time {
+        opacity: 1;
+    }
+
     p.description-work {
-        width: 80%;
-        font-size: 18px;
+        width: 90%;
+        font-size: 16px;
         letter-spacing: 0;
-        line-height: 24px;
+        line-height: 21px;
     }
 
     section.us div.info-us {
@@ -1135,7 +1140,7 @@ span.mail:before {
 ---------------------------------------------------*/
 @media screen and (max-width: 480px) {
     section.us div.info-us {
-        width: 90%;
+        width: 80%;
     }
 
     span.quote {

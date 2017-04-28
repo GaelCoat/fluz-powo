@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3e75758-6c2c-4aee-aa60-2d8e22bd336f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/global-rules.css" afterPath="$PROJECT_DIR$/assets/css/global-rules.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/menu-responsive.css" afterPath="$PROJECT_DIR$/assets/css/menu-responsive.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/bouton.css" afterPath="$PROJECT_DIR$/assets/css/bouton.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/style.css" afterPath="$PROJECT_DIR$/assets/css/style.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -44,7 +44,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="menu-responsive.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="menu-responsive.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/css/menu-responsive.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="595">
@@ -54,11 +54,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="479" column="21" lean-forward="false" selection-start-line="479" selection-start-column="21" selection-end-line="479" selection-end-column="21" />
+            <state relative-caret-position="433">
+              <caret line="1047" column="23" lean-forward="false" selection-start-line="1047" selection-start-column="23" selection-end-line="1047" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bouton.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/css/bouton.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="586">
+              <caret line="84" column="22" lean-forward="false" selection-start-line="84" selection-start-column="22" selection-end-line="84" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -133,12 +143,12 @@
         <option value="$PROJECT_DIR$/assets/css/menu-responsive.html" />
         <option value="$PROJECT_DIR$/assets/js/menuResponsive.js" />
         <option value="$PROJECT_DIR$/assets/js/slide-mobile.js" />
-        <option value="$PROJECT_DIR$/assets/css/bouton.css" />
         <option value="$PROJECT_DIR$/assets/css/slide-mobile.css" />
-        <option value="$PROJECT_DIR$/assets/css/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/assets/css/global-rules.css" />
         <option value="$PROJECT_DIR$/assets/css/menu-responsive.css" />
+        <option value="$PROJECT_DIR$/assets/css/bouton.css" />
+        <option value="$PROJECT_DIR$/assets/css/style.css" />
       </list>
     </option>
   </component>
@@ -352,12 +362,12 @@
       <workItem from="1493104539252" duration="19973000" />
       <workItem from="1493192826395" duration="17868000" />
       <workItem from="1493282051875" duration="21127000" />
-      <workItem from="1493364712890" duration="5595000" />
+      <workItem from="1493364712890" duration="6320000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122664000" />
+    <option name="totallyTimeSpent" value="123389000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -524,14 +534,6 @@
     <entry file="file://$PROJECT_DIR$/assets/css/menu-responsive.html" />
     <entry file="file://$PROJECT_DIR$/assets/js/menuResponsive.js" />
     <entry file="file://$PROJECT_DIR$/assets/js/slide-mobile.js" />
-    <entry file="file://$PROJECT_DIR$/assets/css/bouton.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="12" lean-forward="false" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/slide-mobile.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="382">
@@ -546,14 +548,6 @@
             <element signature="e#15990#17437#2" expanded="false" />
             <element signature="e#17655#19099#2" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="479" column="21" lean-forward="false" selection-start-line="479" selection-start-column="21" selection-end-line="479" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -580,6 +574,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
           <caret line="35" column="23" lean-forward="false" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/bouton.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="586">
+          <caret line="84" column="22" lean-forward="false" selection-start-line="84" selection-start-column="22" selection-end-line="84" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="1047" column="23" lean-forward="false" selection-start-line="1047" selection-start-column="23" selection-end-line="1047" selection-end-column="23" />
           <folding />
         </state>
       </provider>
