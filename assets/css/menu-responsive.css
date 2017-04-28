@@ -1,13 +1,14 @@
-div.logo {
+div.logo-mobile {
     display: none;
 }
+
 @media screen and (max-width: 1024px){
     div.menu-right {
         right: 50%;
         transform: translate(50%, -50%);
     }
 
-    div.logo {
+    div.logo-mobile {
         display: block;
         position: absolute;
         right: 30px;
@@ -136,14 +137,14 @@ div.logo {
 
     div.presentation-left {
         top: 50%;
-        width: 90%;
+        max-width: 510px;
         margin: auto;
         display: block;
         position: inherit;
     }
 
     div.presentation-left h1 {
-        font-size: 35px;
+        font-size: 6vw;
         margin-bottom: 20px;
         text-align: center;
     }
@@ -161,5 +162,29 @@ div.logo {
         font-size: 17px;
         text-align: center;
         line-height: 23px;
+    }
+}
+
+@media screen and (max-width: 580px){
+    div.presentation-left {
+        max-width: 75%;
+
+    }
+
+    div.presentation-left h1 {
+        font-size: 7vw;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    div.presentation-left h1 {
+        font-size: 8vw;
+    }
+}
+
+@media screen and (max-width: 320px){
+    div.presentation-left h2 {
+        font-size: 16px;
     }
 }

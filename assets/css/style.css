@@ -266,7 +266,7 @@ div.presentation-left hr.sep {
 }
 
 div.presentation-left h2 {
-    font-family: "Roboto", sans-serif;
+    font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
     font-size: 25px;
     color: rgba(255, 255, 255, 0.75);
     margin-top: 40px;
@@ -323,7 +323,8 @@ section.us h1:before, h1.work-title:before, .title-missions:before, section#cont
     position: absolute;
     left: 0;
     right: 0;
-    font-size: 160px;
+    font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+    font-size: 150px;
     top: -32px;
     line-height: 110px;
     color: rgba(255, 255, 255, 0.46);
@@ -869,7 +870,7 @@ span.mail:before {
     }
 
     div.presentation-left h2 {
-        font-size: 23px;
+        font-size: 22px;
     }
 
     section.us div.info-us {
