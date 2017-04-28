@@ -67,7 +67,6 @@ li {
     #content-page {
         -webkit-overflow-scrolling: touch;
         overflow: auto;
-        height: 100%;
     }
 
     .none {
