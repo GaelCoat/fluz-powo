@@ -171,15 +171,19 @@ div.logo-mobile {
 
     }
 
+    .br-mobile {
+        display: none;
+    }
+
     div.presentation-left h1 {
-        font-size: 7vw;
+        font-size: 9vw;
     }
 }
 
 
 @media screen and (max-width: 480px) {
     div.presentation-left h1 {
-        font-size: 8vw;
+        font-size: 10vw;
     }
 }
 
