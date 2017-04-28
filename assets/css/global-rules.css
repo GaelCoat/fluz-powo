@@ -60,7 +60,17 @@ li {
 }
 
 @media screen and (max-width: 768px) {
-    .none {
-        display: none;
+    html, body {
+        overflow: hidden;
     }
+
+    #content-page {
+        -webkit-overflow-scrolling: touch;
+        overflow: auto;
+        height: 100%;
+    }
+
+    .none {
+         display: none;
+     }
 }
