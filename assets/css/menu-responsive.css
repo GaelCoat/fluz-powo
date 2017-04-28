@@ -31,6 +31,10 @@ div.logo-mobile {
         cursor:    pointer;
         z-index:   101;
     }
+    
+    .header-icon.menu-active {
+        position: fixed;
+    }
 
     .header-icon span {
         position: absolute;
