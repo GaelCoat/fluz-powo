@@ -171,7 +171,7 @@ div.logo-mobile {
 
 @media screen and (max-width: 580px){
     div.presentation-left {
-        max-width: 75%;
+        max-width: 82%;
 
     }
 
@@ -181,13 +181,8 @@ div.logo-mobile {
 
     div.presentation-left h1 {
         font-size: 9vw;
-    }
-}
-
-
-@media screen and (max-width: 480px) {
-    div.presentation-left h1 {
-        font-size: 10vw;
+        font-weight: 900;
+        text-transform: uppercase;
     }
 }
 

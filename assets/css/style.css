@@ -647,29 +647,74 @@ p.description-work {
 }
 
 .missions-1 {
-    background: #2d2d2d url("../img/missions/strategie-produit.png") no-repeat center;
+    background: #c8c8c8 url("../img/missions/strategie-produit.png") no-repeat center;
+    height: 214px;
+    width: 100%;
+    position: absolute;
+    top: 0;
 }
 
 .missions-2 {
     background: #2d2d2d url("../img/missions/identite-visuelle.png") no-repeat center;
+    height: 214px;
+    width: 100%;
+    position: absolute;
+    top: 0;
 }
 
 .missions-3 {
-    background: #2d2d2d url("../img/missions/ui-ux-design.png") no-repeat center;
+    background: #46d2dd url("../img/missions/ui-ux-design.png") no-repeat center;
+    height: 214px;
+    width: 100%;
+    position: absolute;
+    top: 0;
 }
 
 .missions-4 {
-    background: #2d2d2d url("../img/missions/dev-web.png") no-repeat center;
+    background: #db3e27 url("../img/missions/dev-web.png") no-repeat center;
+    height: 214px;
+    width: 100%;
+    position: absolute;
+    top: 0;
 }
 
 .missions-5 {
-    background: #2d2d2d url("../img/missions/dev-mobile.png") no-repeat center;
+    background: #6b5ff7 url("../img/missions/dev-mobile.png") no-repeat center;
+    height: 214px;
+    width: 100%;
+    position: absolute;
+    top: 0;
 }
 
 .missions-6 {
-    background: #2d2d2d url("../img/missions/audit-digital.png") no-repeat center;
+    background: #56ff36 url("../img/missions/audit-digital.png") no-repeat center;
+    height: 214px;
+    width: 100%;
+    position: absolute;
+    top: 0;
 }
 
+.missions-hover {
+    position: absolute;
+    top: 214px;
+}
+
+.missions-hover h2 {
+    font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #080808;
+    padding-top: 20px;
+    padding-bottom: 8px;
+}
+
+.missions-hover p {
+    font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+    font-size: 17px;
+    color: #b0b0b0;
+    margin: 0;
+
+}
 section#missions .project:nth-child(-n + 3) {
     margin-bottom: 50px;
 }
@@ -1130,7 +1175,7 @@ span.mail:before {
     section#contact div.info-footer {
         width: 80%;
         font-size: 17px;
-        top: 45%;
+        top: 41%;
     }
 }
 /*---------------------------------------------------
@@ -1140,7 +1185,7 @@ span.mail:before {
 ---------------------------------------------------*/
 @media screen and (max-width: 480px) {
     section.us div.info-us {
-        width: 80%;
+        width: 90%;
     }
 
     span.quote {
