@@ -323,6 +323,8 @@ section.us h1:before, h1.work-title:before, .title-missions:before, section#cont
     position: absolute;
     left: 0;
     right: 0;
+    top: -50%;
+    transform: translateY(50%);
     font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
     font-size: 150px;
     line-height: 50px;
@@ -688,6 +690,7 @@ p.description-work {
 .missions-hover p {
     font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
     font-size: 17px;
+    line-height: 25px;
     color: #b0b0b0;
     margin: 0;
 

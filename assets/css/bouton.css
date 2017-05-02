@@ -88,11 +88,11 @@
 
     .btn:after {
         line-height: 56px;
-        display: none;
+        background-color: #de3333;
     }
 
     .btn:before {
         line-height: 56px;
-        background-color: #de3333;
+        display: none;
     }
 }
