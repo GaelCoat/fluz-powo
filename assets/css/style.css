@@ -632,27 +632,27 @@ p.description-work {
     color: #2d2d2d;
 }
 
-.project .missions-1, .missions-projet-1 {
+.missions-1, .missions-projet-1 {
     background: #2d2d2d url("../img/missions/strategie-produit.png") no-repeat center;
 }
 
-.project .missions-2, .missions-projet-2 {
+.missions-2, .missions-projet-2 {
     background: #2d2d2d url("../img/missions/identite-visuelle.png") no-repeat center;
 }
 
-.project .missions-3, .missions-projet-3 {
+.missions-3, .missions-projet-3 {
     background: #2d2d2d url("../img/missions/ui-ux-design.png") no-repeat center;
 }
 
-.project .missions-4, .missions-projet-4 {
+.missions-4, .missions-projet-4 {
     background: #2d2d2d url("../img/missions/dev-web.png") no-repeat center;
 }
 
-.project .missions-5, .missions-projet-5 {
+.missions-5, .missions-projet-5 {
     background: #2d2d2d url("../img/missions/dev-mobile.png") no-repeat center;
 }
 
-.project .missions-6, .missions-projet-6 {
+.missions-6, .missions-projet-6 {
     background: #2d2d2d url("../img/missions/audit-digital.png") no-repeat center;
 }
 
@@ -972,6 +972,11 @@ span.mail:before {
     .missions-hover h2 {
         font-size: 20px;
         padding-bottom: 8px;
+        padding-top: 20px;
+    }
+
+    .missions-hover p {
+        font-size: 17px;
     }
 
     section#contact div.info-footer {
@@ -1146,12 +1151,12 @@ span.mail:before {
         right: 0;
     }
 
-    .missions-1 {background-color: #c8c8c8;}
+    .missions-1 {background-color: #6ff5bd;}
     .missions-2 {background-color: #2d2d2d;}
-    .missions-3 {background-color: #46d2dd;}
-    .missions-4 {background-color: #db3e27;}
-    .missions-5 {background-color: #6b5ff7;}
-    .missions-6 {background-color: #56ff36;}
+    .missions-3 {background-color: #ffde67;}
+    .missions-4 {background-color: #6b5ff7;}
+    .missions-5 {background-color: #ff8383;}
+    .missions-6 {background-color: #55d4de;}
 
     section#contact div.info-footer {
         width: 60%;
@@ -1268,5 +1273,53 @@ span.mail:before {
     }
     section#contact div.coordonnee span.numero {
         margin-bottom: 20px;
+    }
+}
+/*---------------------------------------------------
+*
+*                       320
+*
+---------------------------------------------------*/
+@media screen and (max-width: 320px){
+    section.us {
+        margin-bottom: 90px;
+    }
+
+    section.us div.info-us {
+        line-height: 23px;
+        font-size: 18px;
+    }
+
+    .missions-hover p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .project {
+        height: 350px;
+    }
+
+    .presentation-work {
+        margin-bottom: 15px;
+    }
+
+    div.titre-work {
+        top: 20px;
+        left: 24px;
+    }
+
+    div.titre-work h1 {
+        font-size: 19px;
+    }
+
+    div.sous-titre-work {
+        bottom: 20px;
+    }
+
+    section#contact div.info-footer {
+        width: 80%;
+        font-size: 16px;
+        top: 46%;
+        line-height: 21px;
     }
 }
