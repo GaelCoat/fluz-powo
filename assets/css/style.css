@@ -647,51 +647,27 @@ p.description-work {
 }
 
 .missions-1 {
-    background: #c8c8c8 url("../img/missions/strategie-produit.png") no-repeat center;
-    height: 214px;
-    width: 100%;
-    position: absolute;
-    top: 0;
+    background: #2d2d2d url("../img/missions/strategie-produit.png") no-repeat center;
 }
 
 .missions-2 {
     background: #2d2d2d url("../img/missions/identite-visuelle.png") no-repeat center;
-    height: 214px;
-    width: 100%;
-    position: absolute;
-    top: 0;
 }
 
 .missions-3 {
-    background: #46d2dd url("../img/missions/ui-ux-design.png") no-repeat center;
-    height: 214px;
-    width: 100%;
-    position: absolute;
-    top: 0;
+    background: #2d2d2d url("../img/missions/ui-ux-design.png") no-repeat center;
 }
 
 .missions-4 {
-    background: #db3e27 url("../img/missions/dev-web.png") no-repeat center;
-    height: 214px;
-    width: 100%;
-    position: absolute;
-    top: 0;
+    background: #2d2d2d url("../img/missions/dev-web.png") no-repeat center;
 }
 
 .missions-5 {
-    background: #6b5ff7 url("../img/missions/dev-mobile.png") no-repeat center;
-    height: 214px;
-    width: 100%;
-    position: absolute;
-    top: 0;
+    background: #2d2d2d url("../img/missions/dev-mobile.png") no-repeat center;
 }
 
 .missions-6 {
-    background: #56ff36 url("../img/missions/audit-digital.png") no-repeat center;
-    height: 214px;
-    width: 100%;
-    position: absolute;
-    top: 0;
+    background: #2d2d2d url("../img/missions/audit-digital.png") no-repeat center;
 }
 
 .missions-hover {
@@ -1088,6 +1064,23 @@ span.mail:before {
     .container-missions {
         display: none;
     }
+
+    .missions-1, .missions-2, .missions-3, .missions-4, .missions-5, .missions-6 {
+        height: 214px;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+
+    .missions-1 {background-color: #c8c8c8;}
+    .missions-2 {background-color: #2d2d2d;}
+    .missions-3 {background-color: #46d2dd;}
+    .missions-4 {background-color: #db3e27;}
+    .missions-5 {background-color: #6b5ff7;}
+    .missions-6 {background-color: #56ff36;}
+
     section#contact div.info-footer {
         width: 60%;
         line-height: 23px;

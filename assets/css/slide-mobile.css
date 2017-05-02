@@ -182,7 +182,6 @@
 
     /* Pagination Styles */
     .swiper-pagination {
-        position: absolute;
         text-align: center;
         -webkit-transition: 300ms;
         -moz-transition: 300ms;
@@ -193,6 +192,7 @@
         -o-transform: translate3d(0, 0, 0);
         transform: translate3d(0, 0, 0);
         z-index: 10;
+        margin-bottom: 90px;
     }
 
     .swiper-pagination.swiper-pagination-hidden {
@@ -250,7 +250,7 @@
         width: 100%;
     }
 
-    .swiper-container-horizontal > .swiper-pagination .swiper-pagination-bullet {
+    .swiper-pagination .swiper-pagination-bullet {
         margin: 0 5px;
     }
 
@@ -510,7 +510,7 @@
         margin-left: auto;
         margin-right: auto;
         margin-top: 180px;
-        margin-bottom: 100px;
+        margin-bottom: 20px;
     }
 
     .swiper-slide {

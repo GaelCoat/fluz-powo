@@ -15,12 +15,6 @@ div.logo-mobile {
         top: 30px;
     }
 
-    li div.logo {
-        display: none;
-    }
-
-
-
     .header-icon {
         position:  absolute;
         top:       30px;
