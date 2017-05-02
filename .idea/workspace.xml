@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3e75758-6c2c-4aee-aa60-2d8e22bd336f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/menu-responsive.css" afterPath="$PROJECT_DIR$/assets/css/menu-responsive.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/style.css" afterPath="$PROJECT_DIR$/assets/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/pageloader.js" afterPath="$PROJECT_DIR$/assets/js/pageloader.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/works.html" afterPath="$PROJECT_DIR$/works.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -61,8 +56,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="685" column="36" lean-forward="false" selection-start-line="685" selection-start-column="36" selection-end-line="685" selection-end-column="36" />
+            <state relative-caret-position="538">
+              <caret line="663" column="50" lean-forward="false" selection-start-line="663" selection-start-column="50" selection-end-line="663" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -409,12 +404,12 @@
       <workItem from="1493282051875" duration="21127000" />
       <workItem from="1493364712890" duration="11745000" />
       <workItem from="1493408584898" duration="27000" />
-      <workItem from="1493711681540" duration="14427000" />
+      <workItem from="1493711681540" duration="15860000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="143268000" />
+    <option name="totallyTimeSpent" value="144701000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -632,8 +627,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="685" column="36" lean-forward="false" selection-start-line="685" selection-start-column="36" selection-end-line="685" selection-end-column="36" />
+        <state relative-caret-position="538">
+          <caret line="663" column="50" lean-forward="false" selection-start-line="663" selection-start-column="50" selection-end-line="663" selection-end-column="50" />
           <folding />
         </state>
       </provider>

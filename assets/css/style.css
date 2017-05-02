@@ -656,16 +656,16 @@ p.description-work {
     background: #2d2d2d url("../img/missions/audit-digital.png") no-repeat center;
 }
 
-.back .card .missions-1 {background-color: #c8c8c8;}
+.back .card .missions-1 {background-color: #6ff5bd;}
 .back .card .missions-2 {background-color: #2d2d2d;}
-.back .card .missions-3 {background-color: #46d2dd;}
-.back .card .missions-4 {background-color: #db3e27;}
-.back .card .missions-5 {background-color: #6b5ff7;}
-.back .card .missions-6 {background-color: #56ff36;}
+.back .card .missions-3 {background-color: #ffde67;}
+.back .card .missions-4 {background-color: #6b5ff7;}
+.back .card .missions-5 {background-color: #ff8383;}
+.back .card .missions-6 {background-color: #55d4de;}
 
 .missions-hover {
     position: absolute;
-    top: 260px;
+    top: 248px;
     left: 0;
     right: 0;
 }
@@ -701,7 +701,7 @@ section#missions .presentation-work {
 }
 
 .project .vignette {
-    height: 260px;
+    height: 240px;
     background-color: #2d2d2d;
     position: absolute;
     top: 0;
@@ -713,7 +713,7 @@ section#missions .presentation-work {
 }
 
 .back {
-    box-shadow: 0 20px 30px 0 rgba(17, 21, 23, .1);
+    box-shadow: 0 16px 40px 0 rgba(17, 21, 23, .09);
 
 }
 
