@@ -151,10 +151,8 @@ div.logo-mobile {
     div.presentation-left hr.sep {
         width: 100px;
         height: 3px;
-        position: relative;
-        left: 50%;
-        -webkit-transform: translate(-50%, 25px);
-        transform:         translate(-50%, 25px);
+        margin: auto;
+        display: block;
     }
 
     div.presentation-left h2 {

@@ -132,7 +132,6 @@ div#scene {
     height: 100%;
 
     background: -webkit-linear-gradient(230deg, rgb(4, 112, 245), #ff7979, rgb(255, 0, 0));
-
     background: linear-gradient(-140deg, rgb(4, 112, 245), #ff7979, rgb(255, 0, 0));
     background-size: 400% 20000%;
 
@@ -186,9 +185,6 @@ div.menu-right nav ul li a {
 }
 
 div.menu-right nav ul li:nth-child(n+2) a {
-    position: relative;
-    right:    -44px;
-
     -webkit-transition: all ease 0.43s;
     transition:         all ease 0.43s;
 }
@@ -196,35 +192,21 @@ div.menu-right nav ul li:nth-child(n+2) a {
 
 
 /************** Hover menu ***************/
-svg.ico-menu {
-    height: 40px;
-    width:  40px;
-    fill-opacity: 0;
+div.menu-right nav ul li:nth-child(n+2) a:before {
+    content: '';
+    position: absolute;
+    top: 30px;
+    width: 0;
+    height: 2px;
+    background-color: #fff;
 
-    position: relative;
-    top: 9px;
-
-    -webkit-transform: scale(0);
-    transform:         scale(0);
-
-    -webkit-transform-origin: right center;
-    transform-origin:         right center;
-
-    -webkit-transition: all ease 0.6s;
-    transition:         all ease 0.6s;
+    -webkit-transition: width ease 0.5s;
+    transition:         width ease 0.5s;
 }
 
-div.menu-right nav ul li:hover svg.ico-menu {
-    height: 40px;
-    width:  40px;
-    fill-opacity: 1;
-
-    -webkit-transform: scale(1);
-    transform:         scale(1);
-}
-
-div.menu-right nav ul li:hover:nth-child(n+2) a {
-    right: 0;
+div.menu-right nav ul li:hover:nth-child(n+2) a:before {
+    width: 100%;
+    right: 0px;
 }
 /************** Fin hover menu ***************/
 
@@ -650,51 +632,58 @@ p.description-work {
     color: #2d2d2d;
 }
 
-.missions-1 {
+.project .missions-1, .missions-projet-1 {
     background: #2d2d2d url("../img/missions/strategie-produit.png") no-repeat center;
 }
 
-.missions-2 {
+.project .missions-2, .missions-projet-2 {
     background: #2d2d2d url("../img/missions/identite-visuelle.png") no-repeat center;
 }
 
-.missions-3 {
+.project .missions-3, .missions-projet-3 {
     background: #2d2d2d url("../img/missions/ui-ux-design.png") no-repeat center;
 }
 
-.missions-4 {
+.project .missions-4, .missions-projet-4 {
     background: #2d2d2d url("../img/missions/dev-web.png") no-repeat center;
 }
 
-.missions-5 {
+.project .missions-5, .missions-projet-5 {
     background: #2d2d2d url("../img/missions/dev-mobile.png") no-repeat center;
 }
 
-.missions-6 {
+.project .missions-6, .missions-projet-6 {
     background: #2d2d2d url("../img/missions/audit-digital.png") no-repeat center;
 }
 
+.back .card .missions-1 {background-color: #c8c8c8;}
+.back .card .missions-2 {background-color: #2d2d2d;}
+.back .card .missions-3 {background-color: #46d2dd;}
+.back .card .missions-4 {background-color: #db3e27;}
+.back .card .missions-5 {background-color: #6b5ff7;}
+.back .card .missions-6 {background-color: #56ff36;}
+
 .missions-hover {
     position: absolute;
-    top: 214px;
+    top: 260px;
     left: 0;
     right: 0;
 }
 
 .missions-hover h2 {
     font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: bold;
     color: #080808;
-    padding-top: 20px;
-    padding-bottom: 8px;
+    padding-top: 35px;
+    padding-bottom: 15px;
 }
 
 .missions-hover p {
     font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
-    font-size: 17px;
+    font-size: 18px;
     line-height: 25px;
-    color: #b0b0b0;
+    color: rgba(119, 116, 130, 0.75);
     margin: 0;
 
 }
@@ -706,15 +695,74 @@ section#missions .project:hover {
     top: -10px;
 }
 
-section#missions .project:hover .wrap-child {
-    box-shadow: 0 24px 40px 0 rgba(0, 0, 0, .2);
-}
-
 section#missions .presentation-work {
     margin-bottom: 200px;
+    padding-top: 50px;
 }
 
+.project .vignette {
+    height: 260px;
+    background-color: #2d2d2d;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
 
+.project .missions-hover {
+    padding: 0 15%;
+}
+
+.back {
+    box-shadow: 0 20px 30px 0 rgba(17, 21, 23, .1);
+
+}
+
+.card, .flip {
+    height: 100%;
+}
+.card-flip {
+    -webkit-perspective: 1000px;
+    perspective:         1000px;
+}
+.card-flip:hover .flip, .card-flip.hover .flip {
+    -webkit-transform: rotateY(180deg);
+    transform:         rotateY(180deg);
+}
+
+.card-flip,
+.front,
+.back {
+    width: 100%;
+    height: 100%;
+}
+
+.flip {
+    -webkit-transition: 0.6s;
+    transition: 0.6s;
+    -webkit-transform-style: preserve-3d;
+    transform-style:         preserve-3d;
+    position: relative;
+}
+
+.front,
+.back {
+    -webkit-backface-visibility: hidden;
+    backface-visibility:         hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.front {
+    z-index: 2;
+    -webkit-transform: rotateY(0deg);
+    transform:         rotateY(0deg);
+}
+
+.back {
+    -webkit-transform: rotateY(180deg);
+    transform:         rotateY(180deg);
+}
 /*---------------------------------------------------
 *
 *
@@ -907,6 +955,23 @@ span.mail:before {
 
     section.us div.info-us {
         font-size: 23px;
+    }
+
+    .project .vignette {
+        height: 214px;
+    }
+
+    .missions-hover {
+        top: 214px;
+    }
+
+    .project .card-flip .missions-hover h2 {
+        padding-top: 30px;
+    }
+
+    .missions-hover h2 {
+        font-size: 20px;
+        padding-bottom: 8px;
     }
 
     section#contact div.info-footer {

@@ -69,7 +69,7 @@
                     });
                     $('.separateur-h1').css({
                         opacity: 1,
-                        transform: 'translate(-50%, 0px)'
+                        transform: 'translate(0px, 0px)'
                     });
                     $('.title-h2').css({
                         opacity: 1,
