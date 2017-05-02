@@ -198,7 +198,7 @@ div.menu-right nav ul li:nth-child(n+2) a:before {
     top: 30px;
     width: 0;
     height: 2px;
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.8);
 
     -webkit-transition: width ease 0.5s;
     transition:         width ease 0.5s;
@@ -232,7 +232,7 @@ div.presentation-left h1 {
 
 div.presentation-left hr.sep {
     width: 250px;
-    height: 5px;
+    height: 4px;
     border: none;
     margin: inherit;
     display: inline-block;
@@ -827,7 +827,7 @@ section#contact div.info-footer {
     font-family: sans-serif;
     line-height: 30px;
     letter-spacing: 1px;
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(255, 255, 255, 0.8);
     position: absolute;
     top: 42%;
     left: 50%;
@@ -884,7 +884,7 @@ span.mail:before {
 *
 *
 ---------------------------------------------------*/
-.module {
+.module, .module-one-time {
     opacity: 0;
 }
 
@@ -894,8 +894,8 @@ span.mail:before {
     opacity: 0;
     -webkit-animation: come-in 1s ease forwards;
     animation:         come-in 1s ease forwards;
-    -webkit-animation-delay: 0.35s;
-    animation-delay:         0.35s;
+    -webkit-animation-delay: 0.25s;
+    animation-delay:         0.25s;
 }
 
 .come-in:nth-child(odd) {
@@ -945,7 +945,7 @@ span.mail:before {
 ---------------------------------------------------*/
 @media screen and (max-width: 1366px) {
     div.menu-right nav ul {
-        line-height: 40px;
+        line-height: 55px;
     }
 
     div.presentation-left h2 {
@@ -955,14 +955,19 @@ span.mail:before {
 
     section.us div.info-us {
         font-size: 23px;
+        line-height: 32px;
     }
 
     .project .vignette {
-        height: 214px;
+        height: 190px;
     }
 
     .missions-hover {
-        top: 214px;
+        top: 196px;
+    }
+
+    .project .missions-hover {
+        padding: 0 12%;
     }
 
     .project .card-flip .missions-hover h2 {
@@ -976,7 +981,8 @@ span.mail:before {
     }
 
     .missions-hover p {
-        font-size: 17px;
+        font-size: 16px;
+        line-height: 22px;
     }
 
     section#contact div.info-footer {
@@ -1143,7 +1149,7 @@ span.mail:before {
     }
 
     .missions-1, .missions-2, .missions-3, .missions-4, .missions-5, .missions-6 {
-        height: 214px;
+        height: 190px;
         width: 100%;
         position: absolute;
         top: 0;
@@ -1160,7 +1166,8 @@ span.mail:before {
 
     section#contact div.info-footer {
         width: 60%;
-        line-height: 23px;
+        line-height: 22px;
+        font-size: 16px;
     }
 }
 /*---------------------------------------------------
@@ -1182,6 +1189,10 @@ span.mail:before {
 
     div.bloc-work, div.bloc-work2 {
         height: auto;
+    }
+
+    .missions-hover {
+        padding: 0 12%;
     }
 }
 /*---------------------------------------------------
@@ -1244,7 +1255,6 @@ span.mail:before {
 
     section#contact div.info-footer {
         width: 80%;
-        font-size: 17px;
         top: 41%;
     }
 }
