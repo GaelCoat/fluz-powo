@@ -16,7 +16,7 @@
 .btn:after {
     content: 'TOUS LES PROJETS';
     color: #fff;
-    line-height: 72px;
+    line-height: 71px;
     position: absolute;
     height: 100%;
     width: 100%;
@@ -32,11 +32,11 @@
 .btn:before {
     content: 'TOUS LES PROJETS';
     color: #fff;
-    line-height: 72px;
+    line-height: 71px;
     position: absolute;
     height: 100%;
     width: 100%;
-    top: -72px;
+    top: -71px;
     left: 0;
     background-color: #222222;
 
@@ -51,7 +51,7 @@
 }
 
 .btn:hover:after {
-    top: 72px;
+    top: 71px;
 }
 
 
