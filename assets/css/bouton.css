@@ -88,6 +88,7 @@
 
     .btn:after {
         line-height: 56px;
+        display: none;
     }
 
     .btn:before {

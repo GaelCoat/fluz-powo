@@ -325,8 +325,7 @@ section.us h1:before, h1.work-title:before, .title-missions:before, section#cont
     right: 0;
     font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
     font-size: 150px;
-    top: -30px;
-    line-height: 110px;
+    line-height: 50px;
     color: rgba(255, 255, 255, 0.46);
 }
 
@@ -673,6 +672,8 @@ p.description-work {
 .missions-hover {
     position: absolute;
     top: 214px;
+    left: 0;
+    right: 0;
 }
 
 .missions-hover h2 {
