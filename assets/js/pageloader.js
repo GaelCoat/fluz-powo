@@ -36,9 +36,6 @@
             }
 
             // Affichage du pourcentage
-            $chargementInfos
-                .stop() // stop les anciennes animations
-                .animate({width: pourcentage + '%'}, dureeMs);
             $chargement
                 .stop() // stop les anciennes animations
                 .animate({pourcentage: pourcentage}, {
@@ -52,9 +49,6 @@
             var pourcentage = 100;
 
             // Affichage du pourcentage
-            $chargementInfos
-                .stop() // stop les anciennes animations
-                .animate({width: pourcentage + '%'}, (dureeMs / 2));
             $chargement
                 .stop() // stop les anciennes animations
                 .animate({pourcentage: pourcentage}, {
@@ -65,20 +59,17 @@
                 .css({opacity: 1})
                 .animate({opacity: 0}, function () {
                     // La page est prete
-                    $chargement.css({display: 'none'});
-                    $('#container')
-                        .css({
-                            opacity: 0,
-                            visibility: 'visible'
-                        })
-                        .animate({opacity: 1});
+                    $chargement.css({
+                        opacity: 1,
+                        transform: 'translateY(-100%)'
+                    });
                     $('.title-h1').css({
                         opacity: 1,
                         transform: 'translateY(0px)'
                     });
                     $('.separateur-h1').css({
                         opacity: 1,
-                        transform: 'translateY(0px)'
+                        transform: 'translate(-50%, 0px)'
                     });
                     $('.title-h2').css({
                         opacity: 1,
