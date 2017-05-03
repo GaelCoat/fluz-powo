@@ -139,11 +139,6 @@ div#scene {
     animation:         AnimationName 24s ease infinite;
 }
 
-div.accueil {
-    position: relative;
-    height: 100vh;
-}
-
 div.content-accueil {
     height: 100%;
     margin: auto;
@@ -777,7 +772,6 @@ section#contact h1:before {
 section#contact {
     overflow: hidden;
     position: relative;
-    height: 100vh;
 
     background: -webkit-linear-gradient(215deg, #fb3316, #4346fb);
 
