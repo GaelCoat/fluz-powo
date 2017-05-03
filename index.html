@@ -583,15 +583,6 @@
     var parallax = new Parallax(scene);
 </script>
 
-<script>
-    $('#gradient').css({
-        height : window.innerHeight
-    });
-    $('div.accueil').css({
-        height : window.innerHeight
-    });
-</script>
-
 <script src="assets/js/jquery.appear.js"></script>
 <script src="assets/js/scroll-transition.js"></script>
 <script src="assets/js/transition-ancres-missions.js"></script>
@@ -632,6 +623,15 @@
 
 <script src='https://rawgit.com/JulianLaval/canvas-particle-network/master/particle-network.min.js'></script>
 <script src="assets/js/index.js"></script>
+
+<script>
+    $('#gradient').css({
+        height : window.innerHeight
+    });
+    $('div.accueil').css({
+        height : canvas.height
+    });
+</script>
 
 </body>
 </html>
