@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f3e75758-6c2c-4aee-aa60-2d8e22bd336f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/global-rules.css" afterPath="$PROJECT_DIR$/assets/css/global-rules.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/style.css" afterPath="$PROJECT_DIR$/assets/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,27 +24,27 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="589" column="16" lean-forward="false" selection-start-line="589" selection-start-column="16" selection-end-line="589" selection-end-column="16" />
+            <state relative-caret-position="546">
+              <caret line="591" column="7" lean-forward="true" selection-start-line="591" selection-start-column="7" selection-end-line="591" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="global-rules.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="global-rules.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/css/global-rules.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="39" column="23" lean-forward="false" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
+            <state relative-caret-position="892">
+              <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
+            <state relative-caret-position="-3679">
               <caret line="778" column="17" lean-forward="false" selection-start-line="778" selection-start-column="17" selection-end-line="778" selection-end-column="17" />
               <folding />
             </state>
@@ -155,9 +154,9 @@
         <option value="$PROJECT_DIR$/assets/js/pageloader.js" />
         <option value="$PROJECT_DIR$/assets/css/menu-responsive.css" />
         <option value="$PROJECT_DIR$/assets/css/bouton.css" />
-        <option value="$PROJECT_DIR$/assets/css/global-rules.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/assets/css/style.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/assets/css/global-rules.css" />
       </list>
     </option>
   </component>
@@ -348,12 +347,12 @@
       <workItem from="1493364712890" duration="11745000" />
       <workItem from="1493408584898" duration="27000" />
       <workItem from="1493711681540" duration="19825000" />
-      <workItem from="1493796613024" duration="3021000" />
+      <workItem from="1493796613024" duration="3284000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="151687000" />
+    <option name="totallyTimeSpent" value="151950000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -584,26 +583,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/global-rules.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="39" column="23" lean-forward="false" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="589" column="16" lean-forward="false" selection-start-line="589" selection-start-column="16" selection-end-line="589" selection-end-column="16" />
+        <state relative-caret-position="546">
+          <caret line="591" column="7" lean-forward="true" selection-start-line="591" selection-start-column="7" selection-end-line="591" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
+        <state relative-caret-position="-3679">
           <caret line="778" column="17" lean-forward="false" selection-start-line="778" selection-start-column="17" selection-end-line="778" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/global-rules.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="892">
+          <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
           <folding />
         </state>
       </provider>
