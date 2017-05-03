@@ -776,6 +776,7 @@ section#contact h1:before {
 section#contact {
     overflow: hidden;
     position: relative;
+    height: 100%;
 
     background: -webkit-linear-gradient(215deg, #fb3316, #4346fb);
 
