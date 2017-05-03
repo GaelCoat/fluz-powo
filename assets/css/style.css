@@ -139,6 +139,10 @@ div#scene {
     animation:         AnimationName 24s ease infinite;
 }
 
+div.accueil {
+    position: relative;
+}
+
 div.content-accueil {
     height: 100%;
     margin: auto;
