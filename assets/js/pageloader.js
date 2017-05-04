@@ -65,7 +65,7 @@
                     // La page est prete
                     $chargement.css({
                         opacity: 0,
-                        transform: 'translate(-100%, -100%)'
+                        transform: 'translateY(-100%)'
                     });
                     $('.title-h1').css({
                         opacity: 1,
