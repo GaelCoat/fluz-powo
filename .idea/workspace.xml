@@ -2,6 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3e75758-6c2c-4aee-aa60-2d8e22bd336f" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/global-rules.css" afterPath="$PROJECT_DIR$/assets/css/global-rules.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/loader.css" afterPath="$PROJECT_DIR$/assets/css/loader.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/normalize.css" afterPath="$PROJECT_DIR$/assets/css/normalize.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/pageloader.js" afterPath="$PROJECT_DIR$/assets/js/pageloader.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,42 +24,22 @@
     <favorites_list name="fluz-powo" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="574" column="14" lean-forward="false" selection-start-line="574" selection-start-column="14" selection-end-line="575" selection-end-column="6" />
+            <state relative-caret-position="445">
+              <caret line="601" column="14" lean-forward="false" selection-start-line="601" selection-start-column="14" selection-end-line="601" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="global-rules.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="global-rules.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/css/global-rules.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="61" column="38" lean-forward="true" selection-start-line="61" selection-start-column="38" selection-end-line="61" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3679">
-              <caret line="778" column="17" lean-forward="false" selection-start-line="778" selection-start-column="17" selection-end-line="778" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="transition-ancres-missions.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/js/transition-ancres-missions.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="346">
+              <caret line="53" column="26" lean-forward="true" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -63,18 +48,28 @@
       <file leaf-file-name="pageloader.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/js/pageloader.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1022">
-              <caret line="74" column="35" lean-forward="true" selection-start-line="74" selection-start-column="35" selection-end-line="74" selection-end-column="35" />
+            <state relative-caret-position="424">
+              <caret line="67" column="20" lean-forward="false" selection-start-line="67" selection-start-column="20" selection-end-line="67" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="particle.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/js/particle.js">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="3" column="38" lean-forward="false" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="38" />
+            <state relative-caret-position="316">
+              <caret line="899" column="15" lean-forward="false" selection-start-line="899" selection-start-column="15" selection-end-line="899" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="loader.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/css/loader.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -93,7 +88,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.vh</find>
       <find>mission</find>
       <find>work-title</find>
       <find>.container-work</find>
@@ -123,6 +117,7 @@
       <find>canvas</find>
       <find>contact</find>
       <find>div.acc</find>
+      <find>chargem</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -148,14 +143,15 @@
         <option value="$PROJECT_DIR$/assets/js/menuResponsive.js" />
         <option value="$PROJECT_DIR$/assets/js/slide-mobile.js" />
         <option value="$PROJECT_DIR$/assets/css/slide-mobile.css" />
-        <option value="$PROJECT_DIR$/assets/css/loader.css" />
         <option value="$PROJECT_DIR$/works.html" />
-        <option value="$PROJECT_DIR$/assets/js/pageloader.js" />
         <option value="$PROJECT_DIR$/assets/css/menu-responsive.css" />
         <option value="$PROJECT_DIR$/assets/css/bouton.css" />
         <option value="$PROJECT_DIR$/assets/css/style.css" />
-        <option value="$PROJECT_DIR$/assets/css/global-rules.css" />
+        <option value="$PROJECT_DIR$/assets/css/normalize.css" />
+        <option value="$PROJECT_DIR$/assets/css/loader.css" />
+        <option value="$PROJECT_DIR$/assets/js/pageloader.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/assets/css/global-rules.css" />
       </list>
     </option>
   </component>
@@ -346,12 +342,14 @@
       <workItem from="1493364712890" duration="11745000" />
       <workItem from="1493408584898" duration="27000" />
       <workItem from="1493711681540" duration="19825000" />
-      <workItem from="1493796613024" duration="5209000" />
+      <workItem from="1493796613024" duration="6177000" />
+      <workItem from="1493815184607" duration="1207000" />
+      <workItem from="1493883489071" duration="4890000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="153875000" />
+    <option name="totallyTimeSpent" value="160940000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -389,6 +387,70 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20228">
+          <caret line="778" column="17" lean-forward="false" selection-start-line="778" selection-start-column="17" selection-end-line="778" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/global-rules.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1586">
+          <caret line="61" column="38" lean-forward="true" selection-start-line="61" selection-start-column="38" selection-end-line="61" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20228">
+          <caret line="778" column="17" lean-forward="false" selection-start-line="778" selection-start-column="17" selection-end-line="778" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/transition-ancres-missions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/pageloader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1924">
+          <caret line="74" column="35" lean-forward="true" selection-start-line="74" selection-start-column="35" selection-end-line="74" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/particle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" column="38" lean-forward="false" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -494,19 +556,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/loader.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="21" column="1" lean-forward="false" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/bouton.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="364">
           <caret line="53" column="11" lean-forward="false" selection-start-line="53" selection-start-column="11" selection-end-line="53" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -514,7 +567,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-798">
           <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -522,7 +574,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
           <caret line="155" column="4" lean-forward="false" selection-start-line="155" selection-start-column="4" selection-end-line="155" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -530,7 +581,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="715">
           <caret line="511" column="26" lean-forward="false" selection-start-line="511" selection-start-column="26" selection-end-line="511" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -566,22 +616,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/pageloader.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1022">
-          <caret line="74" column="35" lean-forward="true" selection-start-line="74" selection-start-column="35" selection-end-line="74" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3679">
-          <caret line="778" column="17" lean-forward="false" selection-start-line="778" selection-start-column="17" selection-end-line="778" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/particle.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="78">
@@ -590,18 +624,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/global-rules.css">
+    <entry file="file://$PROJECT_DIR$/assets/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="61" column="38" lean-forward="true" selection-start-line="61" selection-start-column="38" selection-end-line="61" selection-end-column="38" />
+        <state relative-caret-position="316">
+          <caret line="899" column="15" lean-forward="false" selection-start-line="899" selection-start-column="15" selection-end-line="899" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/normalize.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="218" column="0" lean-forward="true" selection-start-line="218" selection-start-column="0" selection-end-line="218" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/loader.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/pageloader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="67" column="20" lean-forward="false" selection-start-line="67" selection-start-column="20" selection-end-line="67" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="574" column="14" lean-forward="false" selection-start-line="574" selection-start-column="14" selection-end-line="575" selection-end-column="6" />
+        <state relative-caret-position="445">
+          <caret line="601" column="14" lean-forward="false" selection-start-line="601" selection-start-column="14" selection-end-line="601" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/global-rules.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="53" column="26" lean-forward="true" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="26" />
           <folding />
         </state>
       </provider>

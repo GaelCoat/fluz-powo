@@ -22,6 +22,7 @@
 
         var $chargement = $('#chargement');
         var $chargementInfos = $('#chargement-infos');
+        var $barLoader = $('#bar-loader');
         var elementsCharges = 0;
         var dureeMs = 1000;
 
@@ -42,6 +43,9 @@
                     duration: dureeMs,
                     step: animateStep
                 });
+            $barLoader
+                .stop() // stop les anciennes animations
+                .animate({width: pourcentage + '%'});
         }
 
         function chargementTermine() {
@@ -60,8 +64,7 @@
                 .animate({opacity: 0}, function () {
                     // La page est prete
                     $chargement.css({
-                        opacity: 1,
-                        transform: 'translateY(-100%)'
+                        opacity: 0
                     });
                     $('.title-h1').css({
                         opacity: 1,
@@ -76,7 +79,9 @@
                         transform: 'translateY(0px)'
                     });
                 });
-
+            $barLoader
+                .stop() // stop les anciennes animations
+                .animate({width: pourcentage + '%'}).css({width: pourcentage + '%'});
         }
 
         // La page contient des elements permettant d'afficher une barre de progression

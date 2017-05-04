@@ -3,20 +3,106 @@
     z-index:  9999;
     height:   100vh;
     width:    100%;
-    background-color: #0c0c0c;
 
     -webkit-transition: all ease 1.5s;
     transition:         all ease 1.5s;
+    background-color: #fff;
 }
 
 #chargement-info {
-    position:  absolute;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#chargement-infos {
+    color: #2b2b2b;
+    font-size: 25px;
+}
+
+#bar-loader {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 5px;
+    background-color: #2b2b2b;
+}
+
+.loader-form {
+    position: absolute;
     top:       50%;
     left:      50%;
     -webkit-transform: translate(-50%, -50%);
     transform:         translate(-50%, -50%);
+    width:  155px;
+    height: 150px;
 }
 
-#chargement-infos {
-    color: rgba(255, 255, 255, 0.41);
+.loader {
+    position: absolute;
+    opacity: .7;
+    overflow: visible;
+}
+
+.loader circle {
+    -webkit-animation: draw 2.5s infinite ease-in-out;
+    animation: draw 2.5s infinite ease-in-out;
+    -webkit-transform-origin: center;
+    transform-origin:         center;
+    -webkit-transform: rotate(-90deg);
+    transform:         rotate(-90deg);
+}
+
+.loader-2 circle,
+.loader-6 circle {
+    -webkit-animation-delay: 0.2s;
+    animation-delay: 0.2s;
+}
+
+.loader-7 circle {
+    -webkit-animation-delay: 0.4s;
+    animation-delay: 0.4s;
+}
+
+.loader-4 circle,
+.loader-8 circle {
+    -webkit-animation-delay: 0.6s;
+    animation-delay: 0.6s;
+}
+
+.loader-3 {
+    left: -150px;
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.loader-6,
+.loader-7,
+.loader-8 {
+    left: -150px;
+    -webkit-transform: rotateX(180deg) rotateY(180deg);
+    transform: rotateX(180deg) rotateY(180deg);
+}
+
+.loader-5 circle {
+    opacity: .2;
+}
+
+@-webkit-keyframes draw {
+    50% {
+        stroke-dashoffset: 0;
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+    }
+}
+
+@keyframes draw {
+    50% {
+        stroke-dashoffset: 0;
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+    }
 }
