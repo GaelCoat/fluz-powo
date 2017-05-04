@@ -14,7 +14,7 @@
 }
 
 .btn:after {
-    content: 'TOUS LES PROJETS';
+    content: '';
     color: #fff;
     line-height: 71px;
     position: absolute;
@@ -29,8 +29,9 @@
     -o-transition:      all ease 0.4s;
     transition:         all ease 0.4s;
 }
+
 .btn:before {
-    content: 'TOUS LES PROJETS';
+    content: '';
     color: #fff;
     line-height: 71px;
     position: absolute;
@@ -44,6 +45,18 @@
     -moz-transition:    all ease 0.4s;
     -o-transition:      all ease 0.4s;
     transition:         all ease 0.4s;
+}
+
+.btn-work:before, .btn-work:after {
+    content: 'TOUS LES PROJETS';
+}
+
+.btn-back:before, .btn-back:after {
+    content: 'Works';
+}
+
+.btn-site:before, .btn-site:after {
+    content: 'Voir le site';
 }
 
 .btn:hover:before {
