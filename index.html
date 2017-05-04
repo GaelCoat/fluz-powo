@@ -659,7 +659,14 @@
     $('div.accueil').css({
         height : window.innerHeight
     });
+    if($('window.innerHeight') < 768){
+        $('#gradient').css({
+            height : window.innerHeight + 60
+        });
+        $('#contact').css({
+            height : window.innerHeight + 60
+        });
+    }
 </script>
-
 </body>
 </html>
