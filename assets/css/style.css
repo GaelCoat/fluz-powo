@@ -149,7 +149,7 @@ div.content-accueil {
     position: relative;
 }
 
-div.presentation-left, div.menu-right {
+div.presentation-left {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -160,21 +160,21 @@ div.presentation-left, div.menu-right {
 /*************** Navigation right ***************/
 div.menu-right {
     font-size: 20px;
+    position: absolute;
     right: 0;
+    top: 40px;
 }
 
-div.menu-right li:first-child {
+div.menu-right li {
     display: inline-block;
+    margin-left: 20px;
 }
 
-div.menu-right div.logo img {
-    width:  100px;
-    height: 100px;
-}
-
-div.menu-right nav ul {
-    line-height: 65px;
-    text-align: right;
+ div.logo {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    display: inline-block;
 }
 
 div.menu-right nav ul li a {
@@ -183,7 +183,7 @@ div.menu-right nav ul li a {
     position: relative;
 }
 
-div.menu-right nav ul li:nth-child(n+2) a {
+div.menu-right nav ul li a {
     -webkit-transition: all ease 0.43s;
     transition:         all ease 0.43s;
 }
@@ -191,7 +191,7 @@ div.menu-right nav ul li:nth-child(n+2) a {
 
 
 /************** Hover menu ***************/
-div.menu-right nav ul li:nth-child(n+2) a:before {
+div.menu-right nav ul li a:before {
     content: '';
     position: absolute;
     top: 30px;
@@ -203,9 +203,9 @@ div.menu-right nav ul li:nth-child(n+2) a:before {
     transition:         width ease 0.5s;
 }
 
-div.menu-right nav ul li:hover:nth-child(n+2) a:before {
+div.menu-right nav ul li:hover a:before {
     width: 100%;
-    right: 0px;
+    right: 0;
 }
 /************** Fin hover menu ***************/
 
