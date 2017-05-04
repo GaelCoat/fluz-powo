@@ -656,13 +656,17 @@
     $('#contact').css({
         height : window.innerHeight
     });
-    $('div.accueil').css({
+    $('#accueil').css({
         height : window.innerHeight
     });
-    if($('window.innerHeight') < 768){
+
+    if($(window).width() < 768){
         $('#gradient').css({
             height : window.innerHeight + 60
         });
+
+        console.log('lol');
+
         $('#contact').css({
             height : window.innerHeight + 60
         });
