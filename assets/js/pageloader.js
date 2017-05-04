@@ -61,10 +61,9 @@
                 })
                 // Disparition du chargement et affichage de la page
                 .css({opacity: 1})
-                .animate({opacity: 0}, function () {
+                .animate({opacity : 1}, function () {
                     // La page est prete
                     $chargement.css({
-                        opacity: 0,
                         transform: 'translateY(-100%)'
                     });
                     $('.title-h1').css({
