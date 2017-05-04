@@ -151,7 +151,7 @@ div.content-accueil {
 
 div.presentation-left {
     position: absolute;
-    top: 50%;
+    top: 55%;
     transform: translateY(-50%);
     display: inline-block;
 }
@@ -159,15 +159,15 @@ div.presentation-left {
 
 /*************** Navigation right ***************/
 div.menu-right {
-    font-size: 20px;
+    font-size: 18px;
     position: absolute;
     right: 0;
-    top: 40px;
+    top: 20px;
 }
 
 div.menu-right li {
     display: inline-block;
-    margin-left: 20px;
+    margin-left: 40px;
 }
 
  div.logo {
@@ -212,11 +212,11 @@ div.menu-right nav ul li:hover a:before {
 
 
 div.presentation-left h1 {
-    font-size: 62px;
+    font-size: 5vw;
     color: #fff;
     font-weight: 700;
     letter-spacing: 1px;
-    margin-bottom: 38px;
+    margin-bottom: 30px;
     opacity: 0;
 
     -webkit-transform: translateY(25px);
@@ -252,7 +252,7 @@ div.presentation-left h2 {
     font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
     font-size: 25px;
     color: rgba(255, 255, 255, 0.85);
-    margin-top: 40px;
+    margin-top: 30px;
     opacity: 0;
 
     -webkit-transform: translateY(25px);
@@ -947,6 +947,10 @@ span.mail:before {
         line-height: 55px;
     }
 
+    div.presentation-left h1 {
+        font-size: 6vw;
+    }
+
     div.presentation-left h2 {
         font-size: 22px;
         font-weight: lighter;
@@ -1082,6 +1086,16 @@ span.mail:before {
 }
 /*---------------------------------------------------
 *
+*                       1024/Portrait
+*
+---------------------------------------------------*/
+@media screen and (max-width: 1024px) and (orientation: portrait){
+    div.menu-right {
+        top: 55%;
+    }
+}
+/*---------------------------------------------------
+*
 *                       960
 *
 ---------------------------------------------------*/
@@ -1167,6 +1181,61 @@ span.mail:before {
         width: 60%;
         line-height: 22px;
         font-size: 16px;
+    }
+}
+/*---------------------------------------------------
+*
+*                       768/Paysage
+*
+---------------------------------------------------*/
+@media screen and (max-width: 768px) and (orientation: landscape){
+    section.us blockquote.citation {
+        font-size: 22px;
+        line-height: 38px;
+    }
+    section.us div.info-us {
+        width: 440px;
+        line-height: 27px;
+        font-size: 19px;
+    }
+
+    span.quote {
+        font-size: 65px;
+    }
+
+    span.quote:last-child {
+        bottom: -44px;
+        right: 0px;
+    }
+
+    section.us div.info-us2 {
+        margin-top: 55px;
+    }
+
+    .project {
+        height: 300px;
+    }
+
+    .bgc-1, .bgc-2, .bgc-3 {
+        background-size: 50%;
+    }
+    .bgc-1 {
+        background-color: #3594d9;
+    }
+    .bgc-2 {
+        background-color: #222222;
+    }
+    .bgc-3 {
+         background-color: #f1c410;
+    }
+
+    p.description-work {
+        font-size: 17px;
+        width: 80%;
+    }
+
+    section#contact div.info-footer {
+        top: 57%;
     }
 }
 /*---------------------------------------------------

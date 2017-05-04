@@ -5,7 +5,13 @@ div.logo-mobile {
 @media screen and (max-width: 1024px){
     div.menu-right {
         right: 50%;
+        top: 50%;
         transform: translate(50%, -50%);
+    }
+
+    div.menu-right li {
+        display: block;
+        margin-left: 0;
     }
 
     div.logo-mobile {
@@ -15,6 +21,11 @@ div.logo-mobile {
         top: 30px;
     }
 
+    div.logo {
+        top: 28%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
 
     .header-icon {
         position:  absolute;
@@ -126,7 +137,8 @@ div.logo-mobile {
 
     div.menu-right nav ul {
         padding: 0;
-        line-height: 55px;
+        line-height: 75px;
+        font-size: 25px;
         text-align: center;
     }
 
@@ -162,6 +174,24 @@ div.logo-mobile {
     }
 }
 
+@media screen and (max-width: 768px){
+    div.menu-right nav ul {
+        line-height: 55px;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 768px) and (orientation: landscape) {
+    div.menu-right {
+        top: 60%;
+    }
+
+    div.menu-right nav ul {
+        line-height: 35px;
+        font-size: 17px;
+    }
+}
+
 @media screen and (max-width: 580px){
     div.presentation-left {
         max-width: 82%;
@@ -182,5 +212,9 @@ div.logo-mobile {
 @media screen and (max-width: 320px){
     div.presentation-left h2 {
         font-size: 16px;
+    }
+
+    div.menu-right {
+        top: 55%;
     }
 }
