@@ -650,16 +650,18 @@
 <script src="assets/js/index.js"></script>
 
 <script>
-    $('#gradient').css({
-        height : window.innerHeight
-    });
-    $('#contact').css({
-        height : window.innerHeight
-    });
-    $('div.accueil').css({
-        height : window.innerHeight
-    });
-    if($('window.innerHeight') < 768){
+    if($('window.innerHeight') > 960) {
+        $('#gradient').css({
+            height : window.innerHeight
+        });
+        $('#contact').css({
+            height : window.innerHeight
+        });
+        $('div.accueil').css({
+            height : window.innerHeight
+        });
+    }
+    if($('window.innerHeight') < 960){
         $('#gradient').css({
             height : window.innerHeight + 60
         });
