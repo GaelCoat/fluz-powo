@@ -84,11 +84,11 @@ div.logo-mobile {
         z-index: 100;
         background-color: rgba(162, 43, 43, 0.94);
 
-        -webkit-transition: all cubic-bezier(.25,.59,.05,1) 0.5s;
-        transition:         all cubic-bezier(.25,.59,.05,1) 0.5s;
+        -webkit-transition: all cubic-bezier(.25,.59,.05,1) 0.7s;
+        transition:         all cubic-bezier(.25,.59,.05,1) 0.7s;
 
-        -webkit-transform: translateY(-100%);
-        transform:         translateY(-100%);
+        -webkit-transform: translateY(-150%);
+        transform:         translateY(-150%);
     }
 
     .menu-activation {
