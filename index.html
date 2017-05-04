@@ -662,12 +662,28 @@
             height : window.innerHeight + 60
         });
 
-        console.log('lol');
-
         $('#contact').css({
             height : window.innerHeight + 60
         });
     }
+
+    $(window).resize(function(){
+        $('#accueil').css({
+            height : window.innerHeight
+        });
+
+        if($(window).width() < 1024){
+            $('#gradient').css({
+                height : window.innerHeight + 60
+            });
+
+            console.log('lol');
+
+            $('#contact').css({
+                height : window.innerHeight + 60
+            });
+        }
+    });
 </script>
 </body>
 </html>
