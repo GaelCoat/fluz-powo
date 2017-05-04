@@ -64,7 +64,8 @@
                 .animate({opacity: 0}, function () {
                     // La page est prete
                     $chargement.css({
-                        opacity: 0
+                        opacity: 0,
+                        transform: 'translate(-100%, -100%)'
                     });
                     $('.title-h1').css({
                         opacity: 1,
