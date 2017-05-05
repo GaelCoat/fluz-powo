@@ -962,6 +962,19 @@ span.mail:before {
 *
 *
 ---------------------------------------------------*/
+@media screen and (max-width: 1680px){
+    div.bouton-exp {
+        width: 240px;
+        height: 59px;
+        top: 130px;
+        right: 180px;
+    }
+
+    div.form-experience-fluz {
+        width: 640px;
+        height: 420px;
+    }
+}
 @media screen and (min-width: 1600px) {
     .content-accueil {
         max-width: 1450px;
@@ -970,6 +983,46 @@ span.mail:before {
 @media screen and (max-width: 1600px) {
     .content-accueil {
         max-width: 1080px;
+    }
+
+    div.bouton-exp {
+        width: 230px;
+        height: 58px;
+        top: 125px;
+        right: 210px;
+    }
+
+    div.bouton-exp span.txt-fluz {
+        right: 35px;
+        font-size: 17px;
+    }
+
+    div.bouton-exp:after {
+        width: 35px;
+    }
+
+    div.bouton-exp:hover:after {
+        right: 89%;
+        width: 15px;
+        height: 57px;
+    }
+}
+/*---------------------------------------------------
+*
+*                       1440
+*
+---------------------------------------------------*/
+@media screen and (max-width: 1440px){
+    div.bouton-exp {
+        width: 210px;
+        height: 52px;
+        top: 110px;
+        right: 250px;
+    }
+
+    div.form-experience-fluz {
+        width: 500px;
+        height: 350px;
     }
 }
 /*---------------------------------------------------
@@ -991,21 +1044,6 @@ span.mail:before {
         height: 49px;
         top: 103px;
         right: 190px;
-    }
-
-    div.bouton-exp span.txt-fluz {
-        right: 35px;
-        font-size: 17px;
-    }
-
-    div.bouton-exp:after {
-        width: 35px;
-    }
-
-    div.bouton-exp:hover:after {
-        right: 89%;
-        width: 15px;
-        height: 57px;
     }
 
     div.form-experience-fluz {
@@ -1065,6 +1103,13 @@ span.mail:before {
         max-width: 1000px;
     }
 
+    div.bouton-exp {
+        width: 190px;
+        height: 47px;
+        top: 97px;
+        right: 220px;
+    }
+
     section#contact div.info-footer {
         width: 37%;
     }
@@ -1085,6 +1130,28 @@ span.mail:before {
 *
 ---------------------------------------------------*/
 @media screen and (max-width: 1120px) {
+    div.bouton-exp {
+        width: 170px;
+        height: 42px;
+        top: 89px;
+        right: 260px;
+    }
+
+    div.bouton-exp span.txt-fluz {
+        right: 19px;
+        font-size: 16px;
+    }
+
+    div.bouton-exp:after {
+        width: 25px;
+    }
+
+    div.bouton-exp:hover:after {
+        right: 88%;
+        width: 10px;
+        height: 50px;
+    }
+
     section.us div.info-us {
         width: 400px;
         padding-left:  15px;
@@ -1121,6 +1188,11 @@ span.mail:before {
 @media screen and (max-width: 1024px) {
     .content-accueil {
         max-width: 760px;
+    }
+
+    div.form-experience-fluz {
+        width: 380px;
+        height: 260px;
     }
 
     div.presentation-left h1 {
