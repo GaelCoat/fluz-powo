@@ -1,0 +1,80 @@
+$txt-selection: #fff;
+$background-selection: #a5e2ff;
+
+
+*::-moz-selection {
+  color: $txt-selection;
+  background-color: $background-selection;
+}
+
+*::selection {
+  color: $txt-selection;
+  background-color: $background-selection;
+}
+
+* {
+  box-sizing: border-box;
+
+  -webkit-font-smoothing:  antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing:          antialiased;
+  text-rendering:          optimizeLegibility;
+
+  -webkit-user-drag:   none;
+  -webkit-user-select: none;
+  -moz-user-select:    none;
+  -ms-user-select:     none;
+  user-select:         none;
+}
+
+p, h1, h2, h3, h4, h5, h6 a, span, em {
+  -webkit-user-select: text;
+  -moz-user-select:    text;
+  -ms-user-select:     text;
+  user-select:         text;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+html {
+  -ms-text-size-adjust:       100%;
+  -webkit-text-size-adjust:   100%;
+  -webkit-overflow-scrolling: touch;
+  position: relative;
+  height: 100%;
+}
+
+body {
+  margin:  0;
+  padding: 0;
+  font: 400 16px 'Roboto', sans-serif;
+  position: relative;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li {
+  list-style: none;
+}
+
+@media screen and (max-width: 768px) {
+  /*html, body {*/
+  /*overflow: hidden;*/
+  /*}*/
+
+  /*#content-page {*/
+  /*-webkit-overflow-scrolling: touch;*/
+  /*overflow: auto;*/
+  /*height: 100%;*/
+  /*}*/
+
+  .none {
+    display: none;
+  }
+}

@@ -1,0 +1,170 @@
+::-webkit-scrollbar {
+  width: 10px; }
+
+::-webkit-scrollbar-thumb {
+  background-color: #343434;
+  border-radius: 15px; }
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #626262; }
+
+::-webkit-scrollbar-track {
+  background-color: #7b7b7b; }
+
+body {
+  scrollbar-face-color: #fafafa;
+  scrollbar-track-color: #343434; }
+
+div.content-accueil {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 110px;
+  background-color: #007aff; }
+
+header {
+  margin: auto;
+  position: relative; }
+  @media screen and (min-width: 1600px) {
+    header {
+      max-width: 1450px; } }
+  @media screen and (max-width: 1600px) {
+    header {
+      max-width: 1080px; } }
+  @media screen and (max-width: 1280px) {
+    header {
+      max-width: 1000px; } }
+  @media screen and (max-width: 1024px) {
+    header {
+      max-width: 760px; } }
+
+/*************** Navigation right ***************/
+div.menu-right {
+  font-size: 18px;
+  position: absolute;
+  right: 0;
+  top: 20px; }
+  div.menu-right li {
+    display: inline-block;
+    margin-left: 40px; }
+    div.menu-right li a {
+      color: #fff;
+      letter-spacing: 0.05em;
+      position: relative;
+      -webkit-transition: all ease 0.43s;
+      transition: all ease 0.43s; }
+
+div.logo {
+  position: absolute;
+  top: 30px;
+  left: 0;
+  display: inline-block;
+  width: 180px; }
+  div.logo img {
+    width: 180px; }
+
+/************** Hover menu ***************/
+div.menu-right nav ul li a:before {
+  content: '';
+  position: absolute;
+  top: 30px;
+  height: 2px;
+  width: 0;
+  background-color: rgba(255, 255, 255, 0.8);
+  -webkit-transition: width ease 0.5s;
+  transition: width ease 0.5s; }
+
+div.menu-right nav ul li:hover a:before {
+  width: 100%;
+  right: 0; }
+
+.content {
+  padding-left: 3%;
+  padding-right: 3%;
+  text-align: center; }
+  .content h1.title {
+    font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+    font-size: 34px;
+    font-weight: bold;
+    margin-bottom: 32px; }
+  .content .sep {
+    width: 140px;
+    height: 2px;
+    border: none;
+    background-color: #007aff;
+    margin-bottom: 36px; }
+  .content h2.sous-titre {
+    margin-bottom: 136px;
+    color: #a9a9a9;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 20px; }
+
+section.works div.img-work {
+  width: 1365px;
+  height: 800px;
+  margin: auto;
+  -webkit-box-shadow: 0 8px 45px 0 rgba(0, 122, 255, 0.3);
+  -moz-box-shadow: 0 8px 45px 0 rgba(0, 122, 255, 0.3);
+  box-shadow: 0 8px 45px 0 rgba(0, 122, 255, 0.3); }
+  @media screen and (max-width: 1600px) {
+    section.works div.img-work {
+      width: 1225px;
+      height: 720px; } }
+  @media screen and (max-width: 1366px) {
+    section.works div.img-work {
+      width: 1096px;
+      height: 645px; } }
+  @media screen and (max-width: 1160px) {
+    section.works div.img-work {
+      width: 810px;
+      height: 475px; } }
+  @media screen and (max-width: 980px) {
+    section.works div.img-work {
+      width: 94%;
+      height: 505px; } }
+  @media screen and (max-width: 480px) {
+    section.works div.img-work {
+      width: 100%;
+      height: 350px; } }
+section.works div.img-work.one {
+  background: url("../img/works/page-thauvin/accueil-thauvin.PNG") no-repeat center;
+  background-size: cover; }
+section.works article {
+  font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+  font-size: 18px;
+  color: #bcbcbc;
+  width: 832px;
+  margin: 70px auto;
+  text-align: left; }
+  @media screen and (max-width: 1366px) {
+    section.works article {
+      width: 762px; } }
+  @media screen and (max-width: 980px) {
+    section.works article {
+      width: 90%;
+      column-count: 0;
+      column-rule: none; } }
+  section.works article p {
+    column-count: 2;
+    column-width: 370px;
+    column-gap: 90px;
+    column-rule: 2px solid #bcbcbc; }
+    @media screen and (max-width: 1366px) {
+      section.works article p {
+        column-width: 340px;
+        column-gap: 82px; } }
+    @media screen and (max-width: 980px) {
+      section.works article p {
+        column-count: 0;
+        column-rule: none; } }
+section.works h3 {
+  font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+  font-size: 26px;
+  font-weight: bold;
+  color: #0c0c0c; }
+section.works div.img-work.two {
+  background: url("../img/works/page-thauvin/fiche-thauvin.PNG") no-repeat center;
+  background-size: cover;
+  margin-bottom: 180px; }
+
+/*# sourceMappingURL=page-unique.css.map */
