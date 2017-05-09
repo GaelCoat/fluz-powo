@@ -154,7 +154,7 @@ section.works {
     font-size: 18px;
     color: #bcbcbc;
     width: 832px;
-    margin: 70px auto;
+    margin: 70px auto 180px auto;
     text-align: left;
 
     @media screen and (max-width: 1366px){
@@ -171,7 +171,7 @@ section.works {
       column-count: 2;
       column-width: 370px;
       column-gap: 90px;
-      column-rule: 2px solid #bcbcbc;
+      column-rule: 1px solid #dcdcdc;
 
       @media screen and (max-width: 1366px){
         column-width: 340px;

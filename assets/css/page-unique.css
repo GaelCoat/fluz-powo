@@ -117,7 +117,7 @@ section.works article {
   font-size: 18px;
   color: #bcbcbc;
   width: 832px;
-  margin: 70px auto;
+  margin: 70px auto 180px auto;
   text-align: left; }
   @media screen and (max-width: 1366px) {
     section.works article {
@@ -131,7 +131,7 @@ section.works article {
     column-count: 2;
     column-width: 370px;
     column-gap: 90px;
-    column-rule: 2px solid #bcbcbc; }
+    column-rule: 1px solid #dcdcdc; }
     @media screen and (max-width: 1366px) {
       section.works article p {
         column-width: 340px;

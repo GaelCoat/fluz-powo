@@ -3,10 +3,21 @@ var color1, color2;
 document.getElementById('bouton-exp').onclick = function(){
     var colors = [
         '#ff2e46',
-        '#ff1945',
+        '#ff153c',
         '#6ec4ff',
-        '#ff9d33',
-        '#a067ff'
+        '#63ff00',
+        '#28ffb9',
+        '#ff744e',
+        '#7649ff',
+        '#adf5ff',
+        '#001eff',
+        '#ff6ee4',
+        '#ff690b',
+        '#ff605a',
+        '#ff09a3',
+        '#ffbe00',
+        '#f3ff7c',
+        '#a613ff'
     ];
 
     color1 = colors[Math.floor(Math.random() * colors.length)];
