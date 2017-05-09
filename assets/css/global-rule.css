@@ -1,3 +1,4 @@
+/*For Google chrome*/
 ::-webkit-scrollbar {
   width: 10px; }
 
@@ -11,6 +12,7 @@
 ::-webkit-scrollbar-track {
   background-color: #7b7b7b; }
 
+/* For Internet Explorer*/
 body {
   scrollbar-face-color: #fafafa;
   scrollbar-track-color: #343434; }

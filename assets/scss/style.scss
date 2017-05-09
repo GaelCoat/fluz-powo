@@ -153,10 +153,13 @@ div.circle-experience {
   height: 300vh;
   width: 300vw;
   border-radius: 50%;
-  transform: translate(50%, 50%) scale(0);
+  -webkit-transform: translate(50%, 50%) scale(0);
+          transform: translate(50%, 50%) scale(0);
 
   -webkit-transition: transform ease-in-out 0.45s;
-  transition:         transform ease-in-out 0.45s;
+  -webkit-transition: -webkit-transform ease-in-out 0.45s;
+  transition: -webkit-transform ease-in-out 0.45s;
+  transition: transform ease-in-out 0.45s, -webkit-transform ease-in-out 0.45s;
 }
 
 div#scene {
@@ -176,7 +179,8 @@ div.content-accueil {
 div.presentation-left {
   position: absolute;
   top: 50%;
-  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
   display: inline-block;
 }
 
@@ -280,7 +284,8 @@ div.bouton-exp span.txt-fluz {
   position: absolute;
   top:50%;
   right: 45px;
-  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
   font-size: 18px;
   color: #fff;
 
@@ -296,7 +301,8 @@ div.bouton-exp:after {
   position: absolute;
   top: 50%;
   right: -15px;
-  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
   @include size(2px, 40px);
   background-color: #fff;
 
@@ -383,7 +389,8 @@ section.us h1:before, h1.work-title:before, .title-missions:before, section#cont
   left: 0;
   right: 0;
   top: -50%;
-  transform: translateY(50%);
+  -webkit-transform: translateY(50%);
+          transform: translateY(50%);
   font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
   font-size: 150px;
   line-height: 50px;
@@ -1216,9 +1223,17 @@ span.mail:before {
     max-width: 760px;
   }
 
-  //div.bouton-exp {
-  //  display: none;
-  //}
+  div.bouton-exp {
+    position: inherit;
+    top: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+
+  div.bouton-exp:after {
+    display: none;
+  }
 
   div.form-experience-fluz {
     @include size(260px, 380px);

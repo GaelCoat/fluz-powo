@@ -150,9 +150,12 @@ div.circle-experience {
   height: 300vh;
   width: 300vw;
   border-radius: 50%;
+  -webkit-transform: translate(50%, 50%) scale(0);
   transform: translate(50%, 50%) scale(0);
   -webkit-transition: transform ease-in-out 0.45s;
-  transition: transform ease-in-out 0.45s; }
+  -webkit-transition: -webkit-transform ease-in-out 0.45s;
+  transition: -webkit-transform ease-in-out 0.45s;
+  transition: transform ease-in-out 0.45s, -webkit-transform ease-in-out 0.45s; }
 
 div#scene {
   overflow: hidden;
@@ -170,6 +173,7 @@ div.content-accueil {
 div.presentation-left {
   position: absolute;
   top: 50%;
+  -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
   display: inline-block; }
 
@@ -254,6 +258,7 @@ div.bouton-exp span.txt-fluz {
   position: absolute;
   top: 50%;
   right: 45px;
+  -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
   font-size: 18px;
   color: #fff;
@@ -268,6 +273,7 @@ div.bouton-exp:after {
   position: absolute;
   top: 50%;
   right: -15px;
+  -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
   height: 2px;
   width: 40px;
@@ -340,6 +346,7 @@ section.us h1:before, h1.work-title:before, .title-missions:before, section#cont
   left: 0;
   right: 0;
   top: -50%;
+  -webkit-transform: translateY(50%);
   transform: translateY(50%);
   font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
   font-size: 150px;
@@ -1014,6 +1021,16 @@ span.mail:before {
 @media screen and (max-width: 1024px) {
   .content-accueil {
     max-width: 760px; }
+
+  div.bouton-exp {
+    position: inherit;
+    top: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%); }
+
+  div.bouton-exp:after {
+    display: none; }
 
   div.form-experience-fluz {
     height: 260px;

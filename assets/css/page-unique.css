@@ -86,8 +86,6 @@ section.works div.img-work {
   width: 1365px;
   height: 800px;
   margin: auto;
-  -webkit-box-shadow: 0 8px 45px 0 rgba(0, 122, 255, 0.3);
-  -moz-box-shadow: 0 8px 45px 0 rgba(0, 122, 255, 0.3);
   box-shadow: 0 8px 45px 0 rgba(0, 122, 255, 0.3); }
   @media screen and (max-width: 1600px) {
     section.works div.img-work {
@@ -125,20 +123,40 @@ section.works article {
   @media screen and (max-width: 980px) {
     section.works article {
       width: 90%;
+      -webkit-column-count: 0;
+      -moz-column-count: 0;
       column-count: 0;
+      -webkit-column-rule: none;
+      -moz-column-rule: none;
       column-rule: none; } }
   section.works article p {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
     column-count: 2;
+    -webkit-column-width: 370px;
+    -moz-column-width: 370px;
     column-width: 370px;
+    -webkit-column-gap: 90px;
+    -moz-column-gap: 90px;
     column-gap: 90px;
+    -webkit-column-rule: 1px solid #dcdcdc;
+    -moz-column-rule: 1px solid #dcdcdc;
     column-rule: 1px solid #dcdcdc; }
     @media screen and (max-width: 1366px) {
       section.works article p {
+        -webkit-column-width: 340px;
+        -moz-column-width: 340px;
         column-width: 340px;
+        -webkit-column-gap: 82px;
+        -moz-column-gap: 82px;
         column-gap: 82px; } }
     @media screen and (max-width: 980px) {
       section.works article p {
+        -webkit-column-count: 0;
+        -moz-column-count: 0;
         column-count: 0;
+        -webkit-column-rule: none;
+        -moz-column-rule: none;
         column-rule: none; } }
 section.works h3 {
   font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;

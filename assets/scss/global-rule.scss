@@ -7,7 +7,7 @@ $background-color : #343434;
 $background-color-hover : #626262;
 $border-radius: 15px;
 
-//For Google chrome
+/*For Google chrome*/
 ::-webkit-scrollbar {
   width: $size;
 }
@@ -24,7 +24,7 @@ $border-radius: 15px;
 ::-webkit-scrollbar-track {
   background-color: darken($foreground-color, 50%);
 }
-// For Internet Explorer
+/* For Internet Explorer*/
 body {
   scrollbar-face-color: $foreground-color;
   scrollbar-track-color: $background-color;
