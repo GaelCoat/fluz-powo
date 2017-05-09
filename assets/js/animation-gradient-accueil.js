@@ -22,17 +22,13 @@ document.getElementById('bouton-exp').onclick = function(){
     document.getElementById('bloc-experience').appendChild(divCircle);
     setTimeout(function(){
         divCircle.style.transform = 'translate(50%, 50%) scale(1)';
-    }, 500);
-
-
+    }, 20);
 };
 
 function prefixValue(element, color1, color2) {
     var prefixes = ['-o-', '-ms-', '-moz-', '-webkit-'];
 
-    console.log(element);
     prefixes.forEach(function (prefixe){
         element.style.background = prefixe + 'linear-gradient(230deg, ' + color1 + ', ' + color2 + ')';
-        console.log(prefixe, 'linear-gradient(230deg, ' + color1 + ', ' + color2 + ')');
     });
 }

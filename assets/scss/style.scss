@@ -155,8 +155,8 @@ div.circle-experience {
   border-radius: 50%;
   transform: translate(50%, 50%) scale(0);
 
-  -webkit-transition: transform ease-in-out 0.75s;
-  transition:         transform ease-in-out 0.75s;
+  -webkit-transition: transform ease-in-out 0.45s;
+  transition:         transform ease-in-out 0.45s;
 }
 
 div#scene {
@@ -1216,6 +1216,10 @@ span.mail:before {
     max-width: 760px;
   }
 
+  div.bouton-exp {
+    display: none;
+  }
+
   div.form-experience-fluz {
     @include size(260px, 380px);
   }
@@ -1280,6 +1284,11 @@ span.mail:before {
 
   section.us h1, h1.work-title, .title-missions, section#contact h1 {
     top: 100px;
+  }
+
+  div.form-experience-fluz {
+    height: 170px;
+    width: 240px;
   }
 
   section.us div.info-us {
