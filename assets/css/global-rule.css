@@ -1,3 +1,20 @@
+::-webkit-scrollbar {
+  width: 10px; }
+
+::-webkit-scrollbar-thumb {
+  background-color: #343434;
+  border-radius: 15px; }
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #626262; }
+
+::-webkit-scrollbar-track {
+  background-color: #7b7b7b; }
+
+body {
+  scrollbar-face-color: #fafafa;
+  scrollbar-track-color: #343434; }
+
 *::-moz-selection {
   color: #fff;
   background-color: #a5e2ff; }

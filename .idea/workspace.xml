@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3e75758-6c2c-4aee-aa60-2d8e22bd336f" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/css/global-rules.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/css/page-unique-thauvin.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/works/page-dg-sport/imac-dg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/works/page-dg-sport/iphone-dg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/works/page-dg-sport/macbook-dg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/works/page-thauvin/imac-thauvin.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/works/page-thauvin/ipad-thauvin.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/works/page-thauvin/iphone-thauvin.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/works/page-thauvin/macbook-thauvin.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/animation-gradient-accueil.js" afterPath="$PROJECT_DIR$/assets/js/animation-gradient-accueil.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/florian-thauvin.html" afterPath="$PROJECT_DIR$/florian-thauvin.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/works.html" afterPath="$PROJECT_DIR$/works.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/scss/global-rule.scss" afterPath="$PROJECT_DIR$/assets/scss/global-rule.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/scss/page-unique.scss" afterPath="$PROJECT_DIR$/assets/scss/page-unique.scss" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -47,8 +34,8 @@
       <file leaf-file-name="style.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/scss/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="787">
-              <caret line="123" column="73" lean-forward="false" selection-start-line="123" selection-start-column="73" selection-end-line="123" selection-end-column="73" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -87,8 +74,8 @@
       <file leaf-file-name="page-unique.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/scss/page-unique.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="189" column="19" lean-forward="false" selection-start-line="189" selection-start-column="19" selection-end-line="189" selection-end-column="19" />
+            <state relative-caret-position="0">
+              <caret line="0" column="22" lean-forward="false" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -107,8 +94,8 @@
       <file leaf-file-name="global-rule.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/scss/global-rule.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="22" column="28" lean-forward="false" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+            <state relative-caret-position="780">
+              <caret line="30" column="1" lean-forward="false" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -198,12 +185,12 @@
         <option value="$PROJECT_DIR$/assets/css/menu-responsive.css" />
         <option value="$PROJECT_DIR$/assets/js/animation-gradient-accueil.js" />
         <option value="$PROJECT_DIR$/assets/css/global-rules.css" />
-        <option value="$PROJECT_DIR$/assets/scss/global-rule.scss" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/assets/scss/style.scss" />
         <option value="$PROJECT_DIR$/assets/css/style.css" />
         <option value="$PROJECT_DIR$/works.html" />
         <option value="$PROJECT_DIR$/florian-thauvin.html" />
+        <option value="$PROJECT_DIR$/assets/scss/style.scss" />
+        <option value="$PROJECT_DIR$/assets/scss/global-rule.scss" />
         <option value="$PROJECT_DIR$/assets/scss/page-unique.scss" />
       </list>
     </option>
@@ -402,12 +389,12 @@
       <workItem from="1494009032054" duration="574000" />
       <workItem from="1494173675826" duration="1193000" />
       <workItem from="1494242827240" duration="255000" />
-      <workItem from="1494315111117" duration="10747000" />
+      <workItem from="1494315111117" duration="11197000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="201897000" />
+    <option name="totallyTimeSpent" value="202347000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -695,26 +682,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/scss/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="787">
-          <caret line="123" column="73" lean-forward="false" selection-start-line="123" selection-start-column="73" selection-end-line="123" selection-end-column="73" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/works.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="245">
           <caret line="48" column="12" lean-forward="false" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/scss/global-rule.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="22" column="28" lean-forward="false" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
           <folding />
         </state>
       </provider>
@@ -759,10 +730,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scss/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scss/global-rule.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="30" column="1" lean-forward="false" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/scss/page-unique.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="189" column="19" lean-forward="false" selection-start-line="189" selection-start-column="19" selection-end-line="189" selection-end-column="19" />
+        <state relative-caret-position="0">
+          <caret line="0" column="22" lean-forward="false" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
           <folding />
         </state>
       </provider>
