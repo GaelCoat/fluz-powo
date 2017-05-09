@@ -135,25 +135,42 @@ div#scene svg.form:nth-child(17) {@include position-svg-accueil(28%, 34%)}
 ---------------------------------------------------*/
 div.accueil {
   position: relative;
+  overflow: hidden;
+
 
   background: -webkit-linear-gradient(230deg, #ff7979, #ff3633);
-  background: linear-gradient(-140deg, #ff7979, #ff3633);
+  background: linear-gradient(230deg, #ff7979, #ff3633);
   background-size: 400% 20000%;
 
   -webkit-animation: AnimationName 8s ease infinite;
   animation:         AnimationName 8s ease infinite;
 }
 
+div.circle-experience {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 300vh;
+  width: 300vw;
+  border-radius: 50%;
+  transform: translate(50%, 50%) scale(0);
+
+  -webkit-transition: transform ease-in-out 0.75s;
+  transition:         transform ease-in-out 0.75s;
+}
+
 div#scene {
   overflow: hidden;
   position: absolute;
   @include size(100%, 100%);
+  z-index: 1;
 }
 
 div.content-accueil {
   height: 100%;
   margin: auto;
   position: relative;
+  z-index: 1;
 }
 
 div.presentation-left {
