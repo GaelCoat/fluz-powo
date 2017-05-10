@@ -50,20 +50,3 @@
     height: 150px;
     width: 155px;
 }
-
-
-@-webkit-keyframes draw {
-    50% {
-        stroke-dashoffset: 0;
-        -webkit-transform: scale(0.5);
-        transform: scale(0.5);
-    }
-}
-
-@keyframes draw {
-    50% {
-        stroke-dashoffset: 0;
-        -webkit-transform: scale(0.5);
-        transform: scale(0.5);
-    }
-}

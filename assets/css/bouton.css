@@ -1,6 +1,6 @@
 .btn {
-    font: 19px 'Roboto', sans-serif;
-    padding: 24px 40px;
+    font-size: 19px;
+    padding: 20px 40px;
     border: none;
     border-radius: 2px;
     outline: none;
@@ -8,7 +8,6 @@
     cursor: pointer;
     position: relative;
     overflow: hidden;
-    font-weight: 700;
     letter-spacing: 1px;
 
 }
@@ -16,7 +15,7 @@
 .btn:after {
     content: '';
     color: #fff;
-    line-height: 71px;
+    line-height: 63px;
     position: absolute;
     height: 100%;
     width: 100%;
@@ -33,11 +32,11 @@
 .btn:before {
     content: '';
     color: #fff;
-    line-height: 71px;
+    line-height: 63px;
     position: absolute;
     height: 100%;
     width: 100%;
-    top: -71px;
+    top: -50px;
     left: 0;
     background-color: #222222;
 
@@ -64,7 +63,7 @@
 }
 
 .btn:hover:after {
-    top: 71px;
+    top: 63px;
 }
 
 

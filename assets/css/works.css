@@ -1,289 +1,274 @@
-.en-tete {
-    height: 460px;
-    padding-top: 40px;
-}
+section#works {
+  background-color: rgba(222, 222, 222, 0.39); }
 
-.container {
-    max-width: 1200px;
-    margin:    auto;
-}
-
-.center {
-    max-width: 1180px;
-    height: 100%;
-    margin: auto;
-    position: relative;
-    overflow: hidden;
-    background-color: #0c0c0c;
-}
-.retour {
-    position: absolute;
-    top:      25px;
-    left:     25px;
-}
-
-.retour h5 {
-    display: inline-block;
-    color: #fff;
-    font-size: 16px;
-    font-weight: 400;
-    vertical-align: middle;
-    letter-spacing: 1px;
-    padding-left: 5px;
-}
-
-.arrow {
-    height: 16px;
-    vertical-align: middle;
-}
-
-.work-title {
-    position:  absolute;
-    top:       50%;
-    left:      50%;
-    transform: translate(-50%, -50%);
-}
-
-.work-title h1{
-    color: #fff;
-    font-size: 38px;
-}
-
+.container-work {
+  margin: auto; }
 
 .presentation-work {
-    font-size: 0;
-    padding-top: 40px;
-    margin-bottom: 20px;
-}
+  font-size: 0;
+  margin-top: 100px;
+  margin-bottom: 100px; }
 
 .project {
-    position: relative;
-    top:      0;
-
-    display: inline-block;
-    width:   33.33333333333333%;
-    height:  550px;
-
-    padding: 0 10px;
-    margin-bottom: 40px;
-
-    -webkit-transition: top ease 0.4s;
-    -moz-transition:    top ease 0.4s;
-    -o-transition:      top ease 0.4s;
-    transition:         top ease 0.4s;
-}
+  position: relative;
+  top: 0;
+  display: inline-block;
+  height: 530px;
+  width: 33.33333%;
+  padding: 0 15px;
+  -webkit-transition: top ease 0.4s;
+  transition: top ease 0.4s; }
 
 .project:hover {
-    top: -10px;
-}
+  top: -10px; }
 
 .project:hover .wrap-child {
-    -webkit-box-shadow: 0 20px 30px 0 rgba(0,0,0,.15);
-    -moz-box-shadow:    0 20px 30px 0 rgba(0,0,0,.15);
-    box-shadow:         0 20px 30px 0 rgba(0,0,0,.15);
-}
+  box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.15); }
 
 .wrap-child {
-    height:   100%;
-    position: relative;
-    overflow: hidden;
-
-    -webkit-transition: all ease 0.3s;
-    -moz-transition:    all ease 0.3s;
-    -o-transition:      all ease 0.3s;
-    transition:         all ease 0.3s;
-}
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  -webkit-transition: all ease 0.3s;
+  transition: all ease 0.3s; }
 
 .wrap-child a {
-    display: block;
-    height:  100%;
-}
+  display: block;
+  height: 100%; }
 
-.project div.titre-work {
-    position: absolute;
-    top:      30px;
-    left:     30px;
-}
+div.titre-work {
+  position: absolute;
+  top: 30px;
+  left: 30px; }
 
-.project div.sous-titre-work {
-    position: absolute;
-    bottom:   30px;
-    left:     30px;
-}
+div.sous-titre-work {
+  position: absolute;
+  bottom: 30px;
+  left: 30px; }
 
 .project img {
-    position: absolute;
-    width: 100%;
-    display: block;
-}
+  position: absolute;
+  width: 100%;
+  display: block; }
 
-.project div.titre-work h1 {
-    color:       #fff;
-    font-size:   24px;
-    font-weight: 900;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-}
+div.titre-work h1 {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 900;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  width: 300px;
+  text-align: left; }
 
 .project h2 {
-    color: rgba(255, 255, 255, 0.8);
-    font-size:   16px;
-    font-weight: 400;
-    letter-spacing: 1px;
-}
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 1px; }
+
+.bgc-1 {
+  background: url("../img/works/cover-project/thauvin-work-page.jpg") no-repeat center;
+  background-size: cover; }
+
+.bgc-2 {
+  background: url("../img/works/cover-project/marie-work-page.jpg") no-repeat center;
+  background-size: cover; }
+
+.bgc-3 {
+  background: url("../img/works/cover-project/dgSport-work-page.jpg") no-repeat center;
+  background-size: cover; }
 
 #bgc-1 {
-    background: url("../img/works/cover-project/thauvin-work-page.jpg") no-repeat center;
-    background-size: cover;
-}
+  background: url("../img/works/cover-project/thauvin-work-page.jpg") no-repeat center;
+  background-size: cover; }
 
 #bgc-2 {
-    background: url("../img/works/cover-project/marie-work-page.jpg") no-repeat center;
-    background-size: cover;
-}
+  background: url("../img/works/cover-project/marie-work-page.jpg") no-repeat center;
+  background-size: cover; }
 
 #bgc-3 {
-    background: url("../img/works/cover-project/dgSport-work-page.jpg") no-repeat center;
-    background-size: cover;
-}
+  background: url("../img/works/cover-project/dgSport-work-page.jpg") no-repeat center;
+  background-size: cover; }
 
 #bgc-4 {
-    background: url("../img/works/cover-project/coiffeuse-work-page.jpg") no-repeat center;
-    background-size: cover;
-}
+  background: url("../img/works/cover-project/coiffeuse-work-page.jpg") no-repeat center;
+  background-size: cover; }
 
 #bgc-5 {
-    background: url("../img/works/cover-project/avocat-work-page.jpg") no-repeat center;
-    background-size: cover;
-}
+  background: url("../img/works/cover-project/avocat-work-page.jpg") no-repeat center;
+  background-size: cover; }
 
+p.description-work {
+  font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+  width: 700px;
+  font-size: 23px;
+  letter-spacing: 1px;
+  color: #323232;
+  margin: auto;
+  text-align: center; }
 
-@media screen and (max-width: 1280px) {
-    .center {
-        max-width: 980px;
-    }
+@media screen and (min-width: 1600px) {
+  .container-work {
+    max-width: 1450px; }
 
-    .container {
-        max-width: 1000px;
-    }
+  .project {
+    height: 600px; } }
+@media screen and (max-width: 1600px) {
+  .container-work {
+    max-width: 1140px; }
 
-    .project {
-        height: 410px;
-    }
+  .project {
+    padding: 0 10px; } }
+@media screen and (max-width: 1300px) {
+  .container-work {
+    max-width: 1000px; }
 
-    .project img {
-        top: -40px;
-    }
+  .project {
+    height: 410px;
+    padding: 0 15px; }
 
-    .retour {
-        top: 40px;
-        left: 50px;
-    }
+  .project img {
+    top: -40px; }
 
-    .project div.titre-work h1 {
-        font-size: 22px;
-    }
-}
+  div.titre-work h1 {
+    font-size: 22px; } }
+@media screen and (max-width: 1023px) {
+  .container-work {
+    max-width: 760px; }
 
+  .project {
+    height: 298px; }
 
+  .project img {
+    top: -30px; }
 
-@media screen and (max-width: 1024px) {
-    .center {
-        max-width: 740px;
-    }
+  div.titre-work {
+    top: 20px;
+    left: 24px; }
 
-    .container {
-        max-width: 760px;
-    }
+  div.sous-titre-work {
+    bottom: 24px;
+    left: 27px; }
 
-    .project {
-        height: 298px;
-    }
+  div.titre-work h1 {
+    font-size: 17px;
+    letter-spacing: 0; }
 
-    .project img {
-        top: -30px;
-    }
-
-    .retour {
-        display: none;
-    }
-
-    .project div.titre-work {
-        top: 20px;
-        left: 24px;
-    }
-
-    .project div.sous-titre-work {
-        bottom: 24px;
-        left: 26px;
-    }
-
-    .project div.titre-work h1 {
-        font-size: 17px;
-        letter-spacing: 0;
-    }
-
-    .project h2 {
-        font-size: 15px;
-    }
-}
-
-
-
+  .project h2 {
+    font-size: 15px; } }
 @media screen and (max-width: 768px) {
-    .container {
-        max-width: 100%;
-        padding-top: 300px;
-    }
+  .container-work {
+    max-width: 100%;
+    padding-left: 20px;
+    padding-right: 20px; }
 
-    .en-tete {
-        max-width: 100%;
-        margin-top: 0;
-        padding-top:   30px;
-        padding-left:  30px;
-        padding-right: 30px;
-        height: 300px;
-        position: fixed;
-        top: 0;
-        z-index: -1;
-    }
+  .project {
+    height: 600px;
+    width: 100%;
+    margin-bottom: 15px; }
 
-    .presentation-work {
-        padding-top: 30px;
-        padding-left: 20px;
-        padding-right: 20px;
-        background-color: #ffffff;
-    }
+  .project h2 {
+    font-size: 18px; }
 
-    .project {
-        height: 600px;
-        width: 100%;
-        margin-bottom: 15px;
-    }
+  .project img {
+    top: -120px; }
 
-    .project h2 {
-        font-size: 18px;
-    }
+  div.titre-work {
+    top: 30px;
+    left: 34px; }
 
-    .project img {
-        top: -120px;
-    }
+  div.titre-work h1 {
+    font-size: 20px;
+    letter-spacing: 1px; }
 
-    .project div.titre-work {
-        top: 24px;
-        left: 26px;
-    }
+  .presentation-work {
+    margin-bottom: 55px; } }
+@media screen and (max-width: 480px) {
+  .project {
+    height: 450px; } }
+section.presentation-work .project:nth-child(-n + 3) {
+  margin-bottom: 50px; }
 
-    .project div.titre-work h1 {
-        font-size: 20px;
-        letter-spacing: 1px;
-    }
-}
+.en-tete {
+  height: 460px;
+  padding-top: 40px; }
 
+.container {
+  max-width: 1200px;
+  margin: auto; }
 
+.center {
+  max-width: 1420px;
+  height: 100%;
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+  background-color: #0c0c0c; }
 
-@media screen and (max-width: 480px){
-    .project {
-        height: 450px;
-    }
-}
+.retour {
+  position: absolute;
+  top: 25px;
+  left: 25px; }
+
+.retour h5 {
+  display: inline-block;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  vertical-align: middle;
+  letter-spacing: 1px;
+  padding-left: 5px; }
+
+.arrow {
+  height: 16px;
+  vertical-align: middle; }
+
+.work-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+.work-title h1 {
+  color: #fff;
+  font-size: 38px; }
+
+@media screen and (max-width: 1366px) {
+  .center {
+    max-width: 1120px; } }
+@media screen and (max-width: 1280px) {
+  .center {
+    max-width: 970px; }
+
+  .container {
+    max-width: 1000px; }
+
+  .retour {
+    top: 40px;
+    left: 50px; } }
+@media screen and (max-width: 1024px) {
+  .center {
+    max-width: 730px; }
+
+  .container {
+    max-width: 760px; }
+
+  .retour {
+    display: none; } }
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 100%;
+    padding-top: 300px; }
+
+  .en-tete {
+    max-width: 100%;
+    margin-top: 0;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 300px;
+    position: fixed;
+    top: 0;
+    z-index: -1; } }
+
+/*# sourceMappingURL=works.css.map */
