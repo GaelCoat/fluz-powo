@@ -11,10 +11,10 @@
 
 #chargement-info {
     position: absolute;
-    top: 65%;
+    bottom: 60px;
     left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
     z-index: 1;
 }
 
@@ -23,19 +23,12 @@
     font-size: 25px;
 }
 
-#bar-loader {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0;
-    height: 5px;
-    background-color: #2b2b2b;
-}
-
 .loader-form {
     position: absolute;
     top:       50%;
     left:      50%;
+    width: 50px;
+    height: 50px;
 }
 
 .loader-form img {

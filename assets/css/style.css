@@ -707,7 +707,8 @@ section#missions .presentation-work {
 .front,
 .back {
   height: 100%;
-  width: 100%; }
+  width: 100%;
+  text-align: center; }
 
 .flip {
   -webkit-transition: 0.6s;
@@ -921,7 +922,7 @@ span.mail:before {
     height: 49px;
     width: 200px;
     top: 103px;
-    right: 190px; }
+    right: 140px; }
 
   div.bouton-exp:hover:after {
     right: 85%;
@@ -976,7 +977,7 @@ span.mail:before {
     height: 47px;
     width: 190px;
     top: 97px;
-    right: 220px; }
+    right: 170px; }
 
   section#contact div.info-footer {
     width: 37%; } }

@@ -96,9 +96,13 @@ div.menu-right nav ul li:hover a:before {
 }
 
 .content {
-  max-width: 936px;
+  max-width: 1200px;
   margin: auto;
   padding: 20px;
+
+  @media screen and (max-width: 1366px){
+    max-width: 936px;
+  }
 
   .brief {
     position: relative;
@@ -128,6 +132,7 @@ div.menu-right nav ul li:hover a:before {
       font-size: 34px;
       font-weight: bold;
       color: #343434;
+      text-transform: uppercase;
 
       &:before {
         content: url("../img/works/icons/brief.svg");
@@ -192,6 +197,7 @@ div.menu-right nav ul li:hover a:before {
 .design {
   h2 {
     font-family: $typo-palatino;
+    text-transform: uppercase;
     font-size: 34px;
     font-weight: bold;
     color: #343434;
@@ -233,6 +239,8 @@ div.menu-right nav ul li:hover a:before {
     font-weight: bold;
     color: #343434;
     margin-bottom: 35px;
+    padding: 0 15px;
+    text-transform: uppercase;
 
     &:before {
       content: url("../img/works/icons/others.svg");

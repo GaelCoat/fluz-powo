@@ -592,6 +592,7 @@ section#missions .presentation-work {
 .front,
 .back {
   @include size(100%, 100%);
+  text-align: center;
 }
 
 .flip {
@@ -851,7 +852,7 @@ span.mail:before {
   div.bouton-exp {
     @include size(49px, 200px);
     top: 103px;
-    right: 190px;
+    right: 140px;
   }
 
   div.bouton-exp:hover:after {
@@ -918,7 +919,7 @@ span.mail:before {
   div.bouton-exp {
     @include size(47px, 190px);
     top: 97px;
-    right: 220px;
+    right: 170px;
   }
 
   section#contact div.info-footer {
