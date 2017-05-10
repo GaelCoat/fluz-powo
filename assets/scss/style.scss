@@ -301,6 +301,7 @@ div.bouton-exp:after {
   position: absolute;
   top: 50%;
   right: -15px;
+  border-radius: 0;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   @include size(2px, 40px);
@@ -318,9 +319,9 @@ div.bouton-exp:after {
 
 div.bouton-exp:hover:after {
   right: 80%;
-  @include size(80px, 30px);
+  border-radius: 50%;
+  @include size(20px, 20px);
 }
-
 
 div.presentation-left h2 {
   font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
@@ -1084,7 +1085,7 @@ span.mail:before {
   }
 
   div.form-experience-fluz {
-    @include size(400px, 570px);
+    @include size(320px , 450px);
   }
 
   div.presentation-left h2 {

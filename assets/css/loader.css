@@ -11,10 +11,11 @@
 
 #chargement-info {
     position: absolute;
-    top: 50%;
+    top: 65%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+    z-index: 1;
 }
 
 #chargement-infos {
@@ -35,10 +36,11 @@
     position: absolute;
     top:       50%;
     left:      50%;
+}
+
+.loader-form img {
     -webkit-transform: translate(-50%, -50%);
-    transform:         translate(-50%, -50%);
-    width:  155px;
-    height: 150px;
+    transform: translate(-50%, -50%);
 }
 
 .loader {
@@ -49,47 +51,6 @@
     width: 155px;
 }
 
-.loader circle {
-    -webkit-animation: draw 2.5s infinite ease-in-out;
-    animation: draw 2.5s infinite ease-in-out;
-    -webkit-transform-origin: center;
-    transform-origin:         center;
-    -webkit-transform: rotate(-90deg);
-    transform:         rotate(-90deg);
-}
-
-.loader-2 circle,
-.loader-6 circle {
-    -webkit-animation-delay: 0.2s;
-    animation-delay: 0.2s;
-}
-
-.loader-7 circle {
-    -webkit-animation-delay: 0.4s;
-    animation-delay: 0.4s;
-}
-
-.loader-4 circle,
-.loader-8 circle {
-    -webkit-animation-delay: 0.6s;
-    animation-delay: 0.6s;
-}
-
-.loader-3 {
-    -webkit-transform: rotateY(180deg);
-    transform: rotateY(180deg);
-}
-
-.loader-6,
-.loader-7,
-.loader-8 {
-    -webkit-transform: rotateX(180deg) rotateY(180deg);
-    transform: rotateX(180deg) rotateY(180deg);
-}
-
-.loader-5 circle {
-    opacity: .2;
-}
 
 @-webkit-keyframes draw {
     50% {

@@ -4,19 +4,13 @@ document.getElementById('bouton-exp').onclick = function(){
     var colors = [
         '#ff2e46',
         '#ff153c',
-        '#6ec4ff',
-        '#63ff00',
-        '#28ffb9',
         '#ff744e',
         '#7649ff',
-        '#adf5ff',
         '#001eff',
         '#ff6ee4',
-        '#ff690b',
-        '#ff605a',
+        '#ff3410',
+        '#ff3a38',
         '#ff09a3',
-        '#ffbe00',
-        '#f3ff7c',
         '#a613ff'
     ];
 
