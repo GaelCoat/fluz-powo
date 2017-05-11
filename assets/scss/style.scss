@@ -2,6 +2,13 @@
   height: $height;
   width: $width;
 }
+
+@mixin boxShadow($decalageH, $decalageV, $blur, $spread, $rgba){
+  -webkit-box-shadow: $decalageH $decalageV $blur $spread $rgba;
+  -moz-box-shadow:    $decalageH $decalageV $blur $spread $rgba;
+  box-shadow:         $decalageH $decalageV $blur $spread $rgba;
+}
+
 $typo-palatino: 'Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif';
 
 div#scene svg {
@@ -179,64 +186,6 @@ div.presentation-left {
 }
 
 
-/*************** Navigation right ***************/
-div.menu-right {
-  font-size: 18px;
-  position: absolute;
-  right: 0;
-  top: 20px;
-}
-
-div.menu-right li {
-  display: inline-block;
-  margin-left: 40px;
-}
-
-div.logo {
-  position: absolute;
-  top: 30px;
-  left: 0;
-  display: inline-block;
-  width: 180px;
-}
-
-div.logo img {
-  width: 180px;
-}
-
-div.menu-right nav ul li a {
-  color: #fff;
-  letter-spacing: 0.05em;
-  position: relative;
-}
-
-div.menu-right nav ul li a {
-  -webkit-transition: all ease 0.43s;
-  transition:         all ease 0.43s;
-}
-
-
-
-/************** Hover menu ***************/
-div.menu-right nav ul li a:before {
-  content: '';
-  position: absolute;
-  top: 30px;
-  @include size(2px, 0);
-  background-color: rgba(255, 255, 255, 0.8);
-
-  -webkit-transition: width ease 0.5s;
-  transition:         width ease 0.5s;
-}
-
-div.menu-right nav ul li:hover a:before {
-  width: 100%;
-  right: 0;
-}
-/************** Fin hover menu ***************/
-
-
-
 div.presentation-left h1 {
   font-size: 5vw;
   color: #fff;
@@ -356,11 +305,6 @@ div.form-experience-fluz {
 *
 *
 ---------------------------------------------------*/
-section.us .bloc-us {
-  overflow: hidden;
-  position: relative;
-}
-
 section.us p {
   margin: 0;
 }
@@ -572,8 +516,7 @@ section#missions .presentation-work {
 }
 
 .back {
-  box-shadow: 0 16px 40px 0 rgba(17, 21, 23, .09);
-
+  @include boxShadow(0, 16px, 40px, 0, rgba(17, 21, 23, 0.09));
 }
 
 .card, .flip {

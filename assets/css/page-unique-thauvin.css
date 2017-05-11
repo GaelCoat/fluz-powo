@@ -1,0 +1,364 @@
+div.content-accueil {
+  position: relative;
+  width: 100%;
+  height: 540px;
+  margin-bottom: 110px;
+  background-color: #3497db; }
+
+header {
+  margin: auto;
+  position: relative; }
+  @media screen and (min-width: 1600px) {
+    header {
+      max-width: 1450px; } }
+  @media screen and (max-width: 1600px) {
+    header {
+      max-width: 1080px; } }
+  @media screen and (max-width: 1280px) {
+    header {
+      max-width: 1000px; } }
+  @media screen and (max-width: 1024px) {
+    header {
+      max-width: 760px; } }
+
+.img-presentation {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto; }
+  .img-presentation img {
+    width: 100%; }
+
+.content {
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px; }
+  @media screen and (max-width: 1366px) {
+    .content {
+      max-width: 936px; } }
+  .content .brief {
+    position: relative;
+    margin-bottom: 100px; }
+    .content .brief h1 {
+      font-family: 'Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif';
+      font-size: 40px;
+      font-weight: bold;
+      color: #343434;
+      text-transform: uppercase;
+      margin-bottom: 74px; }
+    .content .brief .button-page-unique {
+      position: absolute;
+      right: 0;
+      top: 0; }
+      .content .brief .button-page-unique button {
+        margin: 0; }
+    .content .brief h2 {
+      font-family: 'Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif';
+      font-size: 34px;
+      font-weight: bold;
+      color: #343434;
+      text-transform: uppercase; }
+      .content .brief h2:before {
+        content: url("../img/works/icons/brief.svg");
+        padding-right: 15px;
+        vertical-align: sub; }
+    .content .brief article {
+      font-family: 'Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif';
+      font-size: 18px;
+      color: #bcbcbc;
+      text-align: left; }
+      @media screen and (max-width: 980px) {
+        .content .brief article {
+          -webkit-column-count: 0;
+          -moz-column-count: 0;
+          column-count: 0;
+          -webkit-column-rule: none;
+          -moz-column-rule: none;
+          column-rule: none; } }
+      .content .brief article p {
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+        -webkit-column-width: 430px;
+        -moz-column-width: 430px;
+        column-width: 430px;
+        -webkit-column-gap: 34px;
+        -moz-column-gap: 34px;
+        column-gap: 34px;
+        -webkit-column-rule: 1px solid #dcdcdc;
+        -moz-column-rule: 1px solid #dcdcdc;
+        column-rule: 1px solid #dcdcdc; }
+        @media screen and (max-width: 1366px) {
+          .content .brief article p {
+            -webkit-column-width: 400px;
+            -moz-column-width: 400px;
+            column-width: 400px;
+            -webkit-column-gap: 82px;
+            -moz-column-gap: 82px;
+            column-gap: 82px; } }
+        @media screen and (max-width: 980px) {
+          .content .brief article p {
+            -webkit-column-count: 0;
+            -moz-column-count: 0;
+            column-count: 0;
+            -webkit-column-rule: none;
+            -moz-column-rule: none;
+            column-rule: none; } }
+
+.design h2 {
+  font-family: 'Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif';
+  text-transform: uppercase;
+  font-size: 34px;
+  font-weight: bold;
+  color: #343434;
+  margin-bottom: 35px; }
+  .design h2:before {
+    content: url("../img/works/icons/design.svg");
+    padding-right: 15px;
+    position: relative;
+    top: 5px;
+    vertical-align: sub; }
+.design .design-work {
+  height: 579px; }
+  .design .design-work:nth-child(-n + 5) {
+    margin-bottom: 35px; }
+  .design .design-work:last-child {
+    margin-bottom: 180px; }
+  .design .design-work img {
+    width: 100%; }
+
+.other h2.other-work {
+  font-family: 'Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif';
+  font-size: 34px;
+  font-weight: bold;
+  color: #343434;
+  margin-bottom: 35px;
+  padding: 0 15px;
+  text-transform: uppercase; }
+  .other h2.other-work:before {
+    content: url("../img/works/icons/others.svg");
+    padding-right: 15px;
+    position: relative;
+    top: 5px;
+    vertical-align: sub; }
+.other .presentation-work {
+  margin-top: 0; }
+
+@media screen and (max-width: 680px) {
+  .content .brief h1 {
+    text-align: center; }
+
+  .content .brief .button-page-unique {
+    position: initial;
+    text-align: center;
+    margin-bottom: 80px; }
+
+  .content {
+    padding: 40px; } }
+section#works {
+  background-color: rgba(222, 222, 222, 0.39); }
+
+.container-work {
+  margin: auto; }
+
+.presentation-work {
+  font-size: 0;
+  margin-top: 100px;
+  margin-bottom: 100px; }
+
+.project {
+  position: relative;
+  top: 0;
+  display: inline-block;
+  height: 530px;
+  width: 33.33333%;
+  padding: 0 15px;
+  -webkit-transition: top ease 0.4s;
+  transition: top ease 0.4s; }
+
+.project:hover {
+  top: -10px; }
+
+.project:hover .wrap-child {
+  -webkit-box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.15); }
+
+.wrap-child {
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  -webkit-transition: all ease 0.3s;
+  transition: all ease 0.3s; }
+
+.wrap-child a {
+  display: block;
+  height: 100%; }
+
+div.titre-work {
+  position: absolute;
+  top: 30px;
+  left: 30px; }
+
+div.sous-titre-work {
+  position: absolute;
+  bottom: 30px;
+  left: 30px; }
+
+.project img {
+  position: absolute;
+  width: 100%;
+  display: block; }
+
+div.titre-work h1 {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 900;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  width: 300px;
+  text-align: left; }
+
+.project h2 {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 1px; }
+
+.bgc-1 {
+  background: url("../img/works/cover-project/thauvin-work-page.jpg") no-repeat center;
+  background-size: cover; }
+
+.bgc-2 {
+  background: url("../img/works/cover-project/marie-work-page.jpg") no-repeat center;
+  background-size: cover; }
+
+.bgc-3 {
+  background: url("../img/works/cover-project/dgSport-work-page.jpg") no-repeat center;
+  background-size: cover; }
+
+#bgc-1 {
+  background: url("../img/works/cover-project/thauvin-work-page.jpg") no-repeat center;
+  background-size: cover; }
+
+#bgc-2 {
+  background: url("../img/works/cover-project/marie-work-page.jpg") no-repeat center;
+  background-size: cover; }
+
+#bgc-3 {
+  background: url("../img/works/cover-project/dgSport-work-page.jpg") no-repeat center;
+  background-size: cover; }
+
+#bgc-4 {
+  background: url("../img/works/cover-project/coiffeuse-work-page.jpg") no-repeat center;
+  background-size: cover; }
+
+#bgc-5 {
+  background: url("../img/works/cover-project/avocat-work-page.jpg") no-repeat center;
+  background-size: cover; }
+
+p.description-work {
+  font-family: 'Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif';
+  width: 700px;
+  font-size: 23px;
+  letter-spacing: 1px;
+  color: #323232;
+  margin: auto;
+  text-align: center; }
+
+@media screen and (min-width: 1600px) {
+  .container-work {
+    max-width: 1450px; }
+
+  .project {
+    height: 600px; } }
+@media screen and (max-width: 1600px) {
+  .container-work {
+    max-width: 1140px; }
+
+  .project {
+    padding: 0 10px; } }
+@media screen and (max-width: 1300px) {
+  .container-work {
+    max-width: 1000px; }
+
+  .project {
+    height: 410px;
+    padding: 0 15px; }
+
+  .project img {
+    top: -40px; }
+
+  div.titre-work h1 {
+    font-size: 22px; } }
+@media screen and (max-width: 1023px) {
+  .container-work {
+    max-width: 760px; }
+
+  .project {
+    height: 298px; }
+
+  .project img {
+    top: -30px; }
+
+  div.titre-work {
+    top: 20px;
+    left: 24px; }
+
+  div.sous-titre-work {
+    bottom: 24px;
+    left: 27px; }
+
+  div.titre-work h1 {
+    font-size: 17px;
+    letter-spacing: 0; }
+
+  .project h2 {
+    font-size: 15px; } }
+@media screen and (max-width: 768px) {
+  .container-work {
+    max-width: 100%;
+    padding-left: 20px;
+    padding-right: 20px; }
+
+  .project {
+    height: 600px;
+    width: 100%;
+    margin-bottom: 15px; }
+
+  .project h2 {
+    font-size: 18px; }
+
+  .project img {
+    top: -120px; }
+
+  div.titre-work {
+    top: 30px;
+    left: 34px; }
+
+  div.titre-work h1 {
+    font-size: 20px;
+    letter-spacing: 1px; }
+
+  .presentation-work {
+    margin-bottom: 55px; } }
+@media screen and (max-width: 480px) {
+  .project {
+    height: 450px; } }
+div.content-accueil {
+  background-color: #3497db; }
+
+.img-presentation {
+  height: 421px;
+  width: 610px; }
+
+.btn:after {
+  background-color: #3497db; }
+
+.design-work {
+  -webkit-box-shadow: 0 0 45px 0 rgba(52, 151, 219, 0.2);
+  -moz-box-shadow: 0 0 45px 0 rgba(52, 151, 219, 0.2);
+  box-shadow: 0 0 45px 0 rgba(52, 151, 219, 0.2); }
+
+/*# sourceMappingURL=page-unique-thauvin.css.map */

@@ -45,7 +45,9 @@ document.getElementById('bouton-exp').onclick = function(){
     var gradientBackground = [
         'linear-gradient(230deg, rgb(255, 110, 228), rgb(255, 21, 60))',
         'linear-gradient(230deg, rgb(112, 110, 255), rgb(187, 21, 255))',
-        'linear-gradient(230deg, rgb(255, 230, 110), rgb(255, 21, 60))'
+        'linear-gradient(230deg, rgb(255, 230, 110), rgb(255, 21, 60))',
+        'linear-gradient(230deg, rgb(110, 255, 228), rgb(57, 21, 255))',
+        'linear-gradient(230deg, rgb(20, 60, 173), rgb(218, 49, 76))'
     ];
 
     var gradientForm = [
@@ -59,27 +61,47 @@ document.getElementById('bouton-exp').onclick = function(){
 
         'linear-gradient(230deg, rgb(255, 230, 110), rgb(255, 21, 60))',
         'rgb(255, 230, 110)',
-        'rgb(255, 21, 60)'
+        'rgb(255, 21, 60)',
+
+        'linear-gradient(230deg, rgb(110, 255, 228), rgb(57, 21, 255))',
+        'rgb(110, 255, 228)',
+        'rgb(57, 21, 255)',
+
+        'linear-gradient(230deg, rgb(20, 60, 173), rgb(218, 49, 166))',
+        'rgb(20, 60, 173)',
+        'rgb(218, 49, 166)'
     ];
 
     gradient = gradientBackground[Math.floor(Math.random() * gradientBackground.length)];
 
     if(gradient == gradientBackground[0]){
         setTimeout(function() {
-            document.getElementById('stop1GradientForm').setAttribute('stop-color', gradientForm[7]);
-            document.getElementById('stop2GradientForm').setAttribute('stop-color', gradientForm[8]);
+            document.getElementById('stop1GradientForm').setAttribute('stop-color', gradientForm[2]);
+            document.getElementById('stop2GradientForm').setAttribute('stop-color', gradientForm[1]);
         }, 200);
     }
     else if(gradient == gradientBackground[1]){
         setTimeout(function() {
-            document.getElementById('stop1GradientForm').setAttribute('stop-color', gradientForm[1]);
-            document.getElementById('stop2GradientForm').setAttribute('stop-color', gradientForm[2]);
+            document.getElementById('stop1GradientForm').setAttribute('stop-color', gradientForm[5]);
+            document.getElementById('stop2GradientForm').setAttribute('stop-color', gradientForm[4]);
         }, 200);
     }
     else if(gradient == gradientBackground[2]){
         setTimeout(function() {
-            document.getElementById('stop1GradientForm').setAttribute('stop-color', gradientForm[4]);
-            document.getElementById('stop2GradientForm').setAttribute('stop-color', gradientForm[5]);
+            document.getElementById('stop1GradientForm').setAttribute('stop-color', gradientForm[8]);
+            document.getElementById('stop2GradientForm').setAttribute('stop-color', gradientForm[7]);
+        }, 200);
+    }
+    else if(gradient == gradientBackground[3]){
+        setTimeout(function() {
+            document.getElementById('stop1GradientForm').setAttribute('stop-color', gradientForm[11]);
+            document.getElementById('stop2GradientForm').setAttribute('stop-color', gradientForm[10]);
+        }, 200);
+    }
+    else if(gradient == gradientBackground[4]){
+        setTimeout(function() {
+            document.getElementById('stop1GradientForm').setAttribute('stop-color', gradientForm[14]);
+            document.getElementById('stop2GradientForm').setAttribute('stop-color', gradientForm[13]);
         }, 200);
     }
 
