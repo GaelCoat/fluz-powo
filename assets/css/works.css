@@ -218,7 +218,7 @@ div.menu-right li:nth-child(2) a {
   transform: translate(-50%, -50%);
   width: 65%; }
   @media screen and (max-width: 1366px) {
-    .work-title .work-title {
+    .work-title {
       width: 80%; } }
 
 .work-title h1 {
@@ -252,15 +252,28 @@ div.menu-right li:nth-child(2) a {
     max-width: 100%;
     padding-top: 300px; }
 
+  .center {
+    height: 300px; }
+
+  .container-work {
+    padding-top: 60px;
+    background-color: #fff;
+    position: relative; }
+
+  section.presentation-work {
+    margin-bottom: 0;
+    margin-top: 0; }
+    section.presentation-work .project {
+      margin-bottom: 50px; }
+
+  .work-title {
+    top: 60%; }
+
+  .work-title h1 {
+    font-size: 18px; }
+
   .en-tete {
-    max-width: 100%;
-    margin-top: 0;
-    padding-top: 30px;
-    padding-left: 30px;
-    padding-right: 30px;
     height: 300px;
-    position: fixed;
-    top: 0;
-    z-index: -1; } }
+    width: 100%; } }
 
 /*# sourceMappingURL=works.css.map */

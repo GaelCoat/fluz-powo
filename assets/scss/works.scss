@@ -10,7 +10,6 @@ div.menu-right li:nth-child(2) a {
   color: #c9a4e4;
   font-weight: bold;
 }
-
 .header {
   background-color: #0c0c0c;
 }
@@ -39,9 +38,7 @@ div.menu-right li:nth-child(2) a {
   width: 65%;
 
   @media screen and (max-width: 1366px){
-    .work-title {
       width: 80%;
-    }
   }
 }
 
@@ -93,15 +90,35 @@ div.menu-right li:nth-child(2) a {
     padding-top: 300px;
   }
 
-  .en-tete {
-    max-width: 100%;
-    margin-top: 0;
-    padding-top:   30px;
-    padding-left:  30px;
-    padding-right: 30px;
+  .center {
     height: 300px;
-    position: fixed;
-    top: 0;
-    z-index: -1;
+  }
+
+  .container-work {
+    padding-top: 60px;
+    background-color: #fff;
+    position: relative;
+  }
+
+  section.presentation-work {
+    margin-bottom: 0;
+    margin-top: 0;
+
+    .project {
+      margin-bottom: 50px;
+    }
+  }
+
+  .work-title {
+    top: 60%;
+  }
+
+  .work-title h1 {
+    font-size: 18px;
+  }
+
+  .en-tete {
+    height: 300px;
+    width: 100%;
   }
 }
