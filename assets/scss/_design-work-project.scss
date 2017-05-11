@@ -83,10 +83,13 @@ div.titre-work h1 {
   color:       #fff;
   font-size:   24px;
   font-weight: 900;
-  letter-spacing: 1px;
   text-transform: uppercase;
   width: 300px;
   text-align: left;
+
+  @media screen and (max-width: 1366px){
+    font-size: 21px;
+  }
 }
 
 .project h2 {
@@ -142,8 +145,7 @@ p.description-work {
   font-family: $typo-palatino;
   width: 700px;
   font-size: 23px;
-  letter-spacing: 1px;
-  color: #323232;
+  color: rgba(0, 0, 0, 0.7);
   margin: auto;
   text-align: center;
 }

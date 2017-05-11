@@ -4,6 +4,9 @@ div.content-accueil {
   height: 540px;
   margin-bottom: 110px;
   background-color: #3497db; }
+  @media screen and (max-width: 768px) {
+    div.content-accueil {
+      margin-bottom: 30px; } }
 
 header {
   margin: auto;
@@ -47,6 +50,10 @@ header {
       color: #343434;
       text-transform: uppercase;
       margin-bottom: 74px; }
+      @media screen and (max-width: 768px) {
+        .content .brief h1 {
+          font-size: 32px;
+          margin-bottom: 50px; } }
     .content .brief .button-page-unique {
       position: absolute;
       right: 0;
@@ -216,10 +223,12 @@ div.titre-work h1 {
   color: #fff;
   font-size: 24px;
   font-weight: 900;
-  letter-spacing: 1px;
   text-transform: uppercase;
   width: 300px;
   text-align: left; }
+  @media screen and (max-width: 1366px) {
+    div.titre-work h1 {
+      font-size: 21px; } }
 
 .project h2 {
   color: rgba(255, 255, 255, 0.8);
@@ -263,8 +272,7 @@ p.description-work {
   font-family: 'Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif';
   width: 700px;
   font-size: 23px;
-  letter-spacing: 1px;
-  color: #323232;
+  color: rgba(0, 0, 0, 0.7);
   margin: auto;
   text-align: center; }
 

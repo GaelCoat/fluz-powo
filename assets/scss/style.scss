@@ -625,12 +625,12 @@ section#contact div.info-footer {
   font-size: 19px;
   text-align: center;
   width: 26%;
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
   line-height: 30px;
   letter-spacing: 1px;
   color: rgba(255, 255, 255, 0.8);
   position: absolute;
-  top: 42%;
+  top:  42%;
   left: 50%;
   -webkit-transform: translate(-50%, -49%);
   transform: translate(-50%, -49%);
@@ -826,7 +826,7 @@ span.mail:before {
   }
 
   .project .missions-hover {
-    padding: 0 12%;
+    padding: 0 10%;
   }
 
   .project .card-flip .missions-hover h2 {
@@ -840,8 +840,8 @@ span.mail:before {
   }
 
   .missions-hover p {
-    font-size: 16px;
-    line-height: 22px;
+    font-size: 17px;
+    line-height: 20px;
   }
 
   section#contact div.info-footer {

@@ -410,10 +410,12 @@ div.titre-work h1 {
   color: #fff;
   font-size: 24px;
   font-weight: 900;
-  letter-spacing: 1px;
   text-transform: uppercase;
   width: 300px;
   text-align: left; }
+  @media screen and (max-width: 1366px) {
+    div.titre-work h1 {
+      font-size: 21px; } }
 
 .project h2 {
   color: rgba(255, 255, 255, 0.8);
@@ -457,8 +459,7 @@ p.description-work {
   font-family: 'Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif';
   width: 700px;
   font-size: 23px;
-  letter-spacing: 1px;
-  color: #323232;
+  color: rgba(0, 0, 0, 0.7);
   margin: auto;
   text-align: center; }
 
@@ -733,7 +734,7 @@ section#contact div.info-footer {
   font-size: 19px;
   text-align: center;
   width: 26%;
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
   line-height: 30px;
   letter-spacing: 1px;
   color: rgba(255, 255, 255, 0.8);
@@ -901,7 +902,7 @@ span.mail:before {
     top: 196px; }
 
   .project .missions-hover {
-    padding: 0 12%; }
+    padding: 0 10%; }
 
   .project .card-flip .missions-hover h2 {
     padding-top: 30px; }
@@ -912,8 +913,8 @@ span.mail:before {
     padding-top: 20px; }
 
   .missions-hover p {
-    font-size: 16px;
-    line-height: 22px; }
+    font-size: 17px;
+    line-height: 20px; }
 
   section#contact div.info-footer {
     top: 50%;
