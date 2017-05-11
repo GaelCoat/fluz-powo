@@ -1050,7 +1050,8 @@ span.mail:before {
     font-size: 110px; }
 
   section.us h1, h1.work-title, .title-missions, section#contact h1 {
-    top: 100px; }
+    top: 100px;
+    margin-bottom: 0; }
 
   div.form-experience-fluz {
     height: 170px;

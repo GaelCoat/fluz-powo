@@ -88,7 +88,7 @@ document.getElementById('bouton-exp').onclick = function(){
         setTimeout(function(){
             document.getElementById('stop1GradientLogo').setAttribute('stop-color', gradientForm[2]);
             document.getElementById('stop2GradientLogo').setAttribute('stop-color', gradientForm[1]);
-            
+
             document.getElementById('stop1GradientLogoMobile').setAttribute('stop-color', gradientForm[2]);
             document.getElementById('stop2GradientLogoMobile').setAttribute('stop-color', gradientForm[1]);
         }, 350);
