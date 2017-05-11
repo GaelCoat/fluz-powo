@@ -79,30 +79,88 @@ document.getElementById('bouton-exp').onclick = function(){
             document.getElementById('stop1GradientForm').setAttribute('stop-color', gradientForm[2]);
             document.getElementById('stop2GradientForm').setAttribute('stop-color', gradientForm[1]);
         }, 200);
+
+        setTimeout(function(){
+            document.getElementById('stop1GradientButton').setAttribute('stop-color', gradientForm[1]);
+            document.getElementById('stop2GradientButton').setAttribute('stop-color', gradientForm[2]);
+        }, 270);
+
+        setTimeout(function(){
+            document.getElementById('stop1GradientLogo').setAttribute('stop-color', gradientForm[2]);
+            document.getElementById('stop2GradientLogo').setAttribute('stop-color', gradientForm[1]);
+        }, 350);
     }
+
+
     else if(gradient == gradientBackground[1]){
         setTimeout(function() {
             document.getElementById('stop1GradientForm').setAttribute('stop-color', gradientForm[5]);
             document.getElementById('stop2GradientForm').setAttribute('stop-color', gradientForm[4]);
         }, 200);
+
+        setTimeout(function(){
+            document.getElementById('stop1GradientButton').setAttribute('stop-color', gradientForm[4]);
+            document.getElementById('stop2GradientButton').setAttribute('stop-color', gradientForm[5]);
+        }, 270);
+
+        setTimeout(function(){
+            document.getElementById('stop1GradientLogo').setAttribute('stop-color', gradientForm[5]);
+            document.getElementById('stop2GradientLogo').setAttribute('stop-color', gradientForm[4]);
+        }, 350);
     }
+
+
     else if(gradient == gradientBackground[2]){
         setTimeout(function() {
             document.getElementById('stop1GradientForm').setAttribute('stop-color', gradientForm[8]);
             document.getElementById('stop2GradientForm').setAttribute('stop-color', gradientForm[7]);
         }, 200);
+
+        setTimeout(function(){
+            document.getElementById('stop1GradientButton').setAttribute('stop-color', gradientForm[7]);
+            document.getElementById('stop2GradientButton').setAttribute('stop-color', gradientForm[8]);
+        }, 270);
+
+        setTimeout(function(){
+            document.getElementById('stop1GradientLogo').setAttribute('stop-color', gradientForm[8]);
+            document.getElementById('stop2GradientLogo').setAttribute('stop-color', gradientForm[7]);
+        }, 350);
     }
+
+
     else if(gradient == gradientBackground[3]){
         setTimeout(function() {
             document.getElementById('stop1GradientForm').setAttribute('stop-color', gradientForm[11]);
             document.getElementById('stop2GradientForm').setAttribute('stop-color', gradientForm[10]);
         }, 200);
+
+        setTimeout(function(){
+            document.getElementById('stop1GradientButton').setAttribute('stop-color', gradientForm[10]);
+            document.getElementById('stop2GradientButton').setAttribute('stop-color', gradientForm[11]);
+        }, 270);
+
+        setTimeout(function(){
+            document.getElementById('stop1GradientLogo').setAttribute('stop-color', gradientForm[11]);
+            document.getElementById('stop2GradientLogo').setAttribute('stop-color', gradientForm[10]);
+        }, 350);
     }
+
+
     else if(gradient == gradientBackground[4]){
         setTimeout(function() {
             document.getElementById('stop1GradientForm').setAttribute('stop-color', gradientForm[14]);
             document.getElementById('stop2GradientForm').setAttribute('stop-color', gradientForm[13]);
         }, 200);
+
+        setTimeout(function(){
+            document.getElementById('stop1GradientButton').setAttribute('stop-color', gradientForm[13]);
+            document.getElementById('stop2GradientButton').setAttribute('stop-color', gradientForm[14]);
+        }, 270);
+
+        setTimeout(function(){
+            document.getElementById('stop1GradientLogo').setAttribute('stop-color', gradientForm[14]);
+            document.getElementById('stop2GradientLogo').setAttribute('stop-color', gradientForm[13]);
+        }, 350);
     }
 
     var divCircle = document.createElement('div');

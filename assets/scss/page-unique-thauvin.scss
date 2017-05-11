@@ -17,12 +17,16 @@ div.content-accueil {
   @include size(421px, 610px);
 }
 
+.btn:before {
+  background-color: #3458db;
+}
+
 .btn:after {
   background-color: $color-theme;
 }
 
 .design-work {
-  -webkit-box-shadow: 0 0 45px 0 transparentize($color-theme, 0.8);
-  -moz-box-shadow:    0 0 45px 0 transparentize($color-theme, 0.8);
-  box-shadow:         0 0 45px 0 transparentize($color-theme, 0.8);
+  -webkit-box-shadow: 0 0 45px 0 rgba(0, 0, 0, 0.15);
+  -moz-box-shadow:    0 0 45px 0 rgba(0, 0, 0, 0.15);
+  box-shadow:         0 0 45px 0 rgba(0, 0, 0, 0.15);
 }

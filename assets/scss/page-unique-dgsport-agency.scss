@@ -14,7 +14,12 @@ div.content-accueil {
 }
 
 .img-presentation {
-  @include size(260px, 200px);
+  @include size(190px, 200px);
+  top: 75px;
+}
+
+.btn:before {
+  background-color: #f1a10f;
 }
 
 .btn:after {
@@ -22,7 +27,7 @@ div.content-accueil {
 }
 
 .design-work {
-  -webkit-box-shadow: 0 0 45px 0 transparentize($color-theme, 0.7);
-  -moz-box-shadow:    0 0 45px 0 transparentize($color-theme, 0.7);
-  box-shadow:         0 0 45px 0 transparentize($color-theme, 0.7);
+  -webkit-box-shadow: 0 0 45px 0 rgba(0, 0, 0, 0.15);
+  -moz-box-shadow:    0 0 45px 0 rgba(0, 0, 0, 0.15);
+  box-shadow:         0 0 45px 0 rgba(0, 0, 0, 0.15);
 }

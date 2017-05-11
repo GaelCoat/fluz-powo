@@ -65,9 +65,12 @@ header {
         vertical-align: sub; }
     .content .brief article {
       font-family: 'Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif';
-      font-size: 18px;
+      font-size: 20px;
       color: #bcbcbc;
       text-align: left; }
+      @media screen and (max-width: 1366px) {
+        .content .brief article {
+          font-size: 19px; } }
       @media screen and (max-width: 980px) {
         .content .brief article {
           -webkit-column-count: 0;
@@ -119,14 +122,12 @@ header {
     position: relative;
     top: 5px;
     vertical-align: sub; }
-.design .design-work {
-  height: 579px; }
-  .design .design-work:nth-child(-n + 5) {
-    margin-bottom: 35px; }
-  .design .design-work:last-child {
-    margin-bottom: 180px; }
-  .design .design-work img {
-    width: 100%; }
+.design .design-work:nth-child(-n + 5) {
+  margin-bottom: 35px; }
+.design .design-work:last-child {
+  margin-bottom: 180px; }
+.design .design-work img {
+  width: 100%; }
 
 .other h2.other-work {
   font-family: 'Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif';
@@ -353,12 +354,15 @@ div.content-accueil {
   height: 421px;
   width: 610px; }
 
+.btn:before {
+  background-color: #3458db; }
+
 .btn:after {
   background-color: #3497db; }
 
 .design-work {
-  -webkit-box-shadow: 0 0 45px 0 rgba(52, 151, 219, 0.2);
-  -moz-box-shadow: 0 0 45px 0 rgba(52, 151, 219, 0.2);
-  box-shadow: 0 0 45px 0 rgba(52, 151, 219, 0.2); }
+  -webkit-box-shadow: 0 0 45px 0 rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 0 45px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 45px 0 rgba(0, 0, 0, 0.15); }
 
 /*# sourceMappingURL=page-unique-thauvin.css.map */

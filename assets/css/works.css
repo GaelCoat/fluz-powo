@@ -191,6 +191,10 @@ p.description-work {
 section.presentation-work .project:nth-child(-n + 3) {
   margin-bottom: 50px; }
 
+div.menu-right li:nth-child(2) a {
+  color: #c9a4e4;
+  font-weight: bold; }
+
 .header {
   background-color: #0c0c0c; }
 
@@ -209,15 +213,21 @@ section.presentation-work .project:nth-child(-n + 3) {
 
 .work-title {
   position: absolute;
-  top: 50%;
+  top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 65%; }
+  @media screen and (max-width: 1366px) {
+    .work-title .work-title {
+      width: 80%; } }
 
 .work-title h1 {
   color: #fff;
-  font-family: 'Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif';
-  font-size: 40px; }
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 38px;
+  text-align: center; }
 
 @media screen and (min-width: 1600px) {
   .en-tete {

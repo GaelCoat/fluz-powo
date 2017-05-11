@@ -87,9 +87,13 @@ header {
 
     article {
       font-family: $typo-palatino;
-      font-size: 18px;
+      font-size: 20px;
       color: #bcbcbc;
       text-align: left;
+
+      @media screen and (max-width: 1366px){
+        font-size: 19px;
+      }
 
 
       @media screen and (max-width: 980px){
@@ -157,7 +161,6 @@ header {
   }
 
   .design-work {
-    height: 579px;
 
     &:nth-child(-n + 5){
       margin-bottom: 35px;

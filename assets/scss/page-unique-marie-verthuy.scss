@@ -14,15 +14,21 @@ div.content-accueil {
 }
 
 .img-presentation {
-  @include size(350px, 270px);
+  @include size(230px, 270px);
+  top: 40px;
+}
+
+.btn {
+  border: 2px solid #0c0c0c;
 }
 
 .btn:after {
-  background-color: $color-theme;
+  background-color: #fff;
+  color: #0c0c0c;
 }
 
 .design-work {
-  -webkit-box-shadow: 0 0 45px 0 transparentize($color-theme, 0.7);
-  -moz-box-shadow:    0 0 45px 0 transparentize($color-theme, 0.7);
-  box-shadow:         0 0 45px 0 transparentize($color-theme, 0.7);
+  -webkit-box-shadow: 0 0 45px 0 rgba(0, 0, 0, 0.15);
+  -moz-box-shadow:    0 0 45px 0 rgba(0, 0, 0, 0.15);
+  box-shadow:         0 0 45px 0 rgba(0, 0, 0, 0.15);
 }
