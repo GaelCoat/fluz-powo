@@ -88,6 +88,9 @@ document.getElementById('bouton-exp').onclick = function(){
         setTimeout(function(){
             document.getElementById('stop1GradientLogo').setAttribute('stop-color', gradientForm[2]);
             document.getElementById('stop2GradientLogo').setAttribute('stop-color', gradientForm[1]);
+            
+            document.getElementById('stop1GradientLogoMobile').setAttribute('stop-color', gradientForm[2]);
+            document.getElementById('stop2GradientLogoMobile').setAttribute('stop-color', gradientForm[1]);
         }, 350);
     }
 
@@ -106,6 +109,9 @@ document.getElementById('bouton-exp').onclick = function(){
         setTimeout(function(){
             document.getElementById('stop1GradientLogo').setAttribute('stop-color', gradientForm[5]);
             document.getElementById('stop2GradientLogo').setAttribute('stop-color', gradientForm[4]);
+
+            document.getElementById('stop1GradientLogoMobile').setAttribute('stop-color', gradientForm[5]);
+            document.getElementById('stop2GradientLogoMobile').setAttribute('stop-color', gradientForm[4]);
         }, 350);
     }
 
@@ -124,6 +130,9 @@ document.getElementById('bouton-exp').onclick = function(){
         setTimeout(function(){
             document.getElementById('stop1GradientLogo').setAttribute('stop-color', gradientForm[8]);
             document.getElementById('stop2GradientLogo').setAttribute('stop-color', gradientForm[7]);
+
+            document.getElementById('stop1GradientLogoMobile').setAttribute('stop-color', gradientForm[8]);
+            document.getElementById('stop2GradientLogoMobile').setAttribute('stop-color', gradientForm[7]);
         }, 350);
     }
 
@@ -142,6 +151,9 @@ document.getElementById('bouton-exp').onclick = function(){
         setTimeout(function(){
             document.getElementById('stop1GradientLogo').setAttribute('stop-color', gradientForm[11]);
             document.getElementById('stop2GradientLogo').setAttribute('stop-color', gradientForm[10]);
+
+            document.getElementById('stop1GradientLogoMobile').setAttribute('stop-color', gradientForm[11]);
+            document.getElementById('stop2GradientLogoMobile').setAttribute('stop-color', gradientForm[10]);
         }, 350);
     }
 
@@ -160,6 +172,9 @@ document.getElementById('bouton-exp').onclick = function(){
         setTimeout(function(){
             document.getElementById('stop1GradientLogo').setAttribute('stop-color', gradientForm[14]);
             document.getElementById('stop2GradientLogo').setAttribute('stop-color', gradientForm[13]);
+
+            document.getElementById('stop1GradientLogoMobile').setAttribute('stop-color', gradientForm[14]);
+            document.getElementById('stop2GradientLogoMobile').setAttribute('stop-color', gradientForm[13]);
         }, 350);
     }
 
