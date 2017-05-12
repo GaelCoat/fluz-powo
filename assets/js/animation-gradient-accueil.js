@@ -32,9 +32,9 @@ document.getElementById('bouton-exp').onclick = function(){
         '#ff3968',
         '#ff6a8f',
 
-        'linear-gradient(230deg, #7261ef, #a396fb)',
-        '#7261ef',
-        '#a396fb'
+        'linear-gradient(230deg, #01f4c4, #3cf6d4)',
+        '#01f4c4',
+        '#3cf6d4'
     ];
 
 

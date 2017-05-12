@@ -247,7 +247,7 @@ div.bouton-exp:after {
   border-radius: 0;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-  @include size(2px, 40px);
+  @include size(2px, 30px);
   background-color: #fff;
 
   -webkit-transition: all ease 0.5s;
@@ -760,6 +760,10 @@ span.mail:before {
   div.bouton-exp span.txt-fluz {
     right: 35px;
     font-size: 17px;
+  }
+
+  div.bouton-exp:hover span.txt-fluz {
+    right: 28px;
   }
 }
 /*---------------------------------------------------
