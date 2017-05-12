@@ -359,7 +359,7 @@ section.us div.info-us {
   font-family: "Old standard TT", serif;
   color: rgb(160, 160, 160);
   vertical-align: top;
-  line-height: 36px;
+  line-height: 31px;
   text-align: left;
 }
 
@@ -516,7 +516,7 @@ section#missions .presentation-work {
 }
 
 .back {
-  @include boxShadow(0, 16px, 40px, 0, rgba(17, 21, 23, 0.09));
+  @include boxShadow(0, 16px, 45px, 0, rgba(17, 21, 23, 0.15));
 }
 
 .card, .flip {

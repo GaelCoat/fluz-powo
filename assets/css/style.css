@@ -320,7 +320,7 @@ section.us div.info-us {
   font-family: "Old standard TT", serif;
   color: #a0a0a0;
   vertical-align: top;
-  line-height: 36px;
+  line-height: 31px;
   text-align: left; }
 
 section.us div.info-us2 {
@@ -452,7 +452,7 @@ div.titre-work h1 {
   background-size: cover; }
 
 #bgc-5 {
-  background: url("../img/works/cover-project/avocat-work-page.jpg") no-repeat center;
+  background: url("../img/works/cover-project/allan-st-maximin-work-page.jpg") no-repeat center;
   background-size: cover; }
 
 p.description-work {
@@ -643,9 +643,9 @@ section#missions .presentation-work {
   padding: 0 15%; }
 
 .back {
-  -webkit-box-shadow: 0 16px 40px 0 rgba(17, 21, 23, 0.09);
-  -moz-box-shadow: 0 16px 40px 0 rgba(17, 21, 23, 0.09);
-  box-shadow: 0 16px 40px 0 rgba(17, 21, 23, 0.09); }
+  -webkit-box-shadow: 0 16px 45px 0 rgba(17, 21, 23, 0.15);
+  -moz-box-shadow: 0 16px 45px 0 rgba(17, 21, 23, 0.15);
+  box-shadow: 0 16px 45px 0 rgba(17, 21, 23, 0.15); }
 
 .card, .flip {
   height: 100%; }

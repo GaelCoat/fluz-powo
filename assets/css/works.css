@@ -99,7 +99,7 @@ div.titre-work h1 {
   background-size: cover; }
 
 #bgc-5 {
-  background: url("../img/works/cover-project/avocat-work-page.jpg") no-repeat center;
+  background: url("../img/works/cover-project/allan-st-maximin-work-page.jpg") no-repeat center;
   background-size: cover; }
 
 p.description-work {
@@ -192,10 +192,6 @@ p.description-work {
 section.presentation-work .project {
   margin-bottom: 30px; }
 
-div.menu-right li:nth-child(2) a {
-  color: #c9a4e4;
-  font-weight: bold; }
-
 .header {
   background-color: #0c0c0c; }
 
@@ -214,10 +210,10 @@ div.menu-right li:nth-child(2) a {
 
 .work-title {
   position: absolute;
-  top: 55%;
+  top: 53%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 65%; }
+  width: 730px; }
   @media screen and (max-width: 1366px) {
     .work-title {
       width: 80%; } }

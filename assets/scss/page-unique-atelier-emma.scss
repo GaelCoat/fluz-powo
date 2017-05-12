@@ -1,0 +1,33 @@
+$color-theme: #dbbdfd;
+$typo-palatino: 'Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif';
+
+@mixin size($height, $width){
+  height: $height;
+  width: $width;
+}
+
+@import '_design-page-unique.scss';
+@import '_design-work-project.scss';
+
+div.content-accueil {
+  background-color: $color-theme;
+}
+
+.img-presentation {
+  @include size(190px, 200px);
+  top: 75px;
+}
+
+.btn:before {
+  background-color: #f1a10f;
+}
+
+.btn:after {
+  background-color: $color-theme;
+}
+
+.design-work {
+  -webkit-box-shadow: 0 0 45px 0 rgba(0, 0, 0, 0.15);
+  -moz-box-shadow:    0 0 45px 0 rgba(0, 0, 0, 0.15);
+  box-shadow:         0 0 45px 0 rgba(0, 0, 0, 0.15);
+}
