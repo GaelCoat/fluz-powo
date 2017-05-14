@@ -66,7 +66,10 @@ header {
 
       @media screen and (max-width: 768px){
         font-size: 32px;
-        margin-bottom: 50px;
+      }
+
+      @media screen and (max-width: 680px){
+        margin-bottom: 15px;
       }
     }
 
@@ -112,6 +115,10 @@ header {
         -webkit-column-rule: none;
         -moz-column-rule: none;
         column-rule: none;
+      }
+
+      @media screen and (max-width: 1366px){
+        font-size: 18px;
       }
 
       p {
@@ -168,6 +175,7 @@ header {
   }
 
   .design-work {
+    display: grid;
 
     &:nth-child(-n + 5){
       margin-bottom: 35px;
@@ -175,6 +183,10 @@ header {
 
     &:last-child {
       margin-bottom: 180px;
+
+      @media screen and (max-width: 768px){
+        margin-bottom: 50px;
+      }
     }
 
     img {
@@ -206,14 +218,9 @@ header {
 }
 
 @media screen and (max-width: 680px) {
-  .content .brief h1 {
-    text-align: center;
-  }
-
   .content .brief .button-page-unique {
     position: initial;
-    text-align: center;
-    margin-bottom: 80px;
+    margin-bottom: 65px;
   }
 
   .content {

@@ -236,7 +236,7 @@ p.description-work {
   }
 
   .project h2 {
-    font-size: 18px;
+    font-size: 15px;
   }
 
   .project img {
@@ -261,6 +261,11 @@ p.description-work {
 
 @media screen and (max-width: 480px){
   .project {
-    height: 450px;
+    height: 400px;
+  }
+
+  div.titre-work {
+    top: 19px;
+    left: 24px;
   }
 }

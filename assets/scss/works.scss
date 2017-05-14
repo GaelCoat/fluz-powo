@@ -1,9 +1,14 @@
-@import '_design-work-project.scss';
 $typo-palatino: 'Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif';
 
 section.presentation-work .project {
   margin-bottom: 30px;
+
+  @media screen and (max-width: 768px){
+    margin-bottom: 15px;
+  }
 }
+
+@import '_design-work-project.scss';
 
 .header {
   background-color: #0c0c0c;

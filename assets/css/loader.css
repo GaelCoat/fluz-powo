@@ -11,7 +11,7 @@
 
 #chargement-info {
     position: absolute;
-    bottom: 60px;
+    bottom: 35%;
     left: 50%;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);

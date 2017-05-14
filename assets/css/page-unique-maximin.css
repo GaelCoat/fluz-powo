@@ -52,8 +52,10 @@ header {
       margin-bottom: 74px; }
       @media screen and (max-width: 768px) {
         .content .brief h1 {
-          font-size: 32px;
-          margin-bottom: 50px; } }
+          font-size: 32px; } }
+      @media screen and (max-width: 680px) {
+        .content .brief h1 {
+          margin-bottom: 15px; } }
     .content .brief .button-page-unique {
       position: absolute;
       right: 0;
@@ -86,6 +88,9 @@ header {
           -webkit-column-rule: none;
           -moz-column-rule: none;
           column-rule: none; } }
+      @media screen and (max-width: 1366px) {
+        .content .brief article {
+          font-size: 18px; } }
       .content .brief article p {
         -webkit-column-count: 2;
         -moz-column-count: 2;
@@ -127,12 +132,17 @@ header {
     width: 40px;
     position: relative;
     top: 7px; }
-.design .design-work:nth-child(-n + 5) {
-  margin-bottom: 35px; }
-.design .design-work:last-child {
-  margin-bottom: 180px; }
-.design .design-work img {
-  width: 100%; }
+.design .design-work {
+  display: grid; }
+  .design .design-work:nth-child(-n + 5) {
+    margin-bottom: 35px; }
+  .design .design-work:last-child {
+    margin-bottom: 180px; }
+    @media screen and (max-width: 768px) {
+      .design .design-work:last-child {
+        margin-bottom: 50px; } }
+  .design .design-work img {
+    width: 100%; }
 
 .other h2.other-work {
   font-family: 'Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif';
@@ -150,13 +160,9 @@ header {
   margin-top: 0; }
 
 @media screen and (max-width: 680px) {
-  .content .brief h1 {
-    text-align: center; }
-
   .content .brief .button-page-unique {
     position: initial;
-    text-align: center;
-    margin-bottom: 80px; }
+    margin-bottom: 65px; }
 
   .content {
     padding: 40px; } }
@@ -333,7 +339,7 @@ p.description-work {
     margin-bottom: 15px; }
 
   .project h2 {
-    font-size: 18px; }
+    font-size: 15px; }
 
   .project img {
     top: -120px; }
@@ -350,7 +356,11 @@ p.description-work {
     margin-bottom: 55px; } }
 @media screen and (max-width: 480px) {
   .project {
-    height: 450px; } }
+    height: 400px; }
+
+  div.titre-work {
+    top: 19px;
+    left: 24px; } }
 div.content-accueil {
   background-color: #e32948; }
 

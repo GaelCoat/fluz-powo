@@ -227,7 +227,7 @@ div.bouton-exp:after {
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
   height: 2px;
-  width: 40px;
+  width: 30px;
   background-color: #fff;
   -webkit-transition: all ease 0.5s;
   transition: all ease 0.5s;
@@ -524,7 +524,7 @@ p.description-work {
     margin-bottom: 15px; }
 
   .project h2 {
-    font-size: 18px; }
+    font-size: 15px; }
 
   .project img {
     top: -120px; }
@@ -541,7 +541,11 @@ p.description-work {
     margin-bottom: 55px; } }
 @media screen and (max-width: 480px) {
   .project {
-    height: 450px; } }
+    height: 400px; }
+
+  div.titre-work {
+    top: 19px;
+    left: 24px; } }
 h1.work-title {
   color: #2d2d2d; }
 
@@ -622,6 +626,9 @@ h1.work-title:before {
   line-height: 25px;
   color: rgba(119, 116, 130, 0.75);
   margin: 0; }
+
+section#missions {
+  overflow-x: hidden; }
 
 section#missions .project:nth-child(-n + 3) {
   margin-bottom: 35px; }
@@ -845,7 +852,14 @@ span.mail:before {
 
   div.bouton-exp span.txt-fluz {
     right: 35px;
-    font-size: 17px; } }
+    font-size: 17px; }
+
+  div.bouton-exp:hover span.txt-fluz {
+    right: 28px; } }
+  @media screen and (max-width: 1600px) and (max-width: 768px) {
+    div.bouton-exp:hover span.txt-fluz {
+      right: 0; } }
+
 /*---------------------------------------------------
 *
 *                       1440
@@ -957,8 +971,10 @@ span.mail:before {
     right: 260px; }
 
   div.bouton-exp span.txt-fluz {
-    right: 19px;
-    font-size: 16px; }
+    right: 0;
+    left: 0;
+    font-size: 16px;
+    text-align: center; }
 
   section.us div.info-us {
     width: 400px;
@@ -987,6 +1003,12 @@ span.mail:before {
 *
 ---------------------------------------------------*/
 @media screen and (max-width: 1024px) {
+  a {
+    outline: none; }
+
+  *:focus {
+    outline: none; }
+
   .content-accueil {
     max-width: 760px; }
 
