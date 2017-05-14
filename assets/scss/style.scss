@@ -945,13 +945,6 @@ span.mail:before {
 *
 ---------------------------------------------------*/
 @media screen and (max-width: 1024px) {
-  a {
-    outline: none;
-  }
-  *:focus {
-    outline: none;
-  }
-
   .content-accueil {
     max-width: 760px;
   }

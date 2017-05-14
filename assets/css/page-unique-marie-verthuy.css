@@ -369,12 +369,13 @@ div.content-accueil {
   width: 270px;
   top: 40px; }
 
-.btn {
-  border: 2px solid #0c0c0c; }
+.btn-after {
+  background-color: #0c0c0c;
+  color: #fff; }
 
-.btn:after {
-  background-color: #fff;
-  color: #0c0c0c; }
+.btn-before {
+  background-color: #464646;
+  color: #fff; }
 
 .design-work {
   -webkit-box-shadow: 0 0 45px 0 rgba(0, 0, 0, 0.15);

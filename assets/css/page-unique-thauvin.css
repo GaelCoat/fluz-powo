@@ -368,11 +368,11 @@ div.content-accueil {
   height: 421px;
   width: 610px; }
 
-.btn:before {
-  background-color: #3458db; }
-
-.btn:after {
+.btn-before {
   background-color: #3497db; }
+
+.btn-after {
+  background-color: #3458db; }
 
 .design-work {
   -webkit-box-shadow: 0 0 45px 0 rgba(0, 0, 0, 0.15);

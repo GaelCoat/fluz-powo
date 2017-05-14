@@ -11,16 +11,18 @@
 
 #chargement-info {
     position: absolute;
-    bottom: 35%;
+    top: 50%;
     left: 50%;
-    -webkit-transform: translateX(-50%);
-    transform: translateX(-50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     z-index: 1;
 }
 
 #chargement-infos {
-    color: #2b2b2b;
-    font-size: 25px;
+    color: rgba(255, 87, 87, 0.13);
+    font-size: 25vw;
+    font-weight: 900;
+    z-index: 0;
 }
 
 .loader-form {

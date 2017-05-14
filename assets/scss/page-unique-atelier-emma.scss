@@ -18,12 +18,12 @@ div.content-accueil {
   top: 75px;
 }
 
-.btn:before {
-  background-color: #f1a10f;
+.btn-before {
+  background-color: $color-theme;
 }
 
-.btn:after {
-  background-color: $color-theme;
+.btn-after {
+  background-color: #cb8ffd;
 }
 
 .design-work {
