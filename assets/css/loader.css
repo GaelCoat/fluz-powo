@@ -42,6 +42,11 @@
 @media screen and (max-width: 768px){
     #chargement-infos{
         font-size: 8vw;
+        top: 110px;
+    }
+
+    .trait-vertical {
+        height: 180px;
     }
 }
 

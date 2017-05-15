@@ -133,6 +133,8 @@ div#scene svg.form:nth-child(17) {@include position-svg-accueil(28%, 34%)}
 
 @media screen and (max-width: 768px){
   div#scene svg.form {
+    &:nth-child(1),
+    &:nth-child(2),
     &:nth-child(3),
     &:nth-child(4),
     &:nth-child(5),

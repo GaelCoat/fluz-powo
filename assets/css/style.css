@@ -128,7 +128,7 @@ div#scene svg.form:nth-child(17) {
   left: 34%; }
 
 @media screen and (max-width: 768px) {
-  div#scene svg.form:nth-child(3), div#scene svg.form:nth-child(4), div#scene svg.form:nth-child(5), div#scene svg.form:nth-child(6), div#scene svg.form:nth-child(7), div#scene svg.form:nth-child(10), div#scene svg.form:nth-child(11), div#scene svg.form:nth-child(15) {
+  div#scene svg.form:nth-child(1), div#scene svg.form:nth-child(2), div#scene svg.form:nth-child(3), div#scene svg.form:nth-child(4), div#scene svg.form:nth-child(5), div#scene svg.form:nth-child(6), div#scene svg.form:nth-child(7), div#scene svg.form:nth-child(10), div#scene svg.form:nth-child(11), div#scene svg.form:nth-child(15) {
     display: none; } }
 /*---------------------------------------------------
 *
