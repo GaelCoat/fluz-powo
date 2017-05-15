@@ -17,11 +17,11 @@ div.content-accueil {
   @include size(421px, 610px);
 }
 
-.btn-before {
+.btn-after {
   background-color: $color-theme;
 }
 
-.btn-after {
+.btn-before {
   background-color: #0c0c0c;
 }
 

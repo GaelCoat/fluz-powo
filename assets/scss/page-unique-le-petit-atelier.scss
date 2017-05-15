@@ -1,4 +1,4 @@
-$color-theme: #dbbdfd;
+$color-theme: #ffc3bd;
 $typo-palatino: 'Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif';
 
 @mixin size($height, $width){
@@ -14,7 +14,7 @@ div.content-accueil {
 }
 
 .img-presentation {
-  @include size(190px, 200px);
+  @include size(265px, 260px);
   top: 75px;
 }
 

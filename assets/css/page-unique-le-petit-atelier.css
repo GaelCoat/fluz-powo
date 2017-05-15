@@ -3,7 +3,7 @@ div.content-accueil {
   width: 100%;
   height: 540px;
   margin-bottom: 110px;
-  background-color: #3497db; }
+  background-color: #ffc3bd; }
   @media screen and (max-width: 768px) {
     div.content-accueil {
       margin-bottom: 30px; } }
@@ -386,14 +386,15 @@ p.description-work {
     top: 19px;
     left: 24px; } }
 div.content-accueil {
-  background-color: #3497db; }
+  background-color: #ffc3bd; }
 
 .img-presentation {
-  height: 421px;
-  width: 610px; }
+  height: 265px;
+  width: 260px;
+  top: 75px; }
 
 .btn-after {
-  background-color: #3497db; }
+  background-color: #ffc3bd; }
 
 .btn-before {
   background-color: #0c0c0c; }
@@ -403,16 +404,4 @@ div.content-accueil {
   -moz-box-shadow: 0 0 45px 0 rgba(0, 0, 0, 0.15);
   box-shadow: 0 0 45px 0 rgba(0, 0, 0, 0.15); }
 
-@media screen and (max-width: 480px) {
-  .img-presentation {
-    height: 276px;
-    width: 400px; } }
-@media screen and (max-width: 420px) {
-  div.content-accueil {
-    height: 400px; }
-
-  .img-presentation {
-    height: 221px;
-    width: 320px; } }
-
-/*# sourceMappingURL=page-unique-thauvin.css.map */
+/*# sourceMappingURL=page-unique-le-petit-atelier.css.map */
