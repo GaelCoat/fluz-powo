@@ -365,8 +365,8 @@ div.content-accueil {
   background-color: #f1c40f; }
 
 .img-presentation {
-  height: 190px;
-  width: 200px;
+  height: 153px;
+  width: 160px;
   top: 75px; }
   @media screen and (max-width: 768px) {
     .img-presentation {
@@ -377,7 +377,7 @@ div.content-accueil {
   background-color: #f1c40f; }
 
 .btn-after {
-  background-color: #F19C27; }
+  background-color: #0c0c0c; }
 
 .design-work {
   -webkit-box-shadow: 0 0 45px 0 rgba(0, 0, 0, 0.15);

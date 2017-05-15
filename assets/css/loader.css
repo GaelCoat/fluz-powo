@@ -9,9 +9,19 @@
     background-color: #fff;
 }
 
-#chargement-info {
+.trait-vertical {
     position: absolute;
-    top: 50%;
+    top: 0;
+    left: 50%;
+    height: 320px;
+    width: 3px;
+    background-color: rgba(25, 25, 25, 0.73);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#chargement-info {
+    position: relative;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
@@ -19,10 +29,20 @@
 }
 
 #chargement-infos {
-    color: rgba(255, 87, 87, 0.13);
-    font-size: 25vw;
+    color: rgba(25, 25, 25, 0.73);
+    font-size: 2vw;
     font-weight: 900;
     z-index: 0;
+    position: absolute;
+    top: 180px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+@media screen and (max-width: 768px){
+    #chargement-infos{
+        font-size: 8vw;
+    }
 }
 
 .loader-form {

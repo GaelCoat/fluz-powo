@@ -14,7 +14,7 @@ div.content-accueil {
 }
 
 .img-presentation {
-  @include size(190px, 200px);
+  @include size(153px, 160px);
 
   @media screen and (max-width: 768px){
     @include size(145px, 150px);
@@ -27,7 +27,7 @@ div.content-accueil {
 }
 
 .btn-after {
-  background-color: #F19C27;
+  background-color: #0c0c0c;
 }
 
 .design-work {
