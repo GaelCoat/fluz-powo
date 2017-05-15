@@ -1,3 +1,5 @@
+$typo-palatino: 'Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif';
+
 div.content-accueil {
   position: relative;
   width: 100%;
@@ -90,10 +92,19 @@ header {
       color: #343434;
       text-transform: uppercase;
 
+      @media screen and (max-width: 680px){
+        font-size: 30px;
+      }
+
       img {
         width: 40px;
         position: relative;
         top: 2px;
+
+        @media screen and (max-width: 680px){
+          width: 30px;
+          top: 0;
+        }
       }
     }
 
@@ -167,10 +178,19 @@ header {
     color: #343434;
     margin-bottom: 35px;
 
+    @media screen and (max-width: 680px){
+      font-size: 30px;
+    }
+
     img {
       width: 40px;
       position: relative;
       top: 7px;
+
+      @media screen and (max-width: 680px){
+        width: 30px;
+        top: 2px;
+      }
     }
   }
 
@@ -205,10 +225,18 @@ header {
     padding: 0 15px;
     text-transform: uppercase;
 
+    @media screen and (max-width: 680px){
+      font-size: 30px;
+    }
+
     img {
       width: 40px;
       position: relative;
       top: 2px;
+
+      @media screen and (max-width: 680px){
+        width: 30px;
+      }
     }
   }
 
@@ -224,6 +252,6 @@ header {
   }
 
   .content {
-    padding: 40px;
+    padding: 25px;
   }
 }

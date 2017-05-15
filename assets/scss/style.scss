@@ -131,7 +131,20 @@ div#scene svg.form:nth-child(15) {@include position-svg-accueil(35%, 11%)}
 div#scene svg.form:nth-child(16) {@include position-svg-accueil(23%, 2%)}
 div#scene svg.form:nth-child(17) {@include position-svg-accueil(28%, 34%)}
 
-
+@media screen and (max-width: 768px){
+  div#scene svg.form {
+    &:nth-child(3),
+    &:nth-child(4),
+    &:nth-child(5),
+    &:nth-child(6),
+    &:nth-child(7),
+    &:nth-child(10),
+    &:nth-child(11),
+    &:nth-child(15){
+      display: none;
+    }
+  }
+}
 
 
 /*---------------------------------------------------
@@ -439,26 +452,32 @@ h1.work-title:before {
 
 .missions-1, .missions-projet-1 {
   background: #2d2d2d url("../img/missions/strategie-produit.png") no-repeat center;
+  background-size: 30%;
 }
 
 .missions-2, .missions-projet-2 {
   background: #2d2d2d url("../img/missions/identite-visuelle.png") no-repeat center;
+  background-size: 40%;
 }
 
 .missions-3, .missions-projet-3 {
   background: #2d2d2d url("../img/missions/ui-ux-design.png") no-repeat center;
+  background-size: 40%;
 }
 
 .missions-4, .missions-projet-4 {
   background: #2d2d2d url("../img/missions/dev-web.png") no-repeat center;
+  background-size: 40%;
 }
 
 .missions-5, .missions-projet-5 {
   background: #2d2d2d url("../img/missions/dev-mobile.png") no-repeat center;
+  background-size: 22%;
 }
 
 .missions-6, .missions-projet-6 {
   background: #2d2d2d url("../img/missions/audit-digital.png") no-repeat center;
+  background-size: 40%;
 }
 
 .back .card .missions-1 {background-color: #6ff5bd;}
