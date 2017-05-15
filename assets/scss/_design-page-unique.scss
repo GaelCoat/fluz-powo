@@ -191,17 +191,17 @@ header {
       top: 7px;
 
       @media screen and (max-width: 680px){
-        width: 30px;
-        top: 2px;
+        width: 35px;
+        top: 4px;
       }
     }
   }
 
   .design-work {
     display: grid;
-    -webkit-box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
-    -moz-box-shadow:    0 0 30px 0 rgba(0, 0, 0, 0.1);
-    box-shadow:         0 0 30px 0 rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 0 60px 0 rgba(0, 0, 0, 0.05);
+    -moz-box-shadow:    0 0 60px 0 rgba(0, 0, 0, 0.05);
+    box-shadow:         0 0 60px 0 rgba(0, 0, 0, 0.05);
 
     &:nth-child(-n + 6){
       margin-bottom: 35px;
@@ -236,7 +236,7 @@ header {
     }
 
     img {
-      width: 40px;
+      width: 33px;
       position: relative;
       top: 2px;
 

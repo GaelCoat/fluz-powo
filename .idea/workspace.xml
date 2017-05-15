@@ -2,16 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3e75758-6c2c-4aee-aa60-2d8e22bd336f" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/works/page-atelier-emma/tarif-coiffeuse.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/.sass-cache/5dfa9f0329c172273bdffcc9996a25ef1f570705/_design-page-unique.scssc" afterPath="$PROJECT_DIR$/assets/.sass-cache/5dfa9f0329c172273bdffcc9996a25ef1f570705/_design-page-unique.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/loader.css" afterPath="$PROJECT_DIR$/assets/css/loader.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/page-unique-atelier-emma.css" afterPath="$PROJECT_DIR$/assets/css/page-unique-atelier-emma.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/page-unique-atelier-emma.css.map" afterPath="$PROJECT_DIR$/assets/css/page-unique-atelier-emma.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/page-unique-dgsport-agency.css" afterPath="$PROJECT_DIR$/assets/css/page-unique-dgsport-agency.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/page-unique-dgsport-agency.css.map" afterPath="$PROJECT_DIR$/assets/css/page-unique-dgsport-agency.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/page-unique-le-petit-atelier.css" afterPath="$PROJECT_DIR$/assets/css/page-unique-le-petit-atelier.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/page-unique-le-petit-atelier.css.map" afterPath="$PROJECT_DIR$/assets/css/page-unique-le-petit-atelier.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/page-unique-marie-verthuy.css" afterPath="$PROJECT_DIR$/assets/css/page-unique-marie-verthuy.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/page-unique-marie-verthuy.css.map" afterPath="$PROJECT_DIR$/assets/css/page-unique-marie-verthuy.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/page-unique-maximin.css" afterPath="$PROJECT_DIR$/assets/css/page-unique-maximin.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/page-unique-maximin.css.map" afterPath="$PROJECT_DIR$/assets/css/page-unique-maximin.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/page-unique-thauvin.css" afterPath="$PROJECT_DIR$/assets/css/page-unique-thauvin.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/page-unique-thauvin.css.map" afterPath="$PROJECT_DIR$/assets/css/page-unique-thauvin.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/scss/_design-page-unique.scss" afterPath="$PROJECT_DIR$/assets/scss/_design-page-unique.scss" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,48 +40,7 @@
     <favorites_list name="fluz-powo" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="5" column="86" lean-forward="false" selection-start-line="5" selection-start-column="86" selection-end-line="5" selection-end-column="86" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/scss/style.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="423">
-              <caret line="137" column="19" lean-forward="true" selection-start-line="137" selection-start-column="19" selection-end-line="137" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="loader.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assets/css/loader.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="36" column="11" lean-forward="false" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_design-page-unique.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/scss/_design-page-unique.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="205" column="22" lean-forward="false" selection-start-line="205" selection-start-column="22" selection-end-line="205" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -173,8 +135,8 @@
         <option value="$PROJECT_DIR$/atelier-emma.html" />
         <option value="$PROJECT_DIR$/le-petit-atelier.html" />
         <option value="$PROJECT_DIR$/assets/scss/style.scss" />
-        <option value="$PROJECT_DIR$/assets/scss/_design-page-unique.scss" />
         <option value="$PROJECT_DIR$/assets/css/loader.css" />
+        <option value="$PROJECT_DIR$/assets/scss/_design-page-unique.scss" />
       </list>
     </option>
   </component>
@@ -381,12 +343,12 @@
       <workItem from="1494745349345" duration="1585000" />
       <workItem from="1494753229260" duration="10033000" />
       <workItem from="1494779221689" duration="388000" />
-      <workItem from="1494836346673" duration="15026000" />
+      <workItem from="1494836346673" duration="16337000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="292570000" />
+    <option name="totallyTimeSpent" value="293881000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -399,9 +361,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1828125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1828125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -538,22 +500,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/scss/_design-work-project.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="784">
-          <caret line="144" column="76" lean-forward="false" selection-start-line="144" selection-start-column="76" selection-end-line="144" selection-end-column="76" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/scss/bouton-page-unique.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="936">
-          <caret line="36" column="8" lean-forward="false" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/scss/works.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="338">
@@ -674,6 +620,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/loader.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="36" column="11" lean-forward="false" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/scss/style.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="423">
@@ -682,18 +636,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/scss/_design-page-unique.scss">
+    <entry file="file://$PROJECT_DIR$/assets/scss/bouton-page-unique.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="205" column="22" lean-forward="false" selection-start-line="205" selection-start-column="22" selection-end-line="205" selection-end-column="22" />
+        <state relative-caret-position="936">
+          <caret line="36" column="8" lean-forward="false" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/loader.css">
+    <entry file="file://$PROJECT_DIR$/assets/scss/_design-work-project.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="36" column="11" lean-forward="false" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
+        <state relative-caret-position="546">
+          <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scss/_design-page-unique.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="194" column="14" lean-forward="false" selection-start-line="194" selection-start-column="14" selection-end-line="194" selection-end-column="14" />
           <folding />
         </state>
       </provider>
