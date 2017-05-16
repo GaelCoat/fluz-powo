@@ -64,6 +64,7 @@ body.loading {
 }
 
 .loader-form img {
+    width: 500%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }

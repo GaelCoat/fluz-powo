@@ -6,7 +6,7 @@ div.content-accueil {
   width: 100%;
   height: 540px;
   margin-bottom: 110px;
-  background-color: #1d1d2d; }
+  background-color: #17171f; }
   @media screen and (max-width: 768px) {
     div.content-accueil {
       margin-bottom: 30px; } }
@@ -396,7 +396,7 @@ p.description-work {
     top: 19px;
     left: 24px; } }
 div.content-accueil {
-  background-color: #1d1d2d; }
+  background-color: #17171f; }
 
 .img-presentation {
   height: 166px;
@@ -404,7 +404,7 @@ div.content-accueil {
   top: 75px; }
 
 .btn-after {
-  background-color: #1d1d2d; }
+  background-color: #17171f; }
 
 .btn-before {
   background-color: #0c0c0c; }
