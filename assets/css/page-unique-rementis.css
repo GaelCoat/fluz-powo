@@ -6,7 +6,7 @@ div.content-accueil {
   width: 100%;
   height: 540px;
   margin-bottom: 110px;
-  background-color: #212121; }
+  background-color: #1d1d2d; }
   @media screen and (max-width: 768px) {
     div.content-accueil {
       margin-bottom: 30px; } }
@@ -396,19 +396,17 @@ p.description-work {
     top: 19px;
     left: 24px; } }
 div.content-accueil {
-  background-color: #212121; }
+  background-color: #1d1d2d; }
 
 .img-presentation {
-  height: 230px;
-  width: 270px;
-  top: 40px; }
-
-.btn-before {
-  background-color: #0c0c0c;
-  color: #fff; }
+  height: 166px;
+  width: 140px;
+  top: 75px; }
 
 .btn-after {
-  background-color: #464646;
-  color: #fff; }
+  background-color: #1d1d2d; }
 
-/*# sourceMappingURL=page-unique-marie-verthuy.css.map */
+.btn-before {
+  background-color: #0c0c0c; }
+
+/*# sourceMappingURL=page-unique-rementis.css.map */

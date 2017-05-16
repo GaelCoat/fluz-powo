@@ -784,16 +784,8 @@ span.mail:before {
   }
 
   div.bouton-exp span.txt-fluz {
-    right: 35px;
-    font-size: 17px;
-  }
-
-  div.bouton-exp:hover span.txt-fluz {
     right: 28px;
-
-    @media screen and (max-width: 768px){
-      right: 0;
-    }
+    font-size: 17px;
   }
 }
 /*---------------------------------------------------

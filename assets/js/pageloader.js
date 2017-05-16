@@ -31,6 +31,21 @@
         }
 
         function chargementEnCours() {
+
+            $('body').addClass('loading');
+            $('#us').css({
+                display: 'none'
+            });
+            $('#works').css({
+                display: 'none'
+            });
+            $('#missions').css({
+                display: 'none'
+            });
+            $('#gradient').css({
+                display: 'none'
+            });
+
             var pourcentage = 0;
             if ($elements.length) {
                 pourcentage = parseInt((elementsCharges / $elements.length) * 100);
@@ -73,6 +88,20 @@
                     $('.title-h2').css({
                         opacity: 1,
                         transform: 'translateY(0px)'
+                    });
+                    $('body').removeClass('loading');
+
+                    $('#us').css({
+                        display: 'block'
+                    });
+                    $('#works').css({
+                        display: 'block'
+                    });
+                    $('#missions').css({
+                        display: 'block'
+                    });
+                    $('#gradient').css({
+                        display: 'block'
                     });
                 });
             $barLoader

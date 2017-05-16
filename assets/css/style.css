@@ -462,6 +462,10 @@ div.titre-work h1 {
   background: url("../img/works/cover-project/le-petit-atelier-work-page.jpg") no-repeat center;
   background-size: cover; }
 
+#bgc-7 {
+  background: url("../img/works/cover-project/rementis-work-page.jpg") no-repeat center;
+  background-size: cover; }
+
 p.description-work {
   font-family: 'Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif';
   width: 700px;
@@ -864,15 +868,8 @@ span.mail:before {
     right: 210px; }
 
   div.bouton-exp span.txt-fluz {
-    right: 35px;
-    font-size: 17px; }
-
-  div.bouton-exp:hover span.txt-fluz {
-    right: 28px; } }
-  @media screen and (max-width: 1600px) and (max-width: 768px) {
-    div.bouton-exp:hover span.txt-fluz {
-      right: 0; } }
-
+    right: 28px;
+    font-size: 17px; } }
 /*---------------------------------------------------
 *
 *                       1440

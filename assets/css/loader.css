@@ -1,3 +1,8 @@
+body.loading {
+    overflow: hidden;
+    padding-right: 17px;
+}
+
 #chargement {
     position: fixed;
     z-index:  9999;
@@ -69,4 +74,10 @@
     overflow: visible;
     height: 150px;
     width: 155px;
+}
+
+@media screen and (max-width: 768px){
+    .loader img {
+        width: 400%;
+    }
 }

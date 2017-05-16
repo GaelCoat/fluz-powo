@@ -300,6 +300,10 @@ div.titre-work h1 {
   background: url("../img/works/cover-project/le-petit-atelier-work-page.jpg") no-repeat center;
   background-size: cover; }
 
+#bgc-7 {
+  background: url("../img/works/cover-project/rementis-work-page.jpg") no-repeat center;
+  background-size: cover; }
+
 p.description-work {
   font-family: 'Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif';
   width: 700px;
@@ -395,8 +399,8 @@ div.content-accueil {
   background-color: #dbbdfd; }
 
 .img-presentation {
-  height: 190px;
-  width: 200px;
+  height: 250px;
+  width: 250px;
   top: 75px; }
 
 .btn-after {
