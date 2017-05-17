@@ -710,614 +710,616 @@ span.mail:before {
 *
 *
 ---------------------------------------------------*/
-.module, .module-one-time {
-  opacity: 0;
-}
 
-.come-in {
-  -webkit-transform: translateY(50px);
-  transform:         translateY(50px);
-  opacity: 0;
-  -webkit-animation: come-in 1s ease forwards;
-  animation:         come-in 1s ease forwards;
-  -webkit-animation-delay: 0.25s;
-  animation-delay:         0.25s;
-}
-
-.come-in:nth-child(odd) {
-  -webkit-animation-duration: 0.6s;
-  animation-duration:         0.6s; /* So they look staggered */
-}
-
-@-webkit-keyframes come-in {
-  to {
-    -webkit-transform: translateY(0);
-    transform:         translateY(0);
-    opacity: 1;
-  }
-}
-
-@keyframes come-in {
-  to {
-    -webkit-transform: translateY(0);
-    transform:         translateY(0);
-    opacity: 1;
-  }
-}
-
-
-
-/*---------------------------------------------------
-*
-*
-*                  $Responsive/1600
-*
-*
----------------------------------------------------*/
-@media screen and (max-width: 1680px){
-  div.bouton-exp {
-    @include size(59px, 240px);
-    top: 130px;
-    right: 180px;
-  }
-
-  div.form-experience-fluz {
-    @include size(420px, 640px);
-
-  }
-}
-@media screen and (min-width: 1600px) {
-  .content-accueil {
-    max-width: 1450px;
-  }
-}
-@media screen and (max-width: 1600px) {
-  .content-accueil {
-    max-width: 1080px;
-  }
-
-  div.bouton-exp {
-    @include size(58px, 230px);
-    top: 125px;
-    right: 210px;
-  }
-
-  div.bouton-exp span.txt-fluz {
-    right: 28px;
-    font-size: 17px;
-  }
-}
-/*---------------------------------------------------
-*
-*                       1440
-*
----------------------------------------------------*/
-@media screen and (max-width: 1440px){
-  div.bouton-exp {
-    @include size(52px, 210px);
-    top: 110px;
-    right: 250px;
-  }
-
-  div.form-experience-fluz {
-    @include size(350px, 500px);
-  }
-}
-/*---------------------------------------------------
-*
-*                       1366
-*
----------------------------------------------------*/
-@media screen and (max-width: 1366px) {
-  div.logo {
-    top: 40px;
-  }
-
-  div.menu-right nav ul {
-    line-height: 55px;
-  }
-
-  div.bouton-exp {
-    @include size(49px, 200px);
-    top: 103px;
-    right: 140px;
-  }
-
-  div.bouton-exp:hover:after {
-    right: 85%;
-    width: 15px;
-  }
-
-  div.form-experience-fluz {
-    @include size(320px , 450px);
-  }
-
-  div.presentation-left h2 {
-    font-size: 22px;
-    font-weight: lighter;
-  }
-
-  section.us div.info-us {
-    font-size: 23px;
-    line-height: 32px;
-  }
-
-  .project .vignette {
-    height: 190px;
-  }
-
-  .missions-hover {
-    top: 196px;
-  }
-
-  .project .missions-hover {
-    padding: 0 10%;
-  }
-
-  .project .card-flip .missions-hover h2 {
-    padding-top: 30px;
-  }
-
-  .missions-hover h2 {
-    font-size: 20px;
-    padding-bottom: 8px;
-    padding-top: 20px;
-  }
-
-  .missions-hover p {
-    font-size: 17px;
-    line-height: 20px;
-  }
-
-  section#contact div.info-footer {
-    top: 50%;
-    width: 37%;
-  }
-}
-/*---------------------------------------------------
-*
-*                       1280
-*
----------------------------------------------------*/
-@media screen and (max-width: 1280px) {
-  .content-accueil {
-    max-width: 1000px;
-  }
-
-  div.bouton-exp {
-    @include size(47px, 190px);
-    top: 97px;
-    right: 170px;
-  }
-
-  section#contact div.info-footer {
-    width: 37%;
-  }
-}
-/*---------------------------------------------------
-*
-*                       1200
-*
----------------------------------------------------*/
-@media screen and (max-width: 1200px) {
-  section#contact div.info-footer {
-    width: 45%;
-  }
-}
-/*---------------------------------------------------
-*
-*                       1120
-*
----------------------------------------------------*/
-@media screen and (max-width: 1120px) {
-  div.bouton-exp {
-    @include size(42px, 170px);
-    top: 89px;
-    right: 260px;
-  }
-
-  div.bouton-exp span.txt-fluz {
-    right: 0;
-    left: 0;
-    font-size: 16px;
-    text-align: center;
-  }
-
-  section.us div.info-us {
-    width: 400px;
-    padding-left:  15px;
-    padding-right: 15px;
-  }
-
-  section.us blockquote.citation {
-    font-size: 32px;
-    line-height: 44px;
-  }
-
-  span.quote {
-    font-size: 80px;
-  }
-
-  span.quote:first-child {
-    top:  -8px;
-    left: 43px;
-  }
-
-  span.quote:last-child {
-    bottom: -60px;
-  }
-
-  p.description-work {
-    font-size: 21px;
-  }
-}
-/*---------------------------------------------------
-*
-*                       1024
-*
----------------------------------------------------*/
-@media screen and (max-width: 1024px) {
-  .content-accueil {
-    max-width: 760px;
-  }
-
-  div.bouton-exp {
-    position: inherit;
-    top: 0;
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-            transform: translateX(-50%);
-  }
-
-  div.bouton-exp:after {
-    display: none;
-  }
-
-  div.form-experience-fluz {
-    @include size(260px, 380px);
-  }
-
-  div.presentation-left h1 {
-    font-size: 50px;
-    margin-bottom: 25px;
-    letter-spacing: 0;
-  }
-  div.presentation-left h2 {
-    font-size: 19px;
-    margin-top: 30px;
-  }
-
-  div.menu-right {
-    font-size: 18px;
-  }
-
-  div.menu-right nav ul {
-    line-height: 25px;
-  }
-
-  p.description-work {
-    font-size: 19px;
-    width: 600px;
-  }
-}
-/*---------------------------------------------------
-*
-*                       1024/Portrait
-*
----------------------------------------------------*/
-@media screen and (max-width: 1024px) and (orientation: portrait){
-  div.menu-right {
-    top: 55%;
-  }
-}
-/*---------------------------------------------------
-*
-*                       960
-*
----------------------------------------------------*/
-@media screen and (max-width: 960px) {
-
-  div.presentation-left h2 {
-    font-size: 18px;
-  }
-
-  section#contact div.coordonnee {
-    bottom: 5%;
-  }
-}
-/*---------------------------------------------------
-*
-*                       768
-*
----------------------------------------------------*/
-@media screen and (max-width: 768px) {
-  section.us h1:before, h1.work-title:before, .title-missions:before, section#contact h1:before {
-    font-size: 110px;
-  }
-
-  section.us h1, h1.work-title, .title-missions, section#contact h1 {
-    top: 100px;
-    margin-bottom: 0;
-  }
-
-  div.form-experience-fluz {
-    height: 100px;
-    width: 170px;
-  }
-
-  section.us div.info-us {
-    margin-top: 180px;
-    width: 500px;
-    line-height: 25px;
-    font-size: 20px;
-    text-align: center;
-  }
-
-  section.us blockquote.citation {
-    text-align: center;
-  }
-
-  div.info-us:last-child {
-    margin-top: 80px;
-  }
-
-  section.us div.info-us2 {
-    margin-top: 80px;
-  }
-
-  span.quote:first-child {
-    top: -15px;
-    left: -35px;
-  }
-
-  span.quote:last-child {
-    bottom: -40px;
-    right: 60px;
-  }
-
-  .presentation-work {
-    margin-top: 180px;
-  }
-
-  .container-missions {
-    display: none;
-  }
-
-  .missions-1, .missions-2, .missions-3, .missions-4, .missions-5, .missions-6 {
-    @include size(190px, 100%);
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-  }
-
-  .missions-1 {background-color: #6ff5bd;}
-  .missions-2 {background-color: #2d2d2d;}
-  .missions-3 {background-color: #ffde67;}
-  .missions-4 {background-color: #6b5ff7;}
-  .missions-5 {background-color: #ff8383;}
-  .missions-6 {background-color: #55d4de;}
-
-  section#contact div.info-footer {
-    width: 60%;
-    font-size: 16px;
-  }
-}
-/*---------------------------------------------------
-*
-*                       768/Paysage
-*
----------------------------------------------------*/
-@media screen and (max-width: 768px) and (orientation: landscape){
-  section.us blockquote.citation {
-    font-size: 22px;
-    line-height: 38px;
-  }
-  section.us div.info-us {
-    width: 440px;
-    line-height: 27px;
-    font-size: 19px;
-  }
-
-  span.quote {
-    font-size: 65px;
-  }
-
-  span.quote:last-child {
-    bottom: -44px;
-    right: 0;
-  }
-
-  section.us div.info-us2 {
-    margin-top: 55px;
-  }
-
-  .project {
-    height: 300px;
-  }
-
-  .bgc-1, .bgc-2, .bgc-3 {
-    background-size: 50%;
-  }
-  .bgc-1 {
-    background-color: #3594d9;
-  }
-  .bgc-2 {
-    background-color: #222222;
-  }
-  .bgc-3 {
-    background-color: #f1c410;
-  }
-
-  p.description-work {
-    font-size: 17px;
-    width: 80%;
-  }
-
-  section#contact div.info-footer {
-    top: 57%;
-  }
-}
-/*---------------------------------------------------
-*
-*                       720
-*
----------------------------------------------------*/
-@media screen and (max-width: 720px) {
-  div.info {
-    position: inherit;
-    width: 100%;
-  }
-  .left, .right {
-    float: none;
-  }
-  div.bloc-work, div.bloc-work2 {
-    width: 100%;
-  }
-
-  div.bloc-work, div.bloc-work2 {
-    height: auto;
-  }
-
-  .missions-hover {
-    padding: 0 12%;
-  }
-}
-/*---------------------------------------------------
-*
-*                       640
-*
----------------------------------------------------*/
-@media screen and (max-width: 640px){
-  p.description-work {
-    width: 85%;
-  }
-
-  section#contact div.coordonnee {
-    font-size: 18px;
-  }
-}
-/*---------------------------------------------------
-*
-*                       530
-*
----------------------------------------------------*/
-@media screen and (max-width: 530px) {
+@media screen and (min-width: 1023px) {
   .module, .module-one-time {
-    opacity: 1;
-  }
-
-  p.description-work {
-    width: 90%;
-    font-size: 16px;
-    letter-spacing: 0;
-    line-height: 21px;
-  }
-
-  section.us div.info-us {
-    width: 400px;
-  }
-
-  section.us blockquote.citation {
-    font-size: 25px;
-    line-height: 38px;
-  }
-
-  span.quote {
-    font-size: 65px;
-  }
-
-  span.quote:first-child {
-    top: -10px;
-    left: -15px;
-  }
-
-  span.quote:last-child {
-    bottom: -30px;
-    right: 50px;
-  }
-
-  section.us div.info-us2 {
-    margin-top: 45px;
-  }
-
-  section#contact div.info-footer {
-    width: 80%;
-    top: 41%;
+    opacity: 0;
   }
 }
-/*---------------------------------------------------
-*
-*                       480
-*
----------------------------------------------------*/
-@media screen and (max-width: 480px) {
-  section.us div.info-us {
-    width: 90%;
+  .come-in {
+    -webkit-transform: translateY(50px);
+    transform:         translateY(50px);
+    opacity: 0;
+    -webkit-animation: come-in 1s ease forwards;
+    animation:         come-in 1s ease forwards;
+    -webkit-animation-delay: 0.25s;
+    animation-delay:         0.25s;
   }
 
-  span.quote {
-    font-size: 45px;
+  .come-in:nth-child(odd) {
+    -webkit-animation-duration: 0.6s;
+    animation-duration:         0.6s; /* So they look staggered */
   }
 
-  span.quote:last-child {
-    bottom: -30px;
-    right: 0;
+  @-webkit-keyframes come-in {
+    to {
+      -webkit-transform: translateY(0);
+      transform:         translateY(0);
+      opacity: 1;
+    }
   }
 
-  section#contact div.coordonnee span {
-    padding: 0;
-    display: block;
-  }
-  section#contact div.coordonnee span.numero {
-    margin-bottom: 20px;
-  }
-}
-/*---------------------------------------------------
-*
-*                       320
-*
----------------------------------------------------*/
-@media screen and (max-width: 320px){
-  section.us {
-    margin-bottom: 90px;
+  @keyframes come-in {
+    to {
+      -webkit-transform: translateY(0);
+      transform:         translateY(0);
+      opacity: 1;
+    }
   }
 
-  section.us div.info-us {
-    line-height: 23px;
-    font-size: 18px;
-  }
 
-  .missions-hover p {
-    font-size: 16px;
-    line-height: 22px;
-  }
 
-  .project {
-    height: 350px;
-  }
+  /*---------------------------------------------------
+  *
+  *
+  *                  $Responsive/1600
+  *
+  *
+  ---------------------------------------------------*/
+  @media screen and (max-width: 1680px){
+    div.bouton-exp {
+      @include size(59px, 240px);
+      top: 130px;
+      right: 180px;
+    }
 
-  .presentation-work {
-    margin-bottom: 15px;
-  }
+    div.form-experience-fluz {
+      @include size(420px, 640px);
 
-  div.titre-work {
-    top: 20px;
-    left: 24px;
+    }
   }
+  @media screen and (min-width: 1600px) {
+    .content-accueil {
+      max-width: 1450px;
+    }
+  }
+  @media screen and (max-width: 1600px) {
+    .content-accueil {
+      max-width: 1080px;
+    }
 
-  div.titre-work h1 {
-    font-size: 19px;
-  }
+    div.bouton-exp {
+      @include size(58px, 230px);
+      top: 125px;
+      right: 210px;
+    }
 
-  div.sous-titre-work {
-    bottom: 20px;
+    div.bouton-exp span.txt-fluz {
+      right: 28px;
+      font-size: 17px;
+    }
   }
+  /*---------------------------------------------------
+  *
+  *                       1440
+  *
+  ---------------------------------------------------*/
+  @media screen and (max-width: 1440px){
+    div.bouton-exp {
+      @include size(52px, 210px);
+      top: 110px;
+      right: 250px;
+    }
 
-  section#contact div.info-footer {
-    width: 80%;
-    font-size: 16px;
-    top: 46%;
-    line-height: 21px;
+    div.form-experience-fluz {
+      @include size(350px, 500px);
+    }
   }
-}
+  /*---------------------------------------------------
+  *
+  *                       1366
+  *
+  ---------------------------------------------------*/
+  @media screen and (max-width: 1366px) {
+    div.logo {
+      top: 40px;
+    }
+
+    div.menu-right nav ul {
+      line-height: 55px;
+    }
+
+    div.bouton-exp {
+      @include size(49px, 200px);
+      top: 103px;
+      right: 140px;
+    }
+
+    div.bouton-exp:hover:after {
+      right: 85%;
+      width: 15px;
+    }
+
+    div.form-experience-fluz {
+      @include size(320px , 450px);
+    }
+
+    div.presentation-left h2 {
+      font-size: 22px;
+      font-weight: lighter;
+    }
+
+    section.us div.info-us {
+      font-size: 23px;
+      line-height: 32px;
+    }
+
+    .project .vignette {
+      height: 190px;
+    }
+
+    .missions-hover {
+      top: 196px;
+    }
+
+    .project .missions-hover {
+      padding: 0 10%;
+    }
+
+    .project .card-flip .missions-hover h2 {
+      padding-top: 30px;
+    }
+
+    .missions-hover h2 {
+      font-size: 20px;
+      padding-bottom: 8px;
+      padding-top: 20px;
+    }
+
+    .missions-hover p {
+      font-size: 17px;
+      line-height: 20px;
+    }
+
+    section#contact div.info-footer {
+      top: 50%;
+      width: 37%;
+    }
+  }
+  /*---------------------------------------------------
+  *
+  *                       1280
+  *
+  ---------------------------------------------------*/
+  @media screen and (max-width: 1280px) {
+    .content-accueil {
+      max-width: 1000px;
+    }
+
+    div.bouton-exp {
+      @include size(47px, 190px);
+      top: 97px;
+      right: 170px;
+    }
+
+    section#contact div.info-footer {
+      width: 37%;
+    }
+  }
+  /*---------------------------------------------------
+  *
+  *                       1200
+  *
+  ---------------------------------------------------*/
+  @media screen and (max-width: 1200px) {
+    section#contact div.info-footer {
+      width: 45%;
+    }
+  }
+  /*---------------------------------------------------
+  *
+  *                       1120
+  *
+  ---------------------------------------------------*/
+  @media screen and (max-width: 1120px) {
+    div.bouton-exp {
+      @include size(42px, 170px);
+      top: 89px;
+      right: 260px;
+    }
+
+    div.bouton-exp span.txt-fluz {
+      right: 0;
+      left: 0;
+      font-size: 16px;
+      text-align: center;
+    }
+
+    section.us div.info-us {
+      width: 400px;
+      padding-left:  15px;
+      padding-right: 15px;
+    }
+
+    section.us blockquote.citation {
+      font-size: 32px;
+      line-height: 44px;
+    }
+
+    span.quote {
+      font-size: 80px;
+    }
+
+    span.quote:first-child {
+      top:  -8px;
+      left: 43px;
+    }
+
+    span.quote:last-child {
+      bottom: -60px;
+    }
+
+    p.description-work {
+      font-size: 21px;
+    }
+  }
+  /*---------------------------------------------------
+  *
+  *                       1024
+  *
+  ---------------------------------------------------*/
+  @media screen and (max-width: 1024px) {
+    .content-accueil {
+      max-width: 760px;
+    }
+
+    div.bouton-exp {
+      position: inherit;
+      top: 0;
+      left: 50%;
+      -webkit-transform: translateX(-50%);
+      transform: translateX(-50%);
+    }
+
+    div.bouton-exp:after {
+      display: none;
+    }
+
+    div.form-experience-fluz {
+      @include size(260px, 380px);
+    }
+
+    div.presentation-left h1 {
+      font-size: 50px;
+      margin-bottom: 25px;
+      letter-spacing: 0;
+    }
+    div.presentation-left h2 {
+      font-size: 19px;
+      margin-top: 30px;
+    }
+
+    div.menu-right {
+      font-size: 18px;
+    }
+
+    div.menu-right nav ul {
+      line-height: 25px;
+    }
+
+    p.description-work {
+      font-size: 19px;
+      width: 600px;
+    }
+  }
+  /*---------------------------------------------------
+  *
+  *                       1024/Portrait
+  *
+  ---------------------------------------------------*/
+  @media screen and (max-width: 1024px) and (orientation: portrait){
+    div.menu-right {
+      top: 55%;
+    }
+  }
+  /*---------------------------------------------------
+  *
+  *                       960
+  *
+  ---------------------------------------------------*/
+  @media screen and (max-width: 960px) {
+
+    div.presentation-left h2 {
+      font-size: 18px;
+    }
+
+    section#contact div.coordonnee {
+      bottom: 5%;
+    }
+  }
+  /*---------------------------------------------------
+  *
+  *                       768
+  *
+  ---------------------------------------------------*/
+  @media screen and (max-width: 768px) {
+    section.us h1:before, h1.work-title:before, .title-missions:before, section#contact h1:before {
+      font-size: 110px;
+    }
+
+    section.us h1, h1.work-title, .title-missions, section#contact h1 {
+      top: 100px;
+      margin-bottom: 0;
+    }
+
+    div.form-experience-fluz {
+      height: 100px;
+      width: 170px;
+    }
+
+    section.us div.info-us {
+      margin-top: 180px;
+      width: 500px;
+      line-height: 25px;
+      font-size: 20px;
+      text-align: center;
+    }
+
+    section.us blockquote.citation {
+      text-align: center;
+    }
+
+    div.info-us:last-child {
+      margin-top: 80px;
+    }
+
+    section.us div.info-us2 {
+      margin-top: 80px;
+    }
+
+    span.quote:first-child {
+      top: -15px;
+      left: -35px;
+    }
+
+    span.quote:last-child {
+      bottom: -40px;
+      right: 60px;
+    }
+
+    .presentation-work {
+      margin-top: 180px;
+    }
+
+    .container-missions {
+      display: none;
+    }
+
+    .missions-1, .missions-2, .missions-3, .missions-4, .missions-5, .missions-6 {
+      @include size(190px, 100%);
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+    }
+
+    .missions-1 {background-color: #6ff5bd;}
+    .missions-2 {background-color: #2d2d2d;}
+    .missions-3 {background-color: #ffde67;}
+    .missions-4 {background-color: #6b5ff7;}
+    .missions-5 {background-color: #ff8383;}
+    .missions-6 {background-color: #55d4de;}
+
+    section#contact div.info-footer {
+      width: 60%;
+      font-size: 16px;
+    }
+  }
+  /*---------------------------------------------------
+  *
+  *                       768/Paysage
+  *
+  ---------------------------------------------------*/
+  @media screen and (max-width: 768px) and (orientation: landscape){
+    section.us blockquote.citation {
+      font-size: 22px;
+      line-height: 38px;
+    }
+    section.us div.info-us {
+      width: 440px;
+      line-height: 27px;
+      font-size: 19px;
+    }
+
+    span.quote {
+      font-size: 65px;
+    }
+
+    span.quote:last-child {
+      bottom: -44px;
+      right: 0;
+    }
+
+    section.us div.info-us2 {
+      margin-top: 55px;
+    }
+
+    .project {
+      height: 300px;
+    }
+
+    .bgc-1, .bgc-2, .bgc-3 {
+      background-size: 50%;
+    }
+    .bgc-1 {
+      background-color: #3594d9;
+    }
+    .bgc-2 {
+      background-color: #222222;
+    }
+    .bgc-3 {
+      background-color: #f1c410;
+    }
+
+    p.description-work {
+      font-size: 17px;
+      width: 80%;
+    }
+
+    section#contact div.info-footer {
+      top: 57%;
+    }
+  }
+  /*---------------------------------------------------
+  *
+  *                       720
+  *
+  ---------------------------------------------------*/
+  @media screen and (max-width: 720px) {
+    div.info {
+      position: inherit;
+      width: 100%;
+    }
+    .left, .right {
+      float: none;
+    }
+    div.bloc-work, div.bloc-work2 {
+      width: 100%;
+    }
+
+    div.bloc-work, div.bloc-work2 {
+      height: auto;
+    }
+
+    .missions-hover {
+      padding: 0 12%;
+    }
+  }
+  /*---------------------------------------------------
+  *
+  *                       640
+  *
+  ---------------------------------------------------*/
+  @media screen and (max-width: 640px){
+    p.description-work {
+      width: 85%;
+    }
+
+    section#contact div.coordonnee {
+      font-size: 18px;
+    }
+  }
+  /*---------------------------------------------------
+  *
+  *                       530
+  *
+  ---------------------------------------------------*/
+  @media screen and (max-width: 530px) {
+    .module, .module-one-time {
+      opacity: 1;
+    }
+
+    p.description-work {
+      width: 90%;
+      font-size: 16px;
+      letter-spacing: 0;
+      line-height: 21px;
+    }
+
+    section.us div.info-us {
+      width: 400px;
+    }
+
+    section.us blockquote.citation {
+      font-size: 25px;
+      line-height: 38px;
+    }
+
+    span.quote {
+      font-size: 65px;
+    }
+
+    span.quote:first-child {
+      top: -10px;
+      left: -15px;
+    }
+
+    span.quote:last-child {
+      bottom: -30px;
+      right: 50px;
+    }
+
+    section.us div.info-us2 {
+      margin-top: 45px;
+    }
+
+    section#contact div.info-footer {
+      width: 80%;
+      top: 41%;
+    }
+  }
+  /*---------------------------------------------------
+  *
+  *                       480
+  *
+  ---------------------------------------------------*/
+  @media screen and (max-width: 480px) {
+    section.us div.info-us {
+      width: 90%;
+    }
+
+    span.quote {
+      font-size: 45px;
+    }
+
+    span.quote:last-child {
+      bottom: -30px;
+      right: 0;
+    }
+
+    section#contact div.coordonnee span {
+      padding: 0;
+      display: block;
+    }
+    section#contact div.coordonnee span.numero {
+      margin-bottom: 20px;
+    }
+  }
+  /*---------------------------------------------------
+  *
+  *                       320
+  *
+  ---------------------------------------------------*/
+  @media screen and (max-width: 320px){
+    section.us {
+      margin-bottom: 90px;
+    }
+
+    section.us div.info-us {
+      line-height: 23px;
+      font-size: 18px;
+    }
+
+    .missions-hover p {
+      font-size: 16px;
+      line-height: 22px;
+    }
+
+    .project {
+      height: 350px;
+    }
+
+    .presentation-work {
+      margin-bottom: 15px;
+    }
+
+    div.titre-work {
+      top: 20px;
+      left: 24px;
+    }
+
+    div.titre-work h1 {
+      font-size: 19px;
+    }
+
+    div.sous-titre-work {
+      bottom: 20px;
+    }
+
+    section#contact div.info-footer {
+      width: 80%;
+      font-size: 16px;
+      top: 46%;
+      line-height: 21px;
+    }
+  }

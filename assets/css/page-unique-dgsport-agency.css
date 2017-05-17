@@ -260,6 +260,9 @@ div.titre-work h1 {
   @media screen and (max-width: 1366px) {
     div.titre-work h1 {
       font-size: 21px; } }
+  @media screen and (max-width: 1024px) {
+    div.titre-work h1 {
+      width: 200px; } }
 
 .project h2 {
   color: rgba(255, 255, 255, 0.8);
