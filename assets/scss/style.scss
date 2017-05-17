@@ -652,7 +652,6 @@ section#contact div.info-footer {
   text-align: center;
   width: 26%;
   font-family: 'Roboto', sans-serif;
-  line-height: 30px;
   letter-spacing: 1px;
   color: rgba(255, 255, 255, 0.8);
   position: absolute;
@@ -1042,8 +1041,8 @@ span.mail:before {
   }
 
   div.form-experience-fluz {
-    height: 170px;
-    width: 240px;
+    height: 100px;
+    width: 170px;
   }
 
   section.us div.info-us {
@@ -1101,7 +1100,6 @@ span.mail:before {
 
   section#contact div.info-footer {
     width: 60%;
-    line-height: 22px;
     font-size: 16px;
   }
 }

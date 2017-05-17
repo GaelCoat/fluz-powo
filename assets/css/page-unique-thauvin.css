@@ -1,4 +1,7 @@
 body {
+  overflow-x: hidden; }
+
+body {
   background-color: rgba(247, 247, 247, 0.4); }
 
 div.content-accueil {
@@ -414,13 +417,10 @@ div.content-accueil {
 @media screen and (max-width: 480px) {
   .img-presentation {
     height: 276px;
-    width: 400px; } }
+    width: 400px;
+    left: -20px; } }
 @media screen and (max-width: 420px) {
   div.content-accueil {
-    height: 400px; }
-
-  .img-presentation {
-    height: 221px;
-    width: 320px; } }
+    height: 400px; } }
 
 /*# sourceMappingURL=page-unique-thauvin.css.map */

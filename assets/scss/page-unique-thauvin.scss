@@ -1,6 +1,10 @@
 $color-theme: #02f9fd;
 $typo-palatino: 'Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif';
 
+body {
+  overflow-x: hidden;
+}
+
 @mixin size($height, $width){
   height: $height;
   width: $width;
@@ -30,16 +34,12 @@ div.content-accueil {
   .img-presentation {
     height: 276px;
     width: 400px;
+    left: -20px;
   }
 }
 
 @media screen and (max-width: 420px){
   div.content-accueil {
     height: 400px;
-  }
-
-  .img-presentation {
-    height: 221px;
-    width: 320px;
   }
 }
