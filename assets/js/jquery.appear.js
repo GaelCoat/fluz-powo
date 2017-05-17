@@ -14,7 +14,7 @@
 
     };
 
-    if($(window).width() > 768){
+    if($(window).width() > 1023){
         var win = $(window);
 
         var allMods = $(".module");

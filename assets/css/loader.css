@@ -46,12 +46,12 @@ body.loading {
 }
 @media screen and (max-width: 768px){
     #chargement-infos{
-        font-size: 8vw;
-        top: 110px;
+        font-size: 7vw;
+        top: 60px;
     }
 
     .trait-vertical {
-        height: 180px;
+        height: 100px;
     }
 }
 
