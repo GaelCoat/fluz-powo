@@ -2,43 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3e75758-6c2c-4aee-aa60-2d8e22bd336f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/.sass-cache/64baf026a405f94b20f1ee6612fec7933a8ff864/_design-page-unique.scssc" afterPath="$PROJECT_DIR$/assets/.sass-cache/64baf026a405f94b20f1ee6612fec7933a8ff864/_design-page-unique.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/.sass-cache/64baf026a405f94b20f1ee6612fec7933a8ff864/_design-work-project.scssc" afterPath="$PROJECT_DIR$/assets/.sass-cache/64baf026a405f94b20f1ee6612fec7933a8ff864/_design-work-project.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/.sass-cache/64baf026a405f94b20f1ee6612fec7933a8ff864/bouton-page-unique.scssc" afterPath="$PROJECT_DIR$/assets/.sass-cache/64baf026a405f94b20f1ee6612fec7933a8ff864/bouton-page-unique.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/.sass-cache/64baf026a405f94b20f1ee6612fec7933a8ff864/page-unique-atelier-emma.scssc" afterPath="$PROJECT_DIR$/assets/.sass-cache/64baf026a405f94b20f1ee6612fec7933a8ff864/page-unique-atelier-emma.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/.sass-cache/64baf026a405f94b20f1ee6612fec7933a8ff864/page-unique-dgsport-agency.scssc" afterPath="$PROJECT_DIR$/assets/.sass-cache/64baf026a405f94b20f1ee6612fec7933a8ff864/page-unique-dgsport-agency.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/.sass-cache/64baf026a405f94b20f1ee6612fec7933a8ff864/page-unique-marie-verthuy.scssc" afterPath="$PROJECT_DIR$/assets/.sass-cache/64baf026a405f94b20f1ee6612fec7933a8ff864/page-unique-marie-verthuy.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/.sass-cache/64baf026a405f94b20f1ee6612fec7933a8ff864/page-unique-maximin.scssc" afterPath="$PROJECT_DIR$/assets/.sass-cache/64baf026a405f94b20f1ee6612fec7933a8ff864/page-unique-maximin.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/.sass-cache/64baf026a405f94b20f1ee6612fec7933a8ff864/page-unique-thauvin.scssc" afterPath="$PROJECT_DIR$/assets/.sass-cache/64baf026a405f94b20f1ee6612fec7933a8ff864/page-unique-thauvin.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/.sass-cache/64baf026a405f94b20f1ee6612fec7933a8ff864/style.scssc" afterPath="$PROJECT_DIR$/assets/.sass-cache/64baf026a405f94b20f1ee6612fec7933a8ff864/style.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/.sass-cache/64baf026a405f94b20f1ee6612fec7933a8ff864/works.scssc" afterPath="$PROJECT_DIR$/assets/.sass-cache/64baf026a405f94b20f1ee6612fec7933a8ff864/works.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/works/cover-project/dgSport-work-page.jpg" afterPath="$PROJECT_DIR$/assets/img/works/cover-project/dgSport-work-page.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/works/cover-project/thauvin-work-page.jpg" afterPath="$PROJECT_DIR$/assets/img/works/cover-project/thauvin-work-page.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/works/page-dg-sport/logo-declinaison.png" afterPath="$PROJECT_DIR$/assets/img/works/page-dg-sport/logo-declinaison.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/works/page-maximin/news-maximin.jpg" afterPath="$PROJECT_DIR$/assets/img/works/page-maximin/news-maximin.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/loader.css" afterPath="$PROJECT_DIR$/assets/css/loader.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/page-unique-atelier-emma.css" afterPath="$PROJECT_DIR$/assets/css/page-unique-atelier-emma.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/page-unique-atelier-emma.css.map" afterPath="$PROJECT_DIR$/assets/css/page-unique-atelier-emma.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/page-unique-dgsport-agency.css" afterPath="$PROJECT_DIR$/assets/css/page-unique-dgsport-agency.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/page-unique-dgsport-agency.css.map" afterPath="$PROJECT_DIR$/assets/css/page-unique-dgsport-agency.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/page-unique-le-petit-atelier.css" afterPath="$PROJECT_DIR$/assets/css/page-unique-le-petit-atelier.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/page-unique-le-petit-atelier.css.map" afterPath="$PROJECT_DIR$/assets/css/page-unique-le-petit-atelier.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/page-unique-marie-verthuy.css" afterPath="$PROJECT_DIR$/assets/css/page-unique-marie-verthuy.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/page-unique-marie-verthuy.css.map" afterPath="$PROJECT_DIR$/assets/css/page-unique-marie-verthuy.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/page-unique-maximin.css" afterPath="$PROJECT_DIR$/assets/css/page-unique-maximin.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/page-unique-maximin.css.map" afterPath="$PROJECT_DIR$/assets/css/page-unique-maximin.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/page-unique-rementis.css" afterPath="$PROJECT_DIR$/assets/css/page-unique-rementis.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/page-unique-rementis.css.map" afterPath="$PROJECT_DIR$/assets/css/page-unique-rementis.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/page-unique-thauvin.css" afterPath="$PROJECT_DIR$/assets/css/page-unique-thauvin.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/page-unique-thauvin.css.map" afterPath="$PROJECT_DIR$/assets/css/page-unique-thauvin.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/scss/_design-page-unique.scss" afterPath="$PROJECT_DIR$/assets/scss/_design-page-unique.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/scss/page-unique-dgsport-agency.scss" afterPath="$PROJECT_DIR$/assets/scss/page-unique-dgsport-agency.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/scss/page-unique-le-petit-atelier.scss" afterPath="$PROJECT_DIR$/assets/scss/page-unique-le-petit-atelier.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/scss/page-unique-rementis.scss" afterPath="$PROJECT_DIR$/assets/scss/page-unique-rementis.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/scss/page-unique-thauvin.scss" afterPath="$PROJECT_DIR$/assets/scss/page-unique-thauvin.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/le-petit-atelier.html" afterPath="$PROJECT_DIR$/le-petit-atelier.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/marie-verthuy.html" afterPath="$PROJECT_DIR$/marie-verthuy.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rementis.html" afterPath="$PROJECT_DIR$/rementis.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -67,28 +32,8 @@
       <file leaf-file-name="animation-gradient-accueil.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/js/animation-gradient-accueil.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="18" column="50" lean-forward="false" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="50" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="page-unique-thauvin.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/scss/page-unique-thauvin.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="21" lean-forward="false" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_design-page-unique.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/scss/_design-page-unique.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="710">
-              <caret line="243" column="25" lean-forward="false" selection-start-line="243" selection-start-column="25" selection-end-line="243" selection-end-column="25" />
+            <state relative-caret-position="182">
+              <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -99,16 +44,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="546">
               <caret line="21" column="9" lean-forward="false" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="page-unique-le-petit-atelier.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/scss/page-unique-le-petit-atelier.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="17" column="9" lean-forward="false" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -127,7 +62,7 @@
       <file leaf-file-name="rementis.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rementis.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
+            <state relative-caret-position="225">
               <caret line="74" column="67" lean-forward="false" selection-start-line="74" selection-start-column="67" selection-end-line="74" selection-end-column="67" />
               <folding />
             </state>
@@ -144,10 +79,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="marie-verthuy.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="marie-verthuy.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/marie-verthuy.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
+            <state relative-caret-position="775">
+              <caret line="100" column="71" lean-forward="false" selection-start-line="100" selection-start-column="71" selection-end-line="100" selection-end-column="71" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="le-petit-atelier.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/le-petit-atelier.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
               <caret line="74" column="67" lean-forward="false" selection-start-line="74" selection-start-column="67" selection-end-line="74" selection-end-column="67" />
               <folding />
             </state>
@@ -242,7 +187,6 @@
         <option value="$PROJECT_DIR$/atelier-emma.html" />
         <option value="$PROJECT_DIR$/dgsport-agency.html" />
         <option value="$PROJECT_DIR$/allan-st-maximin.html" />
-        <option value="$PROJECT_DIR$/le-petit-atelier.html" />
         <option value="$PROJECT_DIR$/florian-thauvin.html" />
         <option value="$PROJECT_DIR$/assets/js/pageloader.js" />
         <option value="$PROJECT_DIR$/assets/scss/page-unique-thauvin.scss" />
@@ -253,6 +197,7 @@
         <option value="$PROJECT_DIR$/assets/css/loader.css" />
         <option value="$PROJECT_DIR$/rementis.html" />
         <option value="$PROJECT_DIR$/marie-verthuy.html" />
+        <option value="$PROJECT_DIR$/le-petit-atelier.html" />
       </list>
     </option>
   </component>
@@ -497,12 +442,12 @@
       <workItem from="1494779221689" duration="388000" />
       <workItem from="1494836346673" duration="16337000" />
       <workItem from="1494920506172" duration="5060000" />
-      <workItem from="1495005377939" duration="4290000" />
+      <workItem from="1495005377939" duration="4695000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="303231000" />
+    <option name="totallyTimeSpent" value="303636000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -745,14 +690,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/le-petit-atelier.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="565">
-          <caret line="100" column="74" lean-forward="false" selection-start-line="100" selection-start-column="74" selection-end-line="100" selection-end-column="74" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/scss/page-unique-thauvin.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -793,14 +730,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/animation-gradient-accueil.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="18" column="50" lean-forward="false" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/loader.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="684">
@@ -809,17 +738,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/marie-verthuy.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="775">
+          <caret line="100" column="71" lean-forward="false" selection-start-line="100" selection-start-column="71" selection-end-line="100" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/rementis.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
+        <state relative-caret-position="225">
           <caret line="74" column="67" lean-forward="false" selection-start-line="74" selection-start-column="67" selection-end-line="74" selection-end-column="67" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/marie-verthuy.html">
+    <entry file="file://$PROJECT_DIR$/assets/js/animation-gradient-accueil.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
+        <state relative-caret-position="182">
+          <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/le-petit-atelier.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
           <caret line="74" column="67" lean-forward="false" selection-start-line="74" selection-start-column="67" selection-end-line="74" selection-end-column="67" />
           <folding />
         </state>
