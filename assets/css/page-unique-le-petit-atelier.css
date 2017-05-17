@@ -75,9 +75,10 @@ header {
         .content .brief h2 {
           font-size: 30px; } }
       .content .brief h2 img {
-        width: 40px;
+        width: 35px;
         position: relative;
-        top: 2px; }
+        top: 2px;
+        margin-right: 10px; }
         @media screen and (max-width: 680px) {
           .content .brief h2 img {
             width: 30px;
@@ -142,9 +143,10 @@ header {
     .design h2 {
       font-size: 30px; } }
   .design h2 img {
-    width: 40px;
+    width: 32px;
     position: relative;
-    top: 7px; }
+    top: 3px;
+    margin-right: 10px; }
     @media screen and (max-width: 680px) {
       .design h2 img {
         width: 35px;
@@ -176,9 +178,10 @@ header {
     .other h2.other-work {
       font-size: 30px; } }
   .other h2.other-work img {
-    width: 33px;
+    width: 32px;
     position: relative;
-    top: 2px; }
+    top: 3px;
+    margin-right: 10px; }
     @media screen and (max-width: 680px) {
       .other h2.other-work img {
         width: 30px; } }
@@ -401,7 +404,7 @@ div.content-accueil {
 .img-presentation {
   height: 305px;
   width: 320px;
-  top: 75px; }
+  top: 10px; }
 
 .btn-after {
   background-color: #ffc3bd; }

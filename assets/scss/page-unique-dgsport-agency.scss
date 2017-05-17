@@ -1,4 +1,4 @@
-$color-theme: #f1c40f;
+$color-theme: rgb(250, 214, 25);
 $typo-palatino: 'Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif';
 
 @mixin size($height, $width){
@@ -19,7 +19,7 @@ div.content-accueil {
   @media screen and (max-width: 768px){
     @include size(145px, 150px);
   }
-  top: 75px;
+  top: 20px;
 }
 
 .btn-after {
