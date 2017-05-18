@@ -11,7 +11,7 @@ body.loading {
 
     -webkit-transition: all ease 1.5s;
     transition:         all ease 1.5s;
-    background-color: #fff;
+    background: linear-gradient(230deg, #da44ff, #4fffbe);
 }
 
 .trait-vertical {
@@ -20,7 +20,7 @@ body.loading {
     left: 50%;
     height: 200px;
     width: 3px;
-    background-color: rgba(25, 25, 25, 0.73);
+    background-color: #fff;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
@@ -34,7 +34,7 @@ body.loading {
 }
 
 #chargement-infos {
-    color: rgba(25, 25, 25, 0.73);
+    color: #fff;
     font-size: 2vw;
     font-weight: 900;
     z-index: 0;
