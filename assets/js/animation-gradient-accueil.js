@@ -38,8 +38,10 @@ document.getElementById('bouton-exp').onclick = function(){
     ];
 
 
+    currentGradient = gradientBackground[1];
 
     gradient = gradientBackground[Math.floor(Math.random() * gradientBackground.length)];
+
 
     while(gradient == currentGradient){
         gradient = gradientBackground[Math.floor(Math.random() * gradientBackground.length)];

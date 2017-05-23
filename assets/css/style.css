@@ -140,7 +140,7 @@ div#scene svg.form:nth-child(17) {
 div.accueil {
   position: relative;
   overflow: hidden;
-  background-color: #ff3633; }
+  background: linear-gradient(230deg, #ff3a68, #ff6c92); }
 
 div.circle-experience {
   position: absolute;
@@ -525,7 +525,7 @@ p.description-work {
     letter-spacing: 0; }
 
   .project h2 {
-    font-size: 15px; } }
+    font-size: 12px; } }
 @media screen and (max-width: 768px) {
   .container-work {
     max-width: 100%;
@@ -538,7 +538,7 @@ p.description-work {
     margin-bottom: 15px; }
 
   .project h2 {
-    font-size: 15px; }
+    font-size: 17px; }
 
   .project img {
     top: -120px; }

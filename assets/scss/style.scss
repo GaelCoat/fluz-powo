@@ -159,7 +159,7 @@ div#scene svg.form:nth-child(17) {@include position-svg-accueil(28%, 34%)}
 div.accueil {
   position: relative;
   overflow: hidden;
-  background-color: #ff3633;
+  background: linear-gradient(230deg, #ff3a68, #ff6c92);
 }
 
 div.circle-experience {

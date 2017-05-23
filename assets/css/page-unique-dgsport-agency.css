@@ -366,7 +366,7 @@ p.description-work {
     letter-spacing: 0; }
 
   .project h2 {
-    font-size: 15px; } }
+    font-size: 12px; } }
 @media screen and (max-width: 768px) {
   .container-work {
     max-width: 100%;
@@ -379,7 +379,7 @@ p.description-work {
     margin-bottom: 15px; }
 
   .project h2 {
-    font-size: 15px; }
+    font-size: 17px; }
 
   .project img {
     top: -120px; }
