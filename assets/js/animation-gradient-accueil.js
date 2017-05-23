@@ -1,5 +1,5 @@
 var gradient;
-var currentGradient;
+
 
 document.getElementById('bouton-exp').onclick = function(){
     var gradientBackground = [
@@ -36,7 +36,6 @@ document.getElementById('bouton-exp').onclick = function(){
         '#01f4c4',
         '#3cf6d4'
     ];
-    
 
     gradient = gradientBackground[Math.floor(Math.random() * gradientBackground.length)];
 
