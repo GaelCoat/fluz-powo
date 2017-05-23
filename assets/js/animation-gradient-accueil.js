@@ -36,9 +36,7 @@ document.getElementById('bouton-exp').onclick = function(){
         '#01f4c4',
         '#3cf6d4'
     ];
-
-
-    currentGradient = gradientBackground[1];
+    
 
     gradient = gradientBackground[Math.floor(Math.random() * gradientBackground.length)];
 
