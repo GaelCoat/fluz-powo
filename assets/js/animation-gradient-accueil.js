@@ -1,5 +1,5 @@
 var gradient;
-
+var currentGradient;
 
 document.getElementById('bouton-exp').onclick = function(){
     var gradientBackground = [
