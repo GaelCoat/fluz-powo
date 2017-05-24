@@ -10,7 +10,6 @@
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   -webkit-user-drag: none;
   -webkit-user-select: none;
@@ -48,15 +47,28 @@ a {
 li {
   list-style: none; }
 
+.gradient-form {
+  fill: url(#gradient-form); }
+
+.gradient-btn-experience {
+  fill: url(#bgc-exp-fluz); }
+
+.gradient-logo-1 {
+  fill: url(#gradient-logo); }
+
+.gradient-logo-2 {
+  fill: url(#gradient-logo_2); }
+
+.color-logo {
+  fill: #fff; }
+
+.gradient-logo-1 {
+  fill: url(#gradient-logo); }
+
+.gradient-logo-2 {
+  fill: url(#gradient-logo_2); }
+
 @media screen and (max-width: 768px) {
-  /*html, body {*/
-  /*overflow: hidden;*/
-  /*}*/
-  /*#content-page {*/
-  /*-webkit-overflow-scrolling: touch;*/
-  /*overflow: auto;*/
-  /*height: 100%;*/
-  /*}*/
   .none {
     display: none; } }
 

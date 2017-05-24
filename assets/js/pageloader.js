@@ -4,6 +4,10 @@
  * @version    javascript.js, 2012/12/31
  *
  */
+$(document).ready(function() {
+    $.pageLoader();
+});
+
 (function ($) {
 
     /**
