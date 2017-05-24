@@ -155,9 +155,8 @@ header {
   display: grid;
   -webkit-box-shadow: 0 0 60px 0 rgba(0, 0, 0, 0.05);
   -moz-box-shadow: 0 0 60px 0 rgba(0, 0, 0, 0.05);
-  box-shadow: 0 0 60px 0 rgba(0, 0, 0, 0.05); }
-  .design .design-work:nth-child(-n + 6) {
-    margin-bottom: 35px; }
+  box-shadow: 0 0 60px 0 rgba(0, 0, 0, 0.05);
+  margin-bottom: 35px; }
   .design .design-work:last-child {
     margin-bottom: 180px; }
     @media screen and (max-width: 768px) {

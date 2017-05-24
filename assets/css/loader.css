@@ -46,7 +46,7 @@ body.loading {
     position: absolute;
     top: 19px;
     left: 9px;
-    animation: spinLoaderInverse 5s linear infinite;
+    animation: spinLoaderInverse 10s linear infinite;
 }
 
 .bloc-pourcentage {
@@ -60,7 +60,7 @@ body.loading {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    animation: spinLoader 5s linear infinite;
+    animation: spinLoader 10s linear infinite;
 }
 
 @keyframes spinLoader {
