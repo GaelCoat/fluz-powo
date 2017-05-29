@@ -130,3 +130,7 @@ $(document).ready(function() {
         });
     };
 })(jQuery);
+
+$(window).on('beforeunload', function() {
+    $(window).scrollTop(0);
+});
