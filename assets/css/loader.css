@@ -20,7 +20,7 @@ body.loading {
     position: absolute;
     top: calc(50% + 44px);
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%) rotate(180deg);
     z-index: 1;
 }
 
@@ -45,8 +45,8 @@ body.loading {
     z-index: 1;
     position: absolute;
     top: 19px;
-    left: 9px;
-    animation: spinLoaderInverse 10s linear infinite;
+    left: 11px;
+    transform: rotate(180deg);
 }
 
 .bloc-pourcentage {
@@ -60,26 +60,8 @@ body.loading {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    animation: spinLoader 10s linear infinite;
 }
 
-@keyframes spinLoader {
-    0% {
-        transform: translate(-50%, -50%) rotate(0deg);
-    }
-    100% {
-        transform: translate(-50%, -50%) rotate(360deg);
-    }
-}
-
-@keyframes spinLoaderInverse {
-    0% {
-        transform: rotate(360deg);
-    }
-    100% {
-        transform: rotate(0deg);
-    }
-}
 
 @media screen and (max-width: 768px){
     #chargement-infos{
