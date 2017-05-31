@@ -83,7 +83,7 @@ $(document).ready(function() {
                 .animate({opacity : 1}, function () {
                     // La page est prete
                     $chargement.css({
-                        transform: 'translateY(-100%)'
+                        transform: 'translateX(-100%)'
                     });
                     $('.title-h1').css({
                         opacity: 1,

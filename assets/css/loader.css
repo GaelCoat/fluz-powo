@@ -18,7 +18,7 @@ body.loading {
     display: inline-block;
     border-radius: 50%;
     position: absolute;
-    top: calc(50% + 44px);
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) rotate(180deg);
     z-index: 1;
@@ -29,6 +29,7 @@ body.loading {
     width: 60px;
     height: 60px;
     background-color: #fff;
+    border: 2px solid #5d5d5d;
     border-radius: 50%;
     position: relative;
 }
@@ -36,12 +37,13 @@ body.loading {
 .chargement-bloc-contour {
     width: 460px;
     height: 460px;
-    border: 2px solid #fff;
+    border: 3px solid #fff;
 }
 
+
 #chargement-infos {
-    color: rgba(0, 0, 0, 0.7);
-    font-size: 18px;
+    color: rgba(0, 0, 0, 0.65);
+    font-size: 16px;
     z-index: 1;
     position: absolute;
     top: 50%;
@@ -62,18 +64,10 @@ body.loading {
     transform: translate(-50%, -50%);
 }
 
-
-@media screen and (max-width: 768px){
-    #chargement-infos{
-        font-size: 7vw;
-        top: 60px;
-    }
-}
-
 .loader-form {
     display: inline-block;
     position: absolute;
-    top: calc(50% + 44px);
+    top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
@@ -82,6 +76,8 @@ body.loading {
 
 .loader-form img {
     width: 100%;
+    position: relative;
+    left: 10px;
 }
 
 .loader {
@@ -90,4 +86,54 @@ body.loading {
     overflow: visible;
     height: 150px;
     width: 155px;
+}
+
+@media screen and (max-width: 1366px){
+    .chargement-bloc-contour{
+        width: 380px;
+        height: 380px;
+    }
+    .bloc-pourcentage{
+        width: 330px;
+        height: 330px;
+    }
+}
+@media screen and (max-width: 960px) {
+    .loader-form{
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .chargement-bloc-contour{
+        width: 280px;
+        height: 280px;
+    }
+    .bloc-pourcentage{
+        width: 260px;
+        height: 260px;
+    }
+    .loader-form{
+        width: 60%;
+    }
+}
+@media screen and (max-width: 380px){
+    .chargement-bloc-contour{
+        width: 220px;
+        height: 220px;
+    }
+    .bloc-pourcentage{
+        width: 205px;
+        height: 205px;
+    }
+    .chargement-bloc-pourcentage{
+        width: 50px;
+        height: 50px;
+    }
+    #chargement-infos{
+        font-size: 14px;
+    }
+    .loader-form{
+        width: 200px;
+    }
 }
