@@ -266,8 +266,7 @@ div.titre-work h1 {
 .project h2 {
   color: rgba(255, 255, 255, 0.8);
   font-size: 16px;
-  font-weight: 400;
-  letter-spacing: 1px; }
+  font-weight: 400; }
 
 .bgc-1 {
   background: url("../img/works/cover-project/thauvin-work-page.jpg") no-repeat center;
@@ -382,7 +381,7 @@ p.description-work {
     margin-bottom: 15px; }
 
   .project h2 {
-    font-size: 17px; }
+    font-size: 15px; }
 
   .project img {
     top: -120px; }

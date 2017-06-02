@@ -886,6 +886,23 @@ span.mail:before {
       max-width: 1000px;
     }
 
+    .missions-hover p {
+      font-size: 15px;
+      line-height: 16px;
+    }
+
+    .missions-hover h2 {
+      font-size: 19px;
+    }
+
+    .project .card-flip .missions-hover h2 {
+      padding-top: 10px;
+    }
+
+    div.titre-work h1 {
+      font-size: 20px;
+    }
+
     div.bouton-exp {
       @include size(47px, 190px);
       top: 97px;

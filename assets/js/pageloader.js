@@ -37,18 +37,6 @@ $(document).ready(function() {
         function chargementEnCours() {
 
             $('body').addClass('loading');
-            $('#us').css({
-                display: 'none'
-            });
-            $('#works').css({
-                display: 'none'
-            });
-            $('#missions').css({
-                display: 'none'
-            });
-            $('#gradient').css({
-                display: 'none'
-            });
 
             var pourcentage = 0;
             if ($elements.length) {
@@ -83,7 +71,7 @@ $(document).ready(function() {
                 .animate({opacity : 1}, function () {
                     // La page est prete
                     $chargement.css({
-                        transform: 'translateX(-100%)'
+                        transform: 'translateX(100%)'
                     });
                     $('.title-h1').css({
                         opacity: 1,
@@ -93,20 +81,9 @@ $(document).ready(function() {
                         opacity: 1,
                         transform: 'translateY(0px)'
                     });
-                    $('body').removeClass('loading');
-
-                    $('#us').css({
-                        display: 'block'
-                    });
-                    $('#works').css({
-                        display: 'block'
-                    });
-                    $('#missions').css({
-                        display: 'block'
-                    });
-                    $('#gradient').css({
-                        display: 'block'
-                    });
+                    setTimeout( function(){
+                        $('body').removeClass('loading')
+                    }, 1500);
                 });
             $barLoader
                 .stop() // stop les anciennes animations
@@ -131,6 +108,6 @@ $(document).ready(function() {
     };
 })(jQuery);
 
-$(window).on('beforeunload', function() {
+$(window).on('unload', function() {
     $(window).scrollTop(0);
 });

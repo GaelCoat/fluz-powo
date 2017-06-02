@@ -426,8 +426,7 @@ div.titre-work h1 {
 .project h2 {
   color: rgba(255, 255, 255, 0.8);
   font-size: 16px;
-  font-weight: 400;
-  letter-spacing: 1px; }
+  font-weight: 400; }
 
 .bgc-1 {
   background: url("../img/works/cover-project/thauvin-work-page.jpg") no-repeat center;
@@ -542,7 +541,7 @@ p.description-work {
     margin-bottom: 15px; }
 
   .project h2 {
-    font-size: 17px; }
+    font-size: 15px; }
 
   .project img {
     top: -120px; }
@@ -957,6 +956,19 @@ span.mail:before {
 @media screen and (max-width: 1280px) {
   .content-accueil {
     max-width: 1000px; }
+
+  .missions-hover p {
+    font-size: 15px;
+    line-height: 16px; }
+
+  .missions-hover h2 {
+    font-size: 19px; }
+
+  .project .card-flip .missions-hover h2 {
+    padding-top: 10px; }
+
+  div.titre-work h1 {
+    font-size: 20px; }
 
   div.bouton-exp {
     height: 47px;
